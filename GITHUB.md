@@ -1,6 +1,11 @@
 # 上傳 GitHub 與啟用簡報網址
 
-這份資料夾已包含建置好的 HTML，可以直接存入儲存庫；瀏覽與 GitHub Pages 發布不需要先安裝 Node.js 或 Python。本次尚未建立遠端儲存庫、上傳或啟用 Pages。
+這份資料夾已包含建置好的 HTML；瀏覽與 GitHub Pages 發布不需要先安裝 Node.js 或 Python。2026-11-22 已上傳至 [Eugene-xyz 的 HW10 儲存庫](https://github.com/Eugene-xyz/Generative-AI-Text-and-Image-Synthesis-Principles-and-Practice-HW10)，並從 main 分支的根目錄啟用 Pages。以下是後續維護說明，這些首次發布步驟已完成。
+
+- [公開簡報](https://eugene-xyz.github.io/Generative-AI-Text-and-Image-Synthesis-Principles-and-Practice-HW10/slides/index.html)
+- [公開 Wiki](https://eugene-xyz.github.io/Generative-AI-Text-and-Image-Synthesis-Principles-and-Practice-HW10/site/index.html)
+- [六項繳交總覽](https://eugene-xyz.github.io/Generative-AI-Text-and-Image-Synthesis-Principles-and-Practice-HW10/site/docs/SUBMISSION.html)
+- [實際發布與驗證紀錄](reports/deployment.md)
 
 ## 1. 上傳完整資料夾內容
 
@@ -19,7 +24,7 @@
 
 根目錄已有 `index.html`，會導向簡報；`.nojekyll` 讓已生成的靜態內容直接發布。這符合 GitHub 的分支／根目錄發布方式。[發布來源設定](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)、[建立 Pages 網站](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
 
-一般專案網站的網址格式為 `https://帳號.github.io/儲存庫名稱/`；這只是格式範例，不是已部署網址。實際網址以 Settings → Pages 為準。
+本專案的已驗證根網址為 [GitHub Pages 網站](https://eugene-xyz.github.io/Generative-AI-Text-and-Image-Synthesis-Principles-and-Practice-HW10/)，會導向簡報。Settings → Pages 顯示網站已上線，HTTPS 已啟用。
 
 ## 3. 部署後再核對並填入作業
 
@@ -33,7 +38,7 @@
 | 六項繳交總覽 | `site/docs/SUBMISSION.html` |
 | 反思 | `site/docs/reports/reflection.html` |
 
-實際確認翻頁、展開補充、測驗、Wiki 及來源連結可用，再把網址貼到 [SUBMISSION.md](SUBMISSION.md) 或課程繳交欄位。補上學校、學號、系級、姓名；GitHub 的 `blob/.../index.html` 原始碼頁不能代替簡報網站網址。
+這次已確認翻頁、展開補充、測驗、Wiki 及來源連結可用，並已更新 [SUBMISSION.md](SUBMISSION.md)。後續更新請仍做公開網址複查。本人繳交時補上學校、學號、系級、姓名；GitHub 的 `blob/.../index.html` 原始碼頁不能代替簡報網站網址。
 
 ## 需要修改與重新建置時
 

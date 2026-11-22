@@ -2,20 +2,20 @@
 
 HW10：用 LLM Wiki 建立知識庫，再製作讓初學者理解室內六人排球的教學 HTML 簡報。
 
-**作業核心已完成；公開網址與本人繳交標題仍待填入。** 老師或評閱者可先看 [六項繳交總覽](SUBMISSION.md)，完整判定見 [完成度檢查](reports/submission-audit.md)。
+**作業核心與公開網站已完成。** 老師或評閱者可先看 [線上繳交總覽](https://eugene-xyz.github.io/Generative-AI-Text-and-Image-Synthesis-Principles-and-Practice-HW10/site/docs/SUBMISSION.html)，或 [Markdown 版](SUBMISSION.md)。本人仍需補上繳交標題的身分資訊並在課程平台提交。
 
 ## 成果入口
 
 | 成果 | 開啟方式 |
 | --- | --- |
-| 18 頁教學簡報 | [slides/index.html](slides/index.html)，或下載後雙擊根目錄 index.html |
-| LLM Wiki | [瀏覽器版](site/index.html)／[Markdown 索引](wiki/index.md) |
+| 18 頁教學簡報 | [公開簡報](https://eugene-xyz.github.io/Generative-AI-Text-and-Image-Synthesis-Principles-and-Practice-HW10/slides/index.html)／[本機版](slides/index.html) |
+| LLM Wiki | [公開 Wiki](https://eugene-xyz.github.io/Generative-AI-Text-and-Image-Synthesis-Principles-and-Practice-HW10/site/index.html)／[本機版](site/index.html)／[Markdown 索引](wiki/index.md) |
 | 簡報 → Wiki → 原始來源 | [網頁來源對照](site/slide-sources.html)／[54 組主張對照](slides/source-map.md) |
 | loop／graph | [Wiki workflow](reports/workflow.md)／[簡報 graph v1.1](reports/slides-graph.md) |
 | 實際執行與修正 | [Wiki log](wiki/log.md)／[HTML 檢查與截圖](reports/checks/html-review-2026-11-22.md) |
 | 反思 | [節點問題、前移檢查及複查結果](reports/reflection.md) |
 
-GitHub 的檔案頁會顯示 HTML 原始碼；可瀏覽的線上版本需啟用 Pages。上傳與設定步驟見 [GITHUB.md](GITHUB.md)。目前沒有填入或虛構已部署的網址。
+本專案已啟用 GitHub Pages，從 main 分支根目錄發布，使用 HTTPS。公開簡報與 Wiki 已實際開啟，翻頁、鍵盤、補充、測驗及來源連結通過檢查；[發布紀錄](reports/deployment.md) 保留證據。[GitHub 儲存庫](https://github.com/Eugene-xyz/Generative-AI-Text-and-Image-Synthesis-Principles-and-Practice-HW10)／[後續維護方式](GITHUB.md)。
 
 ## 作業內容與證據
 
@@ -25,7 +25,7 @@ GitHub 的檔案頁會顯示 HTML 原始碼；可瀏覽的線上版本需啟用 
 - **先討論後生成**：來源提案、graph、大綱 H1、全文 H2 依序確認；沒有在大綱尚未核准時直接做最終簡報。
 - **真實檢查紀錄**：Chrome 三種視窗實測，182 項完整檢查及修正後 19 項局部複查通過；保留失敗、修正及代表畫面。最後一次資料夾整理與網站路徑複查見 [整理紀錄](reports/repository-cleanup.md)。
 
-高分項目已有對應證據，實際成績仍由教授判定。正式繳交前，需取得並實際開啟公開簡報網址，填好「學校 學號 系級 姓名 主題」，再於課程平台提交。試講時間與真實初學者理解測試尚未執行，可作為進一步改善。
+高分項目已有對應證據，實際成績仍由教授判定。正式繳交前，填好「學校 學號 系級 姓名 主題」，將公開簡報、Wiki 與繳交總覽連結交到課程平台。試講時間與真實初學者理解測試尚未執行，可作為進一步改善。
 
 ## 使用方式
 

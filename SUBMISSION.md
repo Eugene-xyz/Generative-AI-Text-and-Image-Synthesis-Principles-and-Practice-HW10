@@ -2,7 +2,7 @@
 
 繳交標題格式：**〈學校〉 〈學號〉 〈系級〉 〈姓名〉 看懂排球：從基本規則到場上戰術**。尖括號內容需由本人填寫。
 
-目前是本機完成版，尚未部署公開網址。請依 [GitHub 上傳說明](GITHUB.md) 上線並實際開啟後，將取得的 Wiki 與簡報網址貼到繳交欄位。
+已部署 GitHub Pages，公開 Wiki 與簡報已實際開啟並測試。以下連結可直接貼到作業繳交欄位；[GitHub 完整成果](https://github.com/Eugene-xyz/Generative-AI-Text-and-Image-Synthesis-Principles-and-Practice-HW10) 保留原始資料、知識庫、graph 與檢查紀錄。[發布驗證](reports/deployment.md)。
 
 ## 1. LLM Wiki 主題與簡短介紹
 
@@ -14,13 +14,13 @@
 
 長手冊只宣稱完成明列範圍，沒有將章節、鏡像或補充規程重複計算。證據見 [ingest 登錄](reports/ingest-register.json) 與 [來源閱讀範圍](reports/reading-register.json)。
 
-公開 Wiki 網址：**待部署並驗證後填入**。
+公開 Wiki 網址：[閱讀排球 LLM Wiki](https://eugene-xyz.github.io/Generative-AI-Text-and-Image-Synthesis-Principles-and-Practice-HW10/site/index.html)。
 
 ## 3. 教學 HTML 簡報
 
 [18 頁 HTML 簡報](slides/index.html)，預估主講 18 分 20 秒，含 18 組自製圖解、可逐步切換的回合、三題測驗、展開補充與講解提示。54 組主張／條件可沿 [來源對照](site/slide-sources.html) 回到 Wiki 與原文。
 
-公開簡報網址：**待部署並驗證後填入**。
+公開簡報網址：[開啟 18 頁教學 HTML 簡報](https://eugene-xyz.github.io/Generative-AI-Text-and-Image-Synthesis-Principles-and-Practice-HW10/slides/index.html)。
 
 ## 4. loop／graph 設計
 
@@ -36,7 +36,7 @@
 
 2026-11-22 完成從六份來源到 Wiki、核准大綱與內容、正式 HTML 的實際路徑。使用 Chrome 檢查 1440×1000、1024×768、390×844，包含翻頁、鍵盤、全螢幕、展開、測驗、圖解、來源及離線閱讀。182 項完整檢查與最後 19 項局部複查通過；同時保留失敗結果與代表截圖。
 
-實際紀錄：[Wiki log](wiki/log.md)、[ingest 檢查](reports/checks/ingest-2026-11-22.md)、[內容檢查](reports/checks/content-review-2026-11-22.md)、[HTML 實測與修正](reports/checks/html-review-2026-11-22.md)。這些數字是程式斷言數，不是獨立教學實驗次數。
+實際紀錄：[Wiki log](wiki/log.md)、[ingest 檢查](reports/checks/ingest-2026-11-22.md)、[內容檢查](reports/checks/content-review-2026-11-22.md)、[HTML 實測與修正](reports/checks/html-review-2026-11-22.md)。上線後另完成 89 個公開 HTTP 檔案檢查及 Chrome 操作抽查，見 [發布驗證](reports/deployment.md)。這些數字是程式斷言或請求數，不是獨立教學實驗次數。
 
 ## 6. 反思與調整
 

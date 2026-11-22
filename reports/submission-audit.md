@@ -1,5 +1,7 @@
 # 作業完成度檢查
 
+後續狀態（2026-11-22）：使用者已另行授權上傳與啟用 Pages；[公開簡報](https://eugene-xyz.github.io/Generative-AI-Text-and-Image-Synthesis-Principles-and-Practice-HW10/slides/index.html) 和 [公開 Wiki](https://eugene-xyz.github.io/Generative-AI-Text-and-Image-Synthesis-Principles-and-Practice-HW10/site/index.html) 已驗證可用，證據見 [發布紀錄](deployment.md)。下文保留整理前的判定及當時待辦；公開網址這項待辦現已完成，繳交標題仍由本人填寫。
+
 檢查日期：2026-11-22（Asia/Taipei）。本次先核對教授要求及現有檔案，再依使用者授權整理資料夾。機械結果見 [audit JSON](checks/submission-audit-2026-11-22.json)。
 
 **結論：核心實作與說明已完成，可以進行 GitHub 資料夾整理；正式繳交尚需公開簡報網址，以及含本人資訊的標題。** 目前不能把「本機可開啟」說成「老師已能從公開連結開啟」。

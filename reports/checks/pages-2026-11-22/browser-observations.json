@@ -1,0 +1,25 @@
+{
+  "checked_at": "2026-11-22T09:44:21.271Z",
+  "mode": "Existing Chrome browser, public HTTPS site; CUA observation",
+  "initial_commit": "3aee1313a8b6aacf0ff72b694ad132487d896abc",
+  "site": "https://eugene-xyz.github.io/Generative-AI-Text-and-Image-Synthesis-Principles-and-Practice-HW10/",
+  "observations": [
+    "Pages UI shows live site, main /root and enforced HTTPS",
+    "Root redirects to slide 1/18; title and diagram render",
+    "Next button moves to page 2; right arrow moves to page 3",
+    "Page 3 supplement expands and displays conditions",
+    "Claim C03.1 opens public source-map in new tab with Wiki and rule references",
+    "Menu opens and navigates directly to page 17",
+    "Quiz answers B,A,B each show correct feedback and explanation",
+    "Diagram zoom opens and closes",
+    "Wiki index shows six ingests and topic table",
+    "Returned to slide 1 and preserved slide/Wiki tabs"
+  ],
+  "console_errors": [],
+  "screenshots": [
+    "slides-live.jpg",
+    "wiki-live.jpg",
+    "pages-settings.jpg"
+  ],
+  "limits": "No new full 18-page or mobile layout sweep; existing 182-check and 19-check records remain, and core file equality is checked separately."
+}
