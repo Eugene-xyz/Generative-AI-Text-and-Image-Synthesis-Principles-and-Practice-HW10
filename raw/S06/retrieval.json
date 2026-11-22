@@ -1,0 +1,15 @@
+{
+  "id": "S06",
+  "title": "FIVB Board of Administration approves rule tests for 2026 competitions",
+  "requested_url": "https://www.fivb.com/fivb-board-of-administration-approves-rule-tests-for-2026-competitions/",
+  "attempted_at": "2026-11-22T14:47:29.203740+08:00",
+  "download_engine": "curl",
+  "resolved_url": "https://www.fivb.com/fivb-board-of-administration-approves-rule-tests-for-2026-competitions/",
+  "http_status": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "result": "downloaded",
+  "retrieved_at": "2026-11-22T14:47:32.162198+08:00",
+  "bytes": 362952,
+  "sha256": "25c951a5dcbd5a53c78894c8c4a34a1f7743515cce66050fedcaa72ef43c6340",
+  "local_path": "raw/S06/original.html"
+}

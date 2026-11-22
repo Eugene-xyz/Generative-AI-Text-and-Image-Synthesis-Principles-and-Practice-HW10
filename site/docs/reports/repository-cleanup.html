@@ -1,0 +1,73 @@
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="../../../assets/reader.css"><title>GitHub 資料夾整理紀錄｜排球 Wiki</title></head><body><header class="reader-nav"><a href="../../index.html">排球 Wiki</a><a href="../../../slides/index.html">返回簡報 ↗</a><a href="../../slide-sources.html">來源對照</a></header><main class="reader"><p class="reader-label">VOLLEYBALL KNOWLEDGE BASE</p><article><h1 id="heading-0">GitHub 資料夾整理紀錄</h1>
+<p>日期：2026-11-22（Asia/Taipei）。使用者要求先確認作業完成度，通過後保留必要成果與繳交證據，再整理成可放上 GitHub 的資料夾。</p>
+<h2 id="heading-1">先檢查，再整理</h2>
+<p><a href="submission-audit.html">完成度審查</a> 及 <a href="../../../reports/checks/submission-audit-2026-11-22.json">audit JSON</a> 判定核心實作完成：6 份 ingest、23 頁 Wiki、18 頁簡報、54 組來源對照、graph、實際執行與反思均具備。整理前重新跑過 Wiki／內容檢查，且交付 HTML／CSS／JS／SVG 與已測版本雜湊一致，才執行刪除。</p>
+<p>公開網址、本人繳交標題及課程平台提交仍待完成；這次整理沒有將本機成果冒稱已公開上線。</p>
+<h2 id="heading-2">刪除範圍</h2>
+<p>共刪除 <strong>62 個檔案，6.49 MiB</strong>。逐檔路徑、大小、原雜湊及理由在 <a href="../../../reports/cleanup-manifest.json">cleanup-manifest.json</a>。</p>
+<ul>
+<li>32 個中途 recheck 畫面／總覽 HTML：保留能證明 HTML03 粗體問題的 gallery-3.png。</li>
+<li>5 個首次 delivery 截圖：新版已取代；保留 D01 輪轉落點錯誤的 06-movement.png。</li>
+<li>23 個 final 的非必要逐頁截圖：保留 6 張代表桌面、小桌面、窄視窗、補充、完整回合與測驗的畫面。</li>
+<li>1 個 Python bytecode 快取、1 個一次性總覽產生工具。</li>
+</ul>
+<p>刪除前先確認仍保留的 Markdown／HTML 沒有連到候選檔，再逐檔驗證解析後的絕對路徑位於 HW10、目標是檔案、雜湊與規劃一致，最後以 PowerShell LiteralPath 刪除。沒有遞迴刪除資料夾或碰觸 HW10 以外的檔案。</p>
+<h2 id="heading-3">保留什麼，以及原因</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>保留內容</th>
+<th>原因</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>raw 的全部 34 份檔案</td>
+<td>原始快照、正文、取得時間與雜湊支撐 6 份 ingest；V01／V02 是 S06 的範圍核對依據</td>
+</tr>
+<tr>
+<td>23 頁 Wiki 及全部正式教學檔</td>
+<td>作業核心成果與近端引用路徑</td>
+</tr>
+<tr>
+<td>graph 草案、v1.0、v1.1、核准大綱與全文</td>
+<td>證明先討論後生成、流程修改前後，以及人工確認節點</td>
+</tr>
+<tr>
+<td>真實檢查 JSON、log、反思</td>
+<td>保留當時時間、結果、錯誤與修正；失敗結果沒有刪掉</td>
+</tr>
+<tr>
+<td>14 張來源原頁圖、15 張代表瀏覽器畫面</td>
+<td>足以回查來源圖解、前後修正及主要裝置／操作證據</td>
+</tr>
+<tr>
+<td>42 頁既有閱讀網頁及新增總覽頁</td>
+<td>Markdown 為主檔，HTML 供瀏覽器直接閱讀；兩者用途不同</td>
+</tr>
+<tr>
+<td>主要建置、來源抽取及檢查工具</td>
+<td>可重建、核對與延續 Wiki；不是只留不可追溯的成品</td>
+</tr>
+</tbody></table></div>
+<p>歷史 JSON 中的 <code>screenshots</code> 清單保留當時產出紀錄；部分已被本次清單明確刪除。不能把「曾產生 29 張」改寫成「當時只測了保留的 6 張」，也不能假裝所有舊圖現在都還存在。</p>
+<h2 id="heading-4">為 GitHub 補齊的內容</h2>
+<ul>
+<li><a href="../SUBMISSION.html">SUBMISSION.md</a>：依教授六項要求整理的繳交總覽。</li>
+<li><a href="../GITHUB.html">GITHUB.md</a>：根目錄上傳、Pages 設定、公開網址與部署後檢查。</li>
+<li><code>.nojekyll</code>：直接發布已生成靜態檔；<code>.gitignore</code> 排除套件、快取及本機設定。</li>
+<li><code>.gitattributes</code>：保留原始位元組，避免 Git 換行轉換造成既有原始檔雜湊失效。</li>
+<li>package.json／requirements.txt：固定維護時使用的套件版本；runtime.cjs 支援一般 npm 安裝、已安裝的瀏覽器及指定路徑。</li>
+<li>新的瀏覽器測試預設使用時間戳名稱，避免不小心覆寫歷史 initial／delivery 結果。</li>
+</ul>
+<p>沒有重新編寫核准的排球內容或修改圖解，沒有變更 ingest 次數，也沒有發布到遠端。</p>
+<h2 id="heading-5">整理後驗證</h2>
+<p>整理後重新建置閱讀網頁，確認正式簡報與圖解位元組維持一致；再檢查本機連結、原始資料雜湊、檔案大小與路徑大小寫，以及模擬 GitHub 專案子路徑的 HTTP 操作。結果保存於 <a href="../../../reports/checks/repository-validation-2026-11-22.json">repository-validation.json</a>，以該檔實際執行時間與通過狀態為準。</p>
+<p><strong>實際結果（17:31:38 +08:00）：21 項通過，0 失敗、0 瀏覽器錯誤。</strong> 檢查了 49 個正式／閱讀／圖庫 HTML 的本機引用與大小寫；模擬 <code>/hw10-check/</code> 子路徑，可開簡報、補充、測驗、來源主張、Wiki、繳交總覽及 S01 PDF。正式 HTML／CSS／JS 與全部 SVG 和原交付雜湊一致；原始來源也符合取得紀錄。代表畫面見 <a href="../../../reports/checks/repository-2026-11-22/submission-http.png">繳交總覽 HTTP 截圖</a>。這是本機 HTTP 模擬，沒有宣稱已在 GitHub 公開上線。</p>
+<h3 id="heading-6">本次檢查實際發現的事項</h3>
+<ul>
+<li><strong>RC01：資料夾連結不適合直接發布。</strong> 原始審閱報告連到 figures 資料夾，本機可以列目錄，但靜態發布需要入口。新增 14 張原頁圖的 <a href="../../../reports/checks/figures/index.html">靜態圖庫</a>，更新該連結；原圖片不改，沒有刪除來源證據。修正後連結檢查通過。</li>
+<li>首次 HTTP 瀏覽因執行環境限制本機網路而中止，未計為通過；在允許 Chrome 存取 127.0.0.1 的執行環境重跑，21 項通過。原失敗輸出保留於 <a href="../../../reports/checks/repository-validation-initial-2026-11-22.json">initial JSON</a>。這是工具執行環境問題，未更改正式簡報功能。</li>
+<li>來源語意、原始簡報逐頁內容與圖解沒有修改；不為資料夾整理再次宣稱完成一輪新 ingest 或新的 182 項全量瀏覽器測試。</li>
+</ul>
+<p>紀錄同步後的結構複查另存為 <a href="../../../reports/checks/post-cleanup-wiki-2026-11-22.json">Wiki</a>、<a href="../../../reports/checks/post-cleanup-content-2026-11-22.json">內容</a> 與 <a href="../../../reports/checks/post-cleanup-integrity-2026-11-22.json">完整性</a>。這些檔案保留實際時間及通過／失敗狀態，不覆寫整理前或原始實測結果。</p>
+</article><footer>由 <a href="../../../reports/repository-cleanup.md">reports/repository-cleanup.md</a> 產生；Markdown 為維護版本。</footer></main></body></html>

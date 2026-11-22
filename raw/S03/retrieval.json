@@ -1,0 +1,15 @@
+{
+  "id": "S03",
+  "title": "FIVB Coaches Manual Level II",
+  "requested_url": "https://www.fivb.com/wp-content/uploads/2024/03/Coaches_Manual_Level_II_EN.pdf",
+  "attempted_at": "2026-11-22T14:47:27.674088+08:00",
+  "download_engine": "curl",
+  "resolved_url": "https://www.fivb.com/wp-content/uploads/2024/03/Coaches_Manual_Level_II_EN.pdf",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "result": "downloaded",
+  "retrieved_at": "2026-11-22T14:47:29.080640+08:00",
+  "bytes": 9074294,
+  "sha256": "0c54674cf27bfacfd66f09769251a9c241f6002dfcab5bef62f4263081db930d",
+  "local_path": "raw/S03/original.pdf"
+}

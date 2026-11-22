@@ -1,0 +1,143 @@
+{
+  "checked_at": "2026-11-22T09:12:37.049Z",
+  "browser": "157.0.8103.80",
+  "phase": "delivery-recheck",
+  "scope": "Changed quiz and rotation SVGs; unchanged deck code fingerprint; J0 real parser fixtures; updated reader links; remaining controls",
+  "checks": [
+    {
+      "name": "previously_verified_deck_code_unchanged",
+      "passed": true,
+      "detail": [
+        "assets/diagrams/slide-06-2.svg",
+        "assets/diagrams/slide-17-1.svg"
+      ]
+    },
+    {
+      "name": "J0_LF_and_CRLF_same_content",
+      "passed": true,
+      "detail": true
+    },
+    {
+      "name": "J0_rejects_empty_main_before_output",
+      "passed": true,
+      "detail": "Empty main on slide 1; stop before emitting HTML"
+    },
+    {
+      "name": "quiz_desktop_layout",
+      "passed": true,
+      "detail": {
+        "width": 1440,
+        "docWidth": 1440,
+        "bottom": 718.984375,
+        "nav": 906,
+        "graphicWidth": 1328
+      }
+    },
+    {
+      "name": "quiz_compact_layout",
+      "passed": true,
+      "detail": {
+        "width": 1024,
+        "docWidth": 1024,
+        "bottom": 607.09375,
+        "nav": 674,
+        "graphicWidth": 964
+      }
+    },
+    {
+      "name": "quiz_mobile_layout",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "docWidth": 390,
+        "bottom": 1166.984375,
+        "nav": 757,
+        "graphicWidth": 348
+      }
+    },
+    {
+      "name": "previous_button",
+      "passed": true,
+      "detail": true
+    },
+    {
+      "name": "Tab_reaches_interactive_control",
+      "passed": true,
+      "detail": "<a class=\"claim-ref\" href=\"../site/slide-sources.html#C17.1\" target=\"_blank\" rel=\"noopener\" aria-label=\"查閱 C17.1 的 Wiki 與原始依據\">[1]</a>"
+    },
+    {
+      "name": "all_quiz_correct_answers_reduce_motion",
+      "passed": true,
+      "detail": true
+    },
+    {
+      "name": "slide_6_second_state",
+      "passed": true,
+      "detail": "身分與移動 · 2/2"
+    },
+    {
+      "name": "slide_6_back_to_first",
+      "passed": true,
+      "detail": true
+    },
+    {
+      "name": "slide_10_second_state",
+      "passed": true,
+      "detail": "一次選擇 · 2/2"
+    },
+    {
+      "name": "slide_10_back_to_first",
+      "passed": true,
+      "detail": true
+    },
+    {
+      "name": "quiz_SVG_bounds_after_resize",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "rotation_C_in_front_zone_but_retains_back_row_label",
+      "passed": true,
+      "detail": {
+        "x": 606,
+        "y": 125,
+        "r": 21,
+        "players": 12
+      }
+    },
+    {
+      "name": "reader_site/index.html",
+      "passed": true,
+      "detail": true
+    },
+    {
+      "name": "reader_site/slide-sources.html",
+      "passed": true,
+      "detail": true
+    },
+    {
+      "name": "all_generated_links_after_records",
+      "passed": true,
+      "detail": {
+        "pages": 44,
+        "links": 1523,
+        "missing": []
+      }
+    },
+    {
+      "name": "build_manifest_matches_final_inputs",
+      "passed": true,
+      "detail": true
+    }
+  ],
+  "failures": [],
+  "errors": [],
+  "screenshots": [
+    "06-movement.png",
+    "17-compact.png",
+    "17-desktop.png",
+    "17-mobile.png",
+    "source-map-C08.1.png",
+    "wiki-index.png"
+  ]
+}

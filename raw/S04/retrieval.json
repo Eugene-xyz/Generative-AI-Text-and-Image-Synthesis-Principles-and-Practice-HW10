@@ -1,0 +1,16 @@
+{
+  "id": "S04",
+  "title": "USA Volleyball - Recipe for a Setter",
+  "requested_url": "https://usavolleyball.org/resource/recipe-for-a-setter/",
+  "attempted_at": "2026-11-22T14:45:02.919522+08:00",
+  "resolved_url": "https://usavolleyball.org/resource/recipe-for-a-setter/",
+  "http_status": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "last_modified": "Sat, 21 Nov 2026 13:51:42 GMT",
+  "etag": null,
+  "result": "downloaded",
+  "retrieved_at": "2026-11-22T14:45:03.205001+08:00",
+  "bytes": 158064,
+  "sha256": "69d4e130234097f5d84434ab32fb2e8e23b1db178084af67c5ac9dffc4b4c3cd",
+  "local_path": "raw/S04/original.html"
+}

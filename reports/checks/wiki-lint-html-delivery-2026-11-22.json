@@ -1,0 +1,105 @@
+{
+  "checked_at": "2026-11-22T17:13:03.039193+08:00",
+  "phase": "final",
+  "passed": true,
+  "wiki_markdown_files": 23,
+  "source_pages": 6,
+  "topic_pages": 12,
+  "query_pages": 1,
+  "relative_links_checked": 532,
+  "unreachable_pages": [],
+  "source_topic_map": {
+    "S01": [
+      "wiki/topics/ball-contacts-and-faults.md",
+      "wiki/topics/blocking-and-defense.md",
+      "wiki/topics/court-and-scoring.md",
+      "wiki/topics/libero.md",
+      "wiki/topics/player-roles.md",
+      "wiki/topics/rotation-and-positions.md",
+      "wiki/topics/rule-versions-and-tests.md",
+      "wiki/topics/serve-and-reception.md",
+      "wiki/topics/setting-and-attack.md",
+      "wiki/topics/systems-and-transition.md",
+      "wiki/topics/volleyball-overview.md",
+      "wiki/topics/watching-a-rally.md"
+    ],
+    "S02": [
+      "wiki/topics/blocking-and-defense.md",
+      "wiki/topics/player-roles.md",
+      "wiki/topics/rule-versions-and-tests.md",
+      "wiki/topics/serve-and-reception.md",
+      "wiki/topics/setting-and-attack.md",
+      "wiki/topics/systems-and-transition.md",
+      "wiki/topics/volleyball-overview.md",
+      "wiki/topics/watching-a-rally.md"
+    ],
+    "S03": [
+      "wiki/topics/blocking-and-defense.md",
+      "wiki/topics/libero.md",
+      "wiki/topics/player-roles.md",
+      "wiki/topics/rotation-and-positions.md",
+      "wiki/topics/rule-versions-and-tests.md",
+      "wiki/topics/serve-and-reception.md",
+      "wiki/topics/setting-and-attack.md",
+      "wiki/topics/systems-and-transition.md"
+    ],
+    "S04": [
+      "wiki/topics/player-roles.md",
+      "wiki/topics/setting-and-attack.md",
+      "wiki/topics/systems-and-transition.md",
+      "wiki/topics/watching-a-rally.md"
+    ],
+    "S05": [
+      "wiki/topics/blocking-and-defense.md",
+      "wiki/topics/player-roles.md",
+      "wiki/topics/serve-and-reception.md",
+      "wiki/topics/systems-and-transition.md",
+      "wiki/topics/watching-a-rally.md"
+    ],
+    "S06": [
+      "wiki/topics/ball-contacts-and-faults.md",
+      "wiki/topics/court-and-scoring.md",
+      "wiki/topics/libero.md",
+      "wiki/topics/rotation-and-positions.md",
+      "wiki/topics/rule-versions-and-tests.md",
+      "wiki/topics/setting-and-attack.md"
+    ]
+  },
+  "raw_checks": [
+    {
+      "id": "S01",
+      "sha256_and_bytes_match": true
+    },
+    {
+      "id": "S02",
+      "sha256_and_bytes_match": true
+    },
+    {
+      "id": "S03",
+      "sha256_and_bytes_match": true
+    },
+    {
+      "id": "S04",
+      "sha256_and_bytes_match": true
+    },
+    {
+      "id": "S05",
+      "sha256_and_bytes_match": true
+    },
+    {
+      "id": "S06",
+      "sha256_and_bytes_match": true
+    },
+    {
+      "id": "V01",
+      "sha256_and_bytes_match": true
+    },
+    {
+      "id": "V02",
+      "sha256_and_bytes_match": true
+    }
+  ],
+  "official_directory_sha256_matches": true,
+  "errors": [],
+  "limits": "Structural and provenance checks only; content, conditions, figures and teaching quality require separate review."
+}

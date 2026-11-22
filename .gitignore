@@ -1,0 +1,21 @@
+# Local dependencies and caches (the committed HTML is already built).
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.cache/
+test-results/
+playwright-report/
+coverage/
+
+# Machine/editor files and local credentials.
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+.env
+.env.*
+!.env.example
+

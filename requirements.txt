@@ -1,0 +1,4 @@
+# Only needed for maintenance/source checks, not for viewing the HTML.
+pypdf==6.21.4
+pdfplumber==0.11.9
+

@@ -1,0 +1,395 @@
+{
+  "planned_at": "2026-11-22T17:22:39+08:00",
+  "status": "completed",
+  "authorization": "User requested cleanup after assignment audit; core audit passed",
+  "before": {
+    "files": 283,
+    "bytes": 66363179
+  },
+  "preserved": [
+    "All raw snapshots and retrieval/text records",
+    "All 23 Wiki pages",
+    "Approved outline, content, 54 claim mappings",
+    "All 18 diagrams / 31 SVG states and slide runtime",
+    "All actual JSON check results and reflection",
+    "14 source-page figures",
+    "15 representative browser screenshots including failures before/after"
+  ],
+  "delete_count": 62,
+  "delete_bytes": 6803528,
+  "delete_files": [
+    {
+      "path": "reports/checks/html-2026-11-22/recheck/01-desktop.png",
+      "bytes": 91024,
+      "sha256": "818da073747eefd2f2ed4219d9ded8fdd64cef465a54578d32b69cd41ee3a642",
+      "reason": "Superseded intermediate screenshot/gallery; key failure gallery-3.png and original JSON retained"
+    },
+    {
+      "path": "reports/checks/html-2026-11-22/recheck/02-desktop.png",
+      "bytes": 113718,
+      "sha256": "1e7e115eaa8aa3893da9c7e8e900e33fad8f00971d594b136031c54ebc110b08",
+      "reason": "Superseded intermediate screenshot/gallery; key failure gallery-3.png and original JSON retained"
+    },
+    {
+      "path": "reports/checks/html-2026-11-22/recheck/03-desktop.png",
+      "bytes": 94818,
+      "sha256": "70e3c156fa81f5a716d2d24f3dede7dd404ec4b0e99fd8cf35ce493f71b130c9",
+      "reason": "Superseded intermediate screenshot/gallery; key failure gallery-3.png and original JSON retained"
+    },
+    {
+      "path": "reports/checks/html-2026-11-22/recheck/03-mobile.png",
+      "bytes": 59100,
+      "sha256": "7e5f858fd34b0a834309beda35f9182b84243d3e4a2ddf2430270f177f29f71a",
+      "reason": "Superseded intermediate screenshot/gallery; key failure gallery-3.png and original JSON retained"
+    },
+    {
+      "path": "reports/checks/html-2026-11-22/recheck/04-desktop.png",
+      "bytes": 91745,
+      "sha256": "52edf656dc04a8b01070bbe946740d1b464b261892db074cc8f8d06559f9f6dd",
+      "reason": "Superseded intermediate screenshot/gallery; key failure gallery-3.png and original JSON retained"
+    },
+    {
+      "path": "reports/checks/html-2026-11-22/recheck/05-desktop.png",
+      "bytes": 100147,
+      "sha256": "d8f7cb66867700f2a809ddd923ea2231e5c1e22fd10075ccd9c25789b0b4abe1",
+      "reason": "Superseded intermediate screenshot/gallery; key failure gallery-3.png and original JSON retained"
+    },
+    {
+      "path": "reports/checks/html-2026-11-22/recheck/06-desktop.png",
+      "bytes": 107735,
+      "sha256": "e6d5e02a20b859382f59b4804192b59f89321f9f0c17b2c342b82168c6bed24c",
+      "reason": "Superseded intermediate screenshot/gallery; key failure gallery-3.png and original JSON retained"
+    },
+    {
+      "path": "reports/checks/html-2026-11-22/recheck/07-desktop.png",
+      "bytes": 113007,
+      "sha256": "9c6258e74e1149b81665ab77fc031513bff6263a8a41b89693a0be0099b82ff1",
+      "reason": "Superseded intermediate screenshot/gallery; key failure gallery-3.png and original JSON retained"
+    },
+    {
+      "path": "reports/checks/html-2026-11-22/recheck/07-mobile.png",
+      "bytes": 76991,
+      "sha256": "8b47f417b1d0f86ab39a4a3d3e748ea6c1d824a340d52a7b8dc33b14dabe75fb",
+      "reason": "Superseded intermediate screenshot/gallery; key failure gallery-3.png and original JSON retained"
+    },
+    {
+      "path": "reports/checks/html-2026-11-22/recheck/08-desktop.png",
+      "bytes": 134428,
+      "sha256": "6c9cfd313bbc9a04c1529c85422213c3e711b52afc9de4074721fd333c905985",
+      "reason": "Superseded intermediate screenshot/gallery; key failure gallery-3.png and original JSON retained"
+    },
+    {
+      "path": "reports/checks/html-2026-11-22/recheck/08-expanded.png",
+      "bytes": 151116,
+      "sha256": "f0a1f5680b85f36d35048113641bf3e079b7cc1d7c7757c0f787c359c18498d3",
+      "reason": "Superseded intermediate screenshot/gallery; key failure gallery-3.png and original JSON retained"
+    },
+    {
+      "path": "reports/checks/html-2026-11-22/recheck/08-mobile.png",
+      "bytes": 122211,
+      "sha256": "ddc733aef4c329c9cff2066f90a02b657986dff372c8e4d6fe59b20cb9c6c988",
+      "reason": "Superseded intermediate screenshot/gallery; key failure gallery-3.png and original JSON retained"
+    },
+    {
+      "path": "reports/checks/html-2026-11-22/recheck/09-desktop.png",
+      "bytes": 137526,
+      "sha256": "2861dc43371fa093da998be10416d5aaf9433e41c6ce1b8a9fc72120382d9fb7",
+      "reason": "Superseded intermediate screenshot/gallery; key failure gallery-3.png and original JSON retained"
+    },
+    {
+      "path": "reports/checks/html-2026-11-22/recheck/10-desktop.png",
+      "bytes": 90429,
+      "sha256": "948bf929d43b0dd73d523bbadbc9b00d5dd14daf542ce67a1640fe369ab722e3",
+      "reason": "Superseded intermediate screenshot/gallery; key failure gallery-3.png and original JSON retained"
+    },
+    {
+      "path": "reports/checks/html-2026-11-22/recheck/11-desktop.png",
+      "bytes": 128169,
+      "sha256": "3672015854236ea4aaae692b661a709e57ae5bb7a7383c878940195f3ee9b9ba",
+      "reason": "Superseded intermediate screenshot/gallery; key failure gallery-3.png and original JSON retained"
+    },
+    {
+      "path": "reports/checks/html-2026-11-22/recheck/11-mobile.png",
+      "bytes": 83347,
+      "sha256": "53339d6e65bbf44a0b1f5d8949b43e8ddaefdf2b315a6e0b3370a9d2a029f336",
+      "reason": "Superseded intermediate screenshot/gallery; key failure gallery-3.png and original JSON retained"
+    },
+    {
+      "path": "reports/checks/html-2026-11-22/recheck/12-desktop.png",
+      "bytes": 107084,
+      "sha256": "6cdc6db74d7213dc18f747fcfb335d60d56358ff5cab180760e5ce88ff600daf",
+      "reason": "Superseded intermediate screenshot/gallery; key failure gallery-3.png and original JSON retained"
+    },
+    {
+      "path": "reports/checks/html-2026-11-22/recheck/13-desktop.png",
+      "bytes": 130166,
+      "sha256": "ef9033f9b4a688d0d79f124e1d37dc90764af7b4bf4c9a00c88b0446152f3860",
+      "reason": "Superseded intermediate screenshot/gallery; key failure gallery-3.png and original JSON retained"
+    },
+    {
+      "path": "reports/checks/html-2026-11-22/recheck/14-desktop.png",
+      "bytes": 110253,
+      "sha256": "d213e30e0c11e311e9a156aa32b703dd9a92289c24809b8e1662e3297365a104",
+      "reason": "Superseded intermediate screenshot/gallery; key failure gallery-3.png and original JSON retained"
+    },
+    {
+      "path": "reports/checks/html-2026-11-22/recheck/15-desktop.png",
+      "bytes": 120676,
+      "sha256": "67e31bd95bc3ea4892cc04853a68fe06598dad69f5996af825e64a0589da38d2",
+      "reason": "Superseded intermediate screenshot/gallery; key failure gallery-3.png and original JSON retained"
+    },
+    {
+      "path": "reports/checks/html-2026-11-22/recheck/16-desktop.png",
+      "bytes": 125760,
+      "sha256": "d189ca718b55c4b97be7578ad75a83b9a0d118ba90406e99090d3ab041f22d83",
+      "reason": "Superseded intermediate screenshot/gallery; key failure gallery-3.png and original JSON retained"
+    },
+    {
+      "path": "reports/checks/html-2026-11-22/recheck/16-final-state.png",
+      "bytes": 125758,
+      "sha256": "49794c1ead7534939fc9ada6822b0ec5780d326122944a38aeff04ba55580a1a",
+      "reason": "Superseded intermediate screenshot/gallery; key failure gallery-3.png and original JSON retained"
+    },
+    {
+      "path": "reports/checks/html-2026-11-22/recheck/16-mobile.png",
+      "bytes": 83549,
+      "sha256": "5647e19e3dc8caeddc670dc36b3aeb62b6397dcd5ce11a3532568c3622ef71b2",
+      "reason": "Superseded intermediate screenshot/gallery; key failure gallery-3.png and original JSON retained"
+    },
+    {
+      "path": "reports/checks/html-2026-11-22/recheck/17-answers.png",
+      "bytes": 129900,
+      "sha256": "497cf5a1cd776d19436b6ec0517b16e4a0ddefe25d8b2f7a45a187a87005606a",
+      "reason": "Superseded intermediate screenshot/gallery; key failure gallery-3.png and original JSON retained"
+    },
+    {
+      "path": "reports/checks/html-2026-11-22/recheck/17-desktop.png",
+      "bytes": 121120,
+      "sha256": "9144fc12239b5f7f5dcedd937216c2d225d93285eb40f4203f81aec811ba86e9",
+      "reason": "Superseded intermediate screenshot/gallery; key failure gallery-3.png and original JSON retained"
+    },
+    {
+      "path": "reports/checks/html-2026-11-22/recheck/17-mobile.png",
+      "bytes": 121653,
+      "sha256": "39e83fd93623710c1ebf9e33cdd967115fe89392fbc70fae80df794c961a27b3",
+      "reason": "Superseded intermediate screenshot/gallery; key failure gallery-3.png and original JSON retained"
+    },
+    {
+      "path": "reports/checks/html-2026-11-22/recheck/18-desktop.png",
+      "bytes": 110628,
+      "sha256": "a1e238048405f8fbf12d9d73c5afc52787a7f27b2372a3b51995cd8d19165c01",
+      "reason": "Superseded intermediate screenshot/gallery; key failure gallery-3.png and original JSON retained"
+    },
+    {
+      "path": "reports/checks/html-2026-11-22/recheck/gallery-1.html",
+      "bytes": 813,
+      "sha256": "ac4a0451bfb380807948971d93196d0aa8e2ad8093244d5496c8a9f7efc12a31",
+      "reason": "Superseded intermediate screenshot/gallery; key failure gallery-3.png and original JSON retained"
+    },
+    {
+      "path": "reports/checks/html-2026-11-22/recheck/gallery-1.png",
+      "bytes": 398971,
+      "sha256": "40ab4961f0e0988e021a233bc62b8687c9a2a0f3019f4097ea2bbf3d38618669",
+      "reason": "Superseded intermediate screenshot/gallery; key failure gallery-3.png and original JSON retained"
+    },
+    {
+      "path": "reports/checks/html-2026-11-22/recheck/gallery-2.html",
+      "bytes": 816,
+      "sha256": "8c37d6c998e26b13dcd9e859c1a544c3d9eefc14e3375035db8bb18fb785c987",
+      "reason": "Superseded intermediate screenshot/gallery; key failure gallery-3.png and original JSON retained"
+    },
+    {
+      "path": "reports/checks/html-2026-11-22/recheck/gallery-2.png",
+      "bytes": 501327,
+      "sha256": "04fb1ce238ccb94429c58f8641ef8fd3de6082656cb8713d0b8abd3061b8635b",
+      "reason": "Superseded intermediate screenshot/gallery; key failure gallery-3.png and original JSON retained"
+    },
+    {
+      "path": "reports/checks/html-2026-11-22/recheck/gallery-3.html",
+      "bytes": 819,
+      "sha256": "372208deefee836e51f062b27e1fa77b9ddf98eb2d67c885a44fed5f60f79144",
+      "reason": "Superseded intermediate screenshot/gallery; key failure gallery-3.png and original JSON retained"
+    },
+    {
+      "path": "reports/checks/html-2026-11-22/delivery/17-compact.png",
+      "bytes": 92044,
+      "sha256": "78e4f53c97caa5e95ebe6673771f41aae4ff13a44f923c44e86268a221e5fe42",
+      "reason": "Superseded by delivery-recheck; D01 before-image retained"
+    },
+    {
+      "path": "reports/checks/html-2026-11-22/delivery/17-desktop.png",
+      "bytes": 120243,
+      "sha256": "785a53425e2014985decd55562173a787c4720a33d7788d76406ac768bdfc46b",
+      "reason": "Superseded by delivery-recheck; D01 before-image retained"
+    },
+    {
+      "path": "reports/checks/html-2026-11-22/delivery/17-mobile.png",
+      "bytes": 96844,
+      "sha256": "3ed7bd8c8325cb03640a81841c04266db45526ae693ce2cece31746991740afb",
+      "reason": "Superseded by delivery-recheck; D01 before-image retained"
+    },
+    {
+      "path": "reports/checks/html-2026-11-22/delivery/source-map-C08.1.png",
+      "bytes": 140787,
+      "sha256": "5378efdfd2674c094a1ba796b57a132fb8e61ff7fd12b8a0e6015f39718835f9",
+      "reason": "Superseded by delivery-recheck; D01 before-image retained"
+    },
+    {
+      "path": "reports/checks/html-2026-11-22/delivery/wiki-index.png",
+      "bytes": 95581,
+      "sha256": "a81da811eaddf553a92f892b4df409495c50ea14c583f9984d1c904c41e1783a",
+      "reason": "Superseded by delivery-recheck; D01 before-image retained"
+    },
+    {
+      "path": "reports/checks/html-2026-11-22/final/02-desktop.png",
+      "bytes": 113718,
+      "sha256": "1e7e115eaa8aa3893da9c7e8e900e33fad8f00971d594b136031c54ebc110b08",
+      "reason": "Nonessential per-page screenshot; representative desktop/mobile/interaction proof and full JSON retained"
+    },
+    {
+      "path": "reports/checks/html-2026-11-22/final/03-desktop.png",
+      "bytes": 94818,
+      "sha256": "70e3c156fa81f5a716d2d24f3dede7dd404ec4b0e99fd8cf35ce493f71b130c9",
+      "reason": "Nonessential per-page screenshot; representative desktop/mobile/interaction proof and full JSON retained"
+    },
+    {
+      "path": "reports/checks/html-2026-11-22/final/03-mobile.png",
+      "bytes": 59100,
+      "sha256": "7e5f858fd34b0a834309beda35f9182b84243d3e4a2ddf2430270f177f29f71a",
+      "reason": "Nonessential per-page screenshot; representative desktop/mobile/interaction proof and full JSON retained"
+    },
+    {
+      "path": "reports/checks/html-2026-11-22/final/04-desktop.png",
+      "bytes": 87233,
+      "sha256": "fdac00e6ccf977e62f22c2c0e68ef8041974c7eb300e18f9da8cda3e886b634a",
+      "reason": "Nonessential per-page screenshot; representative desktop/mobile/interaction proof and full JSON retained"
+    },
+    {
+      "path": "reports/checks/html-2026-11-22/final/05-desktop.png",
+      "bytes": 100147,
+      "sha256": "d8f7cb66867700f2a809ddd923ea2231e5c1e22fd10075ccd9c25789b0b4abe1",
+      "reason": "Nonessential per-page screenshot; representative desktop/mobile/interaction proof and full JSON retained"
+    },
+    {
+      "path": "reports/checks/html-2026-11-22/final/06-desktop.png",
+      "bytes": 107735,
+      "sha256": "e6d5e02a20b859382f59b4804192b59f89321f9f0c17b2c342b82168c6bed24c",
+      "reason": "Nonessential per-page screenshot; representative desktop/mobile/interaction proof and full JSON retained"
+    },
+    {
+      "path": "reports/checks/html-2026-11-22/final/07-desktop.png",
+      "bytes": 113007,
+      "sha256": "9c6258e74e1149b81665ab77fc031513bff6263a8a41b89693a0be0099b82ff1",
+      "reason": "Nonessential per-page screenshot; representative desktop/mobile/interaction proof and full JSON retained"
+    },
+    {
+      "path": "reports/checks/html-2026-11-22/final/07-mobile.png",
+      "bytes": 76991,
+      "sha256": "8b47f417b1d0f86ab39a4a3d3e748ea6c1d824a340d52a7b8dc33b14dabe75fb",
+      "reason": "Nonessential per-page screenshot; representative desktop/mobile/interaction proof and full JSON retained"
+    },
+    {
+      "path": "reports/checks/html-2026-11-22/final/08-desktop.png",
+      "bytes": 115533,
+      "sha256": "4b258554d3eaf88461000efb17f58aad053781bed944149e6e8ecfe56ac5c259",
+      "reason": "Nonessential per-page screenshot; representative desktop/mobile/interaction proof and full JSON retained"
+    },
+    {
+      "path": "reports/checks/html-2026-11-22/final/08-mobile.png",
+      "bytes": 70992,
+      "sha256": "7b5c2840f77a2e10b480faa38f9c3e448ed223a99af48cd638c4e1739ad4a4e8",
+      "reason": "Nonessential per-page screenshot; representative desktop/mobile/interaction proof and full JSON retained"
+    },
+    {
+      "path": "reports/checks/html-2026-11-22/final/09-desktop.png",
+      "bytes": 137526,
+      "sha256": "2861dc43371fa093da998be10416d5aaf9433e41c6ce1b8a9fc72120382d9fb7",
+      "reason": "Nonessential per-page screenshot; representative desktop/mobile/interaction proof and full JSON retained"
+    },
+    {
+      "path": "reports/checks/html-2026-11-22/final/10-desktop.png",
+      "bytes": 90429,
+      "sha256": "948bf929d43b0dd73d523bbadbc9b00d5dd14daf542ce67a1640fe369ab722e3",
+      "reason": "Nonessential per-page screenshot; representative desktop/mobile/interaction proof and full JSON retained"
+    },
+    {
+      "path": "reports/checks/html-2026-11-22/final/11-desktop.png",
+      "bytes": 131919,
+      "sha256": "4c5f726987ea58dc4a059f9d8cc4e7888f6729450cd82fbd4a23a358188528f2",
+      "reason": "Nonessential per-page screenshot; representative desktop/mobile/interaction proof and full JSON retained"
+    },
+    {
+      "path": "reports/checks/html-2026-11-22/final/12-desktop.png",
+      "bytes": 107084,
+      "sha256": "6cdc6db74d7213dc18f747fcfb335d60d56358ff5cab180760e5ce88ff600daf",
+      "reason": "Nonessential per-page screenshot; representative desktop/mobile/interaction proof and full JSON retained"
+    },
+    {
+      "path": "reports/checks/html-2026-11-22/final/13-desktop.png",
+      "bytes": 130166,
+      "sha256": "ef9033f9b4a688d0d79f124e1d37dc90764af7b4bf4c9a00c88b0446152f3860",
+      "reason": "Nonessential per-page screenshot; representative desktop/mobile/interaction proof and full JSON retained"
+    },
+    {
+      "path": "reports/checks/html-2026-11-22/final/14-desktop.png",
+      "bytes": 110253,
+      "sha256": "d213e30e0c11e311e9a156aa32b703dd9a92289c24809b8e1662e3297365a104",
+      "reason": "Nonessential per-page screenshot; representative desktop/mobile/interaction proof and full JSON retained"
+    },
+    {
+      "path": "reports/checks/html-2026-11-22/final/15-desktop.png",
+      "bytes": 120676,
+      "sha256": "67e31bd95bc3ea4892cc04853a68fe06598dad69f5996af825e64a0589da38d2",
+      "reason": "Nonessential per-page screenshot; representative desktop/mobile/interaction proof and full JSON retained"
+    },
+    {
+      "path": "reports/checks/html-2026-11-22/final/16-desktop.png",
+      "bytes": 114122,
+      "sha256": "c57ffffeb8d0f5a7dd0b0280347b1dad09d190cd896354aceb77bfd56f74afe8",
+      "reason": "Nonessential per-page screenshot; representative desktop/mobile/interaction proof and full JSON retained"
+    },
+    {
+      "path": "reports/checks/html-2026-11-22/final/16-mobile.png",
+      "bytes": 80417,
+      "sha256": "ad4061597f91affdbf91dc44c331d95ed47573ab9df49cd18699a4da0589500a",
+      "reason": "Nonessential per-page screenshot; representative desktop/mobile/interaction proof and full JSON retained"
+    },
+    {
+      "path": "reports/checks/html-2026-11-22/final/17-compact.png",
+      "bytes": 87055,
+      "sha256": "304fa44dd256503166adac97530c4d3acba7d04edde492d8a067c67668840a26",
+      "reason": "Nonessential per-page screenshot; representative desktop/mobile/interaction proof and full JSON retained"
+    },
+    {
+      "path": "reports/checks/html-2026-11-22/final/17-desktop.png",
+      "bytes": 102709,
+      "sha256": "48e45ac2c916981b4557e4de7a3c456b87f23bc2ba52b150e39afc4716e8a7ac",
+      "reason": "Nonessential per-page screenshot; representative desktop/mobile/interaction proof and full JSON retained"
+    },
+    {
+      "path": "reports/checks/html-2026-11-22/final/17-mobile.png",
+      "bytes": 94351,
+      "sha256": "86ae6541790ae4a1e6bbd6b89791fbdc4ceeac13d28ddc4a823238582be5e8e0",
+      "reason": "Nonessential per-page screenshot; representative desktop/mobile/interaction proof and full JSON retained"
+    },
+    {
+      "path": "reports/checks/html-2026-11-22/final/18-desktop.png",
+      "bytes": 110628,
+      "sha256": "a1e238048405f8fbf12d9d73c5afc52787a7f27b2372a3b51995cd8d19165c01",
+      "reason": "Nonessential per-page screenshot; representative desktop/mobile/interaction proof and full JSON retained"
+    },
+    {
+      "path": "scripts/__pycache__/lint_wiki.cpython-312.pyc",
+      "bytes": 15052,
+      "sha256": "e65d935a0cdbbd1e1cd0cee70fb3b20ec837ffb184602bce021b8ac1e3e611af",
+      "reason": "Regenerable Python bytecode cache"
+    },
+    {
+      "path": "scripts/make_review_gallery.cjs",
+      "bytes": 1564,
+      "sha256": "af6458dcbeb0676b0bf165398f1af4a2293198255955bfc668ed1ad30dc86c5d",
+      "reason": "One-off review-gallery helper; primary build, diagram and browser scripts retained"
+    }
+  ],
+  "completed_at": "2026-11-22T17:23:23.1466728+08:00"
+}

@@ -1,0 +1,198 @@
+{
+  "checked_at": "2026-11-22T09:31:38.659Z",
+  "browser": "157.0.8103.80",
+  "mode": "Installed headless browser; case-sensitive local HTTP server with /hw10-check/ prefix",
+  "published": false,
+  "checks": [
+    {
+      "name": "delivered_html_css_js_and_all_SVG_unchanged",
+      "passed": true,
+      "detail": 35
+    },
+    {
+      "name": "six_effective_ingests",
+      "passed": true,
+      "detail": 6
+    },
+    {
+      "name": "raw_receipts_and_hashes",
+      "passed": true,
+      "detail": [
+        {
+          "source": "S01",
+          "match": true
+        },
+        {
+          "source": "S02",
+          "match": true
+        },
+        {
+          "source": "S03",
+          "match": true
+        },
+        {
+          "source": "S04",
+          "match": true
+        },
+        {
+          "source": "S05",
+          "match": true
+        },
+        {
+          "source": "S06",
+          "match": true
+        },
+        {
+          "source": "verification/V01",
+          "match": true
+        },
+        {
+          "source": "verification/V02",
+          "match": true
+        }
+      ]
+    },
+    {
+      "name": "18_slides_54_claims_31_states",
+      "passed": true,
+      "detail": {
+        "slides": 18,
+        "claims": 54,
+        "states": 31
+      }
+    },
+    {
+      "name": "repository_entry_files",
+      "passed": true,
+      "detail": [
+        ".nojekyll",
+        ".gitignore",
+        ".gitattributes",
+        "README.md",
+        "SUBMISSION.md",
+        "GITHUB.md",
+        "AGENTS.md",
+        "package.json",
+        "requirements.txt",
+        "index.html",
+        "slides/index.html",
+        "site/index.html",
+        "site/slide-sources.html",
+        "reports/reflection.md",
+        "reports/slides-graph.md"
+      ]
+    },
+    {
+      "name": "Git_preserves_provenance_bytes",
+      "passed": true,
+      "detail": true
+    },
+    {
+      "name": "all_files_below_browser_upload_size_limit",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "approved_cleanup_applied",
+      "passed": true,
+      "detail": {
+        "removed": 62,
+        "bytes": 6803528
+      }
+    },
+    {
+      "name": "generated_links_and_case_sensitive_paths",
+      "passed": true,
+      "detail": {
+        "pages": 49,
+        "links": 1647,
+        "missing": [],
+        "caseErrors": []
+      }
+    },
+    {
+      "name": "common_token_patterns_absent",
+      "passed": true,
+      "detail": {
+        "matching_files": [],
+        "scope": "Pattern scan only; no guarantee of exhaustive secret discovery"
+      }
+    },
+    {
+      "name": "project_root_opens_slides",
+      "passed": true,
+      "detail": "/hw10-check/slides/index.html"
+    },
+    {
+      "name": "navigation_under_project_prefix",
+      "passed": true,
+      "detail": true
+    },
+    {
+      "name": "supplement_under_HTTP",
+      "passed": true,
+      "detail": true
+    },
+    {
+      "name": "claim_popup_under_project_prefix",
+      "passed": true,
+      "detail": "/hw10-check/site/slide-sources.html#C08.1"
+    },
+    {
+      "name": "quiz_under_HTTP",
+      "passed": true,
+      "detail": true
+    },
+    {
+      "name": "mobile_zoom_under_HTTP",
+      "passed": true,
+      "detail": true
+    },
+    {
+      "name": "six_submission_items_readable",
+      "passed": true,
+      "detail": [
+        "1. LLM Wiki 主題與簡短介紹",
+        "2. LLM Wiki 成果",
+        "3. 教學 HTML 簡報",
+        "4. loop／graph 設計",
+        "5. 一次實際執行與檢查",
+        "6. 反思與調整"
+      ]
+    },
+    {
+      "name": "wiki_under_HTTP",
+      "passed": true,
+      "detail": true
+    },
+    {
+      "name": "source_PDF_available_under_HTTP",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "type": "application/pdf"
+      }
+    },
+    {
+      "name": "no_HTTP_404_or_script_errors",
+      "passed": true,
+      "detail": {
+        "http_errors": [],
+        "script_errors": []
+      }
+    },
+    {
+      "name": "no_external_core_requests",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "failures": [],
+  "errors": [],
+  "files": {
+    "count": 240,
+    "total_bytes": 59643890,
+    "max_file": "raw/S02/original.pdf"
+  },
+  "screenshot": "reports/checks/repository-2026-11-22/submission-http.png"
+}

@@ -1,0 +1,91 @@
+{
+  "checked_at": "2026-11-22T15:08:19.603944+08:00",
+  "checks": [
+    {
+      "id": "S01",
+      "path": "raw/S01/original.pdf",
+      "sha256_matches_receipt": true,
+      "bytes_match_receipt": true,
+      "pdf_magic_valid": true,
+      "pdf_pages": 89,
+      "page_count_matches_register": true,
+      "passed": true
+    },
+    {
+      "id": "S02",
+      "path": "raw/S02/original.pdf",
+      "sha256_matches_receipt": true,
+      "bytes_match_receipt": true,
+      "pdf_magic_valid": true,
+      "pdf_pages": 172,
+      "page_count_matches_register": true,
+      "passed": true
+    },
+    {
+      "id": "S03",
+      "path": "raw/S03/original.pdf",
+      "sha256_matches_receipt": true,
+      "bytes_match_receipt": true,
+      "pdf_magic_valid": true,
+      "pdf_pages": 123,
+      "page_count_matches_register": true,
+      "passed": true
+    },
+    {
+      "id": "S04",
+      "path": "raw/S04/original.html",
+      "sha256_matches_receipt": true,
+      "bytes_match_receipt": true,
+      "html_document_present": true,
+      "article_lines": 33,
+      "article_line_count_matches": true,
+      "passed": true
+    },
+    {
+      "id": "S05",
+      "path": "raw/S05/original.html",
+      "sha256_matches_receipt": true,
+      "bytes_match_receipt": true,
+      "html_document_present": true,
+      "article_lines": 22,
+      "article_line_count_matches": true,
+      "passed": true
+    },
+    {
+      "id": "S06",
+      "path": "raw/S06/original.html",
+      "sha256_matches_receipt": true,
+      "bytes_match_receipt": true,
+      "html_document_present": true,
+      "article_lines": 27,
+      "article_line_count_matches": true,
+      "passed": true
+    },
+    {
+      "id": "V01",
+      "path": "raw/verification/V01/original.pdf",
+      "sha256_matches_receipt": true,
+      "bytes_match_receipt": true,
+      "pdf_magic_valid": true,
+      "pdf_pages": 32,
+      "page_count_matches_register": true,
+      "passed": true
+    },
+    {
+      "id": "V02",
+      "path": "raw/verification/V02/original.pdf",
+      "sha256_matches_receipt": true,
+      "bytes_match_receipt": true,
+      "pdf_magic_valid": true,
+      "pdf_pages": 68,
+      "page_count_matches_register": true,
+      "passed": true
+    }
+  ],
+  "relative_report_links_checked": 26,
+  "missing_relative_links": [],
+  "six_sources_in_review": true,
+  "wiki_directory_not_created": true,
+  "all_passed": true,
+  "limits": "Checks file integrity, locatable local outputs and review state; does not validate facts, all PDF images, remote links, Wiki or slides."
+}

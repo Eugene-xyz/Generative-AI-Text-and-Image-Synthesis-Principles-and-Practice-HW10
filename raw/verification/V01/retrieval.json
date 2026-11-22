@@ -1,0 +1,15 @@
+{
+  "id": "V01",
+  "title": "VNL 2026 Competition Regulations - verification of S06",
+  "requested_url": "https://images.volleyballworld.com/image/upload/fl_attachment/fivb-prd/b1wtfxzi6hf0wuwcbvos.pdf",
+  "attempted_at": "2026-11-22T14:55:32.484038+08:00",
+  "download_engine": "curl",
+  "resolved_url": "https://images.volleyballworld.com/image/upload/fl_attachment/fivb-prd/b1wtfxzi6hf0wuwcbvos.pdf",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "result": "downloaded",
+  "retrieved_at": "2026-11-22T14:55:35.397828+08:00",
+  "bytes": 6275286,
+  "sha256": "1a93120b34aa9e27afeab1523dddf1d4e26cbbf5176a59552f4110c959b7584c",
+  "local_path": "raw/verification/V01/original.pdf"
+}

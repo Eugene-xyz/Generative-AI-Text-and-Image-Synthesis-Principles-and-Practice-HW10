@@ -1,0 +1,8 @@
+# Preserve the exact bytes used by retrieval and evidence SHA-256 records.
+# In particular, Git must not normalize original HTML/text snapshots.
+* -text
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+

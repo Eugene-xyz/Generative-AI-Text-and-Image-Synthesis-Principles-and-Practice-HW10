@@ -1,0 +1,58 @@
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="../../assets/reader.css"><title>上傳 GitHub 與啟用簡報網址｜排球 Wiki</title></head><body><header class="reader-nav"><a href="../index.html">排球 Wiki</a><a href="../../slides/index.html">返回簡報 ↗</a><a href="../slide-sources.html">來源對照</a></header><main class="reader"><p class="reader-label">VOLLEYBALL KNOWLEDGE BASE</p><article><h1 id="heading-0">上傳 GitHub 與啟用簡報網址</h1>
+<p>這份資料夾已包含建置好的 HTML，可以直接存入儲存庫；瀏覽與 GitHub Pages 發布不需要先安裝 Node.js 或 Python。本次尚未建立遠端儲存庫、上傳或啟用 Pages。</p>
+<h2 id="heading-1">1. 上傳完整資料夾內容</h2>
+<p>將 <strong>HW10 裡面的檔案與子資料夾</strong>放到儲存庫根目錄，使根目錄能直接看到 <code>index.html</code>、<code>README.md</code>、<code>.nojekyll</code>、<code>slides/</code>、<code>wiki/</code>、<code>site/</code>、<code>assets/</code>、<code>raw/</code>、<code>reports/</code> 和 <code>scripts/</code>。不要多包一層 HW10，也不要只上傳 <code>slides/index.html</code>。</p>
+<p>可使用 GitHub Desktop 或 Git 一次提交整個目錄。若使用網頁拖放，GitHub 每次最多 100 個檔案、單檔上限 25 MiB；本專案檔數超過 100，需分批並保留路徑。目前最大原始 PDF 約 15.13 MiB，未超過單檔限制。<a href="https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository">GitHub 官方上傳說明</a></p>
+<p><code>.gitignore</code> 排除套件、快取與本機設定；<code>.gitattributes</code> 保留檔案原有位元組，避免換行自動轉換影響原始快照雜湊。這兩個設定檔及 <code>.nojekyll</code> 都應保留。此目錄沒有放入 node_modules 或完整執行環境。</p>
+<h2 id="heading-2">2. 啟用 GitHub Pages</h2>
+<ol>
+<li>開啟儲存庫的 <strong>Settings → Pages</strong>。</li>
+<li>Source 選 <strong>Deploy from a branch</strong>。</li>
+<li>選實際存放檔案的分支（通常是 <code>main</code>），資料夾選 <strong>/(root)</strong>，儲存。</li>
+<li>等部署成功後，使用 Pages 畫面的 <strong>Visit site</strong> 取得實際網址。</li>
+</ol>
+<p>根目錄已有 <code>index.html</code>，會導向簡報；<code>.nojekyll</code> 讓已生成的靜態內容直接發布。這符合 GitHub 的分支／根目錄發布方式。<a href="https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site">發布來源設定</a>、<a href="https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site">建立 Pages 網站</a></p>
+<p>一般專案網站的網址格式為 <code>https://帳號.github.io/儲存庫名稱/</code>；這只是格式範例，不是已部署網址。實際網址以 Settings → Pages 為準。</p>
+<h2 id="heading-3">3. 部署後再核對並填入作業</h2>
+<p>從實際網站根網址進入下列路徑：</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>用途</th>
+<th>相對路徑</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>18 頁簡報</td>
+<td><code>slides/index.html</code></td>
+</tr>
+<tr>
+<td>Wiki</td>
+<td><code>site/index.html</code></td>
+</tr>
+<tr>
+<td>來源對照</td>
+<td><code>site/slide-sources.html</code></td>
+</tr>
+<tr>
+<td>六項繳交總覽</td>
+<td><code>site/docs/SUBMISSION.html</code></td>
+</tr>
+<tr>
+<td>反思</td>
+<td><code>site/docs/reports/reflection.html</code></td>
+</tr>
+</tbody></table></div>
+<p>實際確認翻頁、展開補充、測驗、Wiki 及來源連結可用，再把網址貼到 <a href="SUBMISSION.html">SUBMISSION.md</a> 或課程繳交欄位。補上學校、學號、系級、姓名；GitHub 的 <code>blob/.../index.html</code> 原始碼頁不能代替簡報網站網址。</p>
+<h2 id="heading-4">需要修改與重新建置時</h2>
+<p>請先改 Wiki／內容主檔，再重建；不用直接手改生成的網頁。</p>
+<pre><code class="language-text">npm install
+npm run build
+python -m pip install -r requirements.txt
+npm run check:content
+npm run check:wiki
+npm run check:browser -- my-check-name
+</code></pre>
+<p>建置使用 Node.js 24 或更新版本；Python 檢查以 3.12 執行。固定使用的套件版本列在 package.json 與 requirements.txt。原頁圖片重新渲染另需 Poppler 的 <code>pdftoppm</code>。</p>
+<p>瀏覽器檢查會選已安裝的 Chrome／Edge；也可用 <code>HW10_BROWSER_EXECUTABLE</code> 指定瀏覽器路徑。若系統沒有可用瀏覽器，執行 <code>npx playwright install chromium</code> 後再檢查。新的測試請使用新名稱，避免覆寫歷史證據。</p>
+</article><footer>由 <a href="../../GITHUB.md">GITHUB.md</a> 產生；Markdown 為維護版本。</footer></main></body></html>

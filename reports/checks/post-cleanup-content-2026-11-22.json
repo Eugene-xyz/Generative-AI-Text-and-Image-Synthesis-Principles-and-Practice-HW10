@@ -1,0 +1,1122 @@
+{
+  "checked_at": "2026-11-22T17:33:42+08:00",
+  "timezone": "Asia/Taipei",
+  "status": "passed",
+  "scope": "content v0.1; outline v0.1; source-map v0.2; affected Wiki and project links",
+  "slide_count": 18,
+  "claim_count": 54,
+  "estimated_total_seconds": 1100,
+  "relative_links_checked": 825,
+  "check_count": 124,
+  "failures": [],
+  "checks": [
+    {
+      "check": "approved_outline",
+      "passed": true,
+      "detail": "2026-11-22"
+    },
+    {
+      "check": "content_review_status",
+      "passed": true,
+      "detail": "approved"
+    },
+    {
+      "check": "H2_approval_date_recorded",
+      "passed": true,
+      "detail": "2026-11-22"
+    },
+    {
+      "check": "page_titles_and_order",
+      "passed": true,
+      "detail": 18
+    },
+    {
+      "check": "claim_map_unique",
+      "passed": true,
+      "detail": 54
+    },
+    {
+      "check": "claim_map_coverage",
+      "passed": true,
+      "detail": {
+        "unmapped": [],
+        "unused": []
+      }
+    },
+    {
+      "check": "01_stable_id",
+      "passed": true,
+      "detail": "slide-intro"
+    },
+    {
+      "check": "01_time_matches_outline",
+      "passed": true,
+      "detail": [
+        "0",
+        "25",
+        "25"
+      ]
+    },
+    {
+      "check": "01_time_arithmetic",
+      "passed": true,
+      "detail": 25
+    },
+    {
+      "check": "01_complete_sections",
+      "passed": true,
+      "detail": [
+        "主頁文字",
+        "展開補充",
+        "講解提示",
+        "圖解規格",
+        "頁尾來源"
+      ]
+    },
+    {
+      "check": "01_diagram_spec",
+      "passed": true,
+      "detail": "purpose/view, elements, states/conditions, caption/alt, evidence"
+    },
+    {
+      "check": "01_wiki_and_claims",
+      "passed": true,
+      "detail": "看懂排球：觀賽目標"
+    },
+    {
+      "check": "02_stable_id",
+      "passed": true,
+      "detail": "slide-rally-overview"
+    },
+    {
+      "check": "02_time_matches_outline",
+      "passed": true,
+      "detail": [
+        "0",
+        "50",
+        "50"
+      ]
+    },
+    {
+      "check": "02_time_arithmetic",
+      "passed": true,
+      "detail": 50
+    },
+    {
+      "check": "02_complete_sections",
+      "passed": true,
+      "detail": [
+        "主頁文字",
+        "展開補充",
+        "講解提示",
+        "圖解規格",
+        "頁尾來源"
+      ]
+    },
+    {
+      "check": "02_diagram_spec",
+      "passed": true,
+      "detail": "purpose/view, elements, states/conditions, caption/alt, evidence"
+    },
+    {
+      "check": "02_wiki_and_claims",
+      "passed": true,
+      "detail": "一個回合在做什麼？"
+    },
+    {
+      "check": "03_stable_id",
+      "passed": true,
+      "detail": "slide-court"
+    },
+    {
+      "check": "03_time_matches_outline",
+      "passed": true,
+      "detail": [
+        "0",
+        "50",
+        "50"
+      ]
+    },
+    {
+      "check": "03_time_arithmetic",
+      "passed": true,
+      "detail": 50
+    },
+    {
+      "check": "03_complete_sections",
+      "passed": true,
+      "detail": [
+        "主頁文字",
+        "展開補充",
+        "講解提示",
+        "圖解規格",
+        "頁尾來源"
+      ]
+    },
+    {
+      "check": "03_diagram_spec",
+      "passed": true,
+      "detail": "purpose/view, elements, states/conditions, caption/alt, evidence"
+    },
+    {
+      "check": "03_wiki_and_claims",
+      "passed": true,
+      "detail": "球場上要認得的線"
+    },
+    {
+      "check": "04_stable_id",
+      "passed": true,
+      "detail": "slide-scoring"
+    },
+    {
+      "check": "04_time_matches_outline",
+      "passed": true,
+      "detail": [
+        "1",
+        "00",
+        "60"
+      ]
+    },
+    {
+      "check": "04_time_arithmetic",
+      "passed": true,
+      "detail": 60
+    },
+    {
+      "check": "04_complete_sections",
+      "passed": true,
+      "detail": [
+        "主頁文字",
+        "展開補充",
+        "講解提示",
+        "圖解規格",
+        "頁尾來源"
+      ]
+    },
+    {
+      "check": "04_diagram_spec",
+      "passed": true,
+      "detail": "purpose/view, elements, states/conditions, caption/alt, evidence"
+    },
+    {
+      "check": "04_wiki_and_claims",
+      "passed": true,
+      "detail": "一分、一局、一場"
+    },
+    {
+      "check": "05_stable_id",
+      "passed": true,
+      "detail": "slide-contacts"
+    },
+    {
+      "check": "05_time_matches_outline",
+      "passed": true,
+      "detail": [
+        "0",
+        "55",
+        "55"
+      ]
+    },
+    {
+      "check": "05_time_arithmetic",
+      "passed": true,
+      "detail": 55
+    },
+    {
+      "check": "05_complete_sections",
+      "passed": true,
+      "detail": [
+        "主頁文字",
+        "展開補充",
+        "講解提示",
+        "圖解規格",
+        "頁尾來源"
+      ]
+    },
+    {
+      "check": "05_diagram_spec",
+      "passed": true,
+      "detail": "purpose/view, elements, states/conditions, caption/alt, evidence"
+    },
+    {
+      "check": "05_wiki_and_claims",
+      "passed": true,
+      "detail": "三次擊球與合法觸球"
+    },
+    {
+      "check": "06_stable_id",
+      "passed": true,
+      "detail": "slide-rotation"
+    },
+    {
+      "check": "06_time_matches_outline",
+      "passed": true,
+      "detail": [
+        "1",
+        "25",
+        "85"
+      ]
+    },
+    {
+      "check": "06_time_arithmetic",
+      "passed": true,
+      "detail": 85
+    },
+    {
+      "check": "06_complete_sections",
+      "passed": true,
+      "detail": [
+        "主頁文字",
+        "展開補充",
+        "講解提示",
+        "圖解規格",
+        "頁尾來源"
+      ]
+    },
+    {
+      "check": "06_diagram_spec",
+      "passed": true,
+      "detail": "purpose/view, elements, states/conditions, caption/alt, evidence"
+    },
+    {
+      "check": "06_wiki_and_claims",
+      "passed": true,
+      "detail": "輪轉與前後排身分"
+    },
+    {
+      "check": "07_stable_id",
+      "passed": true,
+      "detail": "slide-roles"
+    },
+    {
+      "check": "07_time_matches_outline",
+      "passed": true,
+      "detail": [
+        "1",
+        "15",
+        "75"
+      ]
+    },
+    {
+      "check": "07_time_arithmetic",
+      "passed": true,
+      "detail": 75
+    },
+    {
+      "check": "07_complete_sections",
+      "passed": true,
+      "detail": [
+        "主頁文字",
+        "展開補充",
+        "講解提示",
+        "圖解規格",
+        "頁尾來源"
+      ]
+    },
+    {
+      "check": "07_diagram_spec",
+      "passed": true,
+      "detail": "purpose/view, elements, states/conditions, caption/alt, evidence"
+    },
+    {
+      "check": "07_wiki_and_claims",
+      "passed": true,
+      "detail": "六個人如何分工？"
+    },
+    {
+      "check": "08_stable_id",
+      "passed": true,
+      "detail": "slide-libero"
+    },
+    {
+      "check": "08_time_matches_outline",
+      "passed": true,
+      "detail": [
+        "1",
+        "10",
+        "70"
+      ]
+    },
+    {
+      "check": "08_time_arithmetic",
+      "passed": true,
+      "detail": 70
+    },
+    {
+      "check": "08_complete_sections",
+      "passed": true,
+      "detail": [
+        "主頁文字",
+        "展開補充",
+        "講解提示",
+        "圖解規格",
+        "頁尾來源"
+      ]
+    },
+    {
+      "check": "08_diagram_spec",
+      "passed": true,
+      "detail": "purpose/view, elements, states/conditions, caption/alt, evidence"
+    },
+    {
+      "check": "08_wiki_and_claims",
+      "passed": true,
+      "detail": "自由球員的角色與限制"
+    },
+    {
+      "check": "09_stable_id",
+      "passed": true,
+      "detail": "slide-serve-receive"
+    },
+    {
+      "check": "09_time_matches_outline",
+      "passed": true,
+      "detail": [
+        "1",
+        "00",
+        "60"
+      ]
+    },
+    {
+      "check": "09_time_arithmetic",
+      "passed": true,
+      "detail": 60
+    },
+    {
+      "check": "09_complete_sections",
+      "passed": true,
+      "detail": [
+        "主頁文字",
+        "展開補充",
+        "講解提示",
+        "圖解規格",
+        "頁尾來源"
+      ]
+    },
+    {
+      "check": "09_diagram_spec",
+      "passed": true,
+      "detail": "purpose/view, elements, states/conditions, caption/alt, evidence"
+    },
+    {
+      "check": "09_wiki_and_claims",
+      "passed": true,
+      "detail": "發球與接發：第一球的影響"
+    },
+    {
+      "check": "10_stable_id",
+      "passed": true,
+      "detail": "slide-setting-attack"
+    },
+    {
+      "check": "10_time_matches_outline",
+      "passed": true,
+      "detail": [
+        "1",
+        "05",
+        "65"
+      ]
+    },
+    {
+      "check": "10_time_arithmetic",
+      "passed": true,
+      "detail": 65
+    },
+    {
+      "check": "10_complete_sections",
+      "passed": true,
+      "detail": [
+        "主頁文字",
+        "展開補充",
+        "講解提示",
+        "圖解規格",
+        "頁尾來源"
+      ]
+    },
+    {
+      "check": "10_diagram_spec",
+      "passed": true,
+      "detail": "purpose/view, elements, states/conditions, caption/alt, evidence"
+    },
+    {
+      "check": "10_wiki_and_claims",
+      "passed": true,
+      "detail": "舉球如何接上攻擊？"
+    },
+    {
+      "check": "11_stable_id",
+      "passed": true,
+      "detail": "slide-back-row-attack"
+    },
+    {
+      "check": "11_time_matches_outline",
+      "passed": true,
+      "detail": [
+        "1",
+        "15",
+        "75"
+      ]
+    },
+    {
+      "check": "11_time_arithmetic",
+      "passed": true,
+      "detail": 75
+    },
+    {
+      "check": "11_complete_sections",
+      "passed": true,
+      "detail": [
+        "主頁文字",
+        "展開補充",
+        "講解提示",
+        "圖解規格",
+        "頁尾來源"
+      ]
+    },
+    {
+      "check": "11_diagram_spec",
+      "passed": true,
+      "detail": "purpose/view, elements, states/conditions, caption/alt, evidence"
+    },
+    {
+      "check": "11_wiki_and_claims",
+      "passed": true,
+      "detail": "後排球員也能攻擊"
+    },
+    {
+      "check": "12_stable_id",
+      "passed": true,
+      "detail": "slide-block-defense"
+    },
+    {
+      "check": "12_time_matches_outline",
+      "passed": true,
+      "detail": [
+        "1",
+        "05",
+        "65"
+      ]
+    },
+    {
+      "check": "12_time_arithmetic",
+      "passed": true,
+      "detail": 65
+    },
+    {
+      "check": "12_complete_sections",
+      "passed": true,
+      "detail": [
+        "主頁文字",
+        "展開補充",
+        "講解提示",
+        "圖解規格",
+        "頁尾來源"
+      ]
+    },
+    {
+      "check": "12_diagram_spec",
+      "passed": true,
+      "detail": "purpose/view, elements, states/conditions, caption/alt, evidence"
+    },
+    {
+      "check": "12_wiki_and_claims",
+      "passed": true,
+      "detail": "攔網與後排防守如何合作？"
+    },
+    {
+      "check": "13_stable_id",
+      "passed": true,
+      "detail": "slide-five-one"
+    },
+    {
+      "check": "13_time_matches_outline",
+      "passed": true,
+      "detail": [
+        "1",
+        "05",
+        "65"
+      ]
+    },
+    {
+      "check": "13_time_arithmetic",
+      "passed": true,
+      "detail": 65
+    },
+    {
+      "check": "13_complete_sections",
+      "passed": true,
+      "detail": [
+        "主頁文字",
+        "展開補充",
+        "講解提示",
+        "圖解規格",
+        "頁尾來源"
+      ]
+    },
+    {
+      "check": "13_diagram_spec",
+      "passed": true,
+      "detail": "purpose/view, elements, states/conditions, caption/alt, evidence"
+    },
+    {
+      "check": "13_wiki_and_claims",
+      "passed": true,
+      "detail": "用 5–1 看懂攻擊組織"
+    },
+    {
+      "check": "14_stable_id",
+      "passed": true,
+      "detail": "slide-transition"
+    },
+    {
+      "check": "14_time_matches_outline",
+      "passed": true,
+      "detail": [
+        "0",
+        "55",
+        "55"
+      ]
+    },
+    {
+      "check": "14_time_arithmetic",
+      "passed": true,
+      "detail": 55
+    },
+    {
+      "check": "14_complete_sections",
+      "passed": true,
+      "detail": [
+        "主頁文字",
+        "展開補充",
+        "講解提示",
+        "圖解規格",
+        "頁尾來源"
+      ]
+    },
+    {
+      "check": "14_diagram_spec",
+      "passed": true,
+      "detail": "purpose/view, elements, states/conditions, caption/alt, evidence"
+    },
+    {
+      "check": "14_wiki_and_claims",
+      "passed": true,
+      "detail": "防守之後，如何再組織攻擊？"
+    },
+    {
+      "check": "15_stable_id",
+      "passed": true,
+      "detail": "slide-rule-context"
+    },
+    {
+      "check": "15_time_matches_outline",
+      "passed": true,
+      "detail": [
+        "0",
+        "50",
+        "50"
+      ]
+    },
+    {
+      "check": "15_time_arithmetic",
+      "passed": true,
+      "detail": 50
+    },
+    {
+      "check": "15_complete_sections",
+      "passed": true,
+      "detail": [
+        "主頁文字",
+        "展開補充",
+        "講解提示",
+        "圖解規格",
+        "頁尾來源"
+      ]
+    },
+    {
+      "check": "15_diagram_spec",
+      "passed": true,
+      "detail": "purpose/view, elements, states/conditions, caption/alt, evidence"
+    },
+    {
+      "check": "15_wiki_and_claims",
+      "passed": true,
+      "detail": "看比賽，先辨認規則版本"
+    },
+    {
+      "check": "16_stable_id",
+      "passed": true,
+      "detail": "slide-rally-walkthrough"
+    },
+    {
+      "check": "16_time_matches_outline",
+      "passed": true,
+      "detail": [
+        "1",
+        "30",
+        "90"
+      ]
+    },
+    {
+      "check": "16_time_arithmetic",
+      "passed": true,
+      "detail": 90
+    },
+    {
+      "check": "16_complete_sections",
+      "passed": true,
+      "detail": [
+        "主頁文字",
+        "展開補充",
+        "講解提示",
+        "圖解規格",
+        "頁尾來源"
+      ]
+    },
+    {
+      "check": "16_diagram_spec",
+      "passed": true,
+      "detail": "purpose/view, elements, states/conditions, caption/alt, evidence"
+    },
+    {
+      "check": "16_wiki_and_claims",
+      "passed": true,
+      "detail": "一起看懂一個完整回合"
+    },
+    {
+      "check": "17_stable_id",
+      "passed": true,
+      "detail": "slide-quiz-recap"
+    },
+    {
+      "check": "17_time_matches_outline",
+      "passed": true,
+      "detail": [
+        "1",
+        "20",
+        "80"
+      ]
+    },
+    {
+      "check": "17_time_arithmetic",
+      "passed": true,
+      "detail": 80
+    },
+    {
+      "check": "17_complete_sections",
+      "passed": true,
+      "detail": [
+        "主頁文字",
+        "展開補充",
+        "講解提示",
+        "圖解規格",
+        "頁尾來源"
+      ]
+    },
+    {
+      "check": "17_diagram_spec",
+      "passed": true,
+      "detail": "purpose/view, elements, states/conditions, caption/alt, evidence"
+    },
+    {
+      "check": "17_wiki_and_claims",
+      "passed": true,
+      "detail": "觀賽小測驗與重點回顧"
+    },
+    {
+      "check": "18_stable_id",
+      "passed": true,
+      "detail": "slide-sources"
+    },
+    {
+      "check": "18_time_matches_outline",
+      "passed": true,
+      "detail": [
+        "0",
+        "25",
+        "25"
+      ]
+    },
+    {
+      "check": "18_time_arithmetic",
+      "passed": true,
+      "detail": 25
+    },
+    {
+      "check": "18_complete_sections",
+      "passed": true,
+      "detail": [
+        "主頁文字",
+        "展開補充",
+        "講解提示",
+        "圖解規格",
+        "頁尾來源"
+      ]
+    },
+    {
+      "check": "18_diagram_spec",
+      "passed": true,
+      "detail": "purpose/view, elements, states/conditions, caption/alt, evidence"
+    },
+    {
+      "check": "18_wiki_and_claims",
+      "passed": true,
+      "detail": "來源與 Wiki 閱讀入口"
+    },
+    {
+      "check": "unique_slide_ids",
+      "passed": true,
+      "detail": [
+        "slide-intro",
+        "slide-rally-overview",
+        "slide-court",
+        "slide-scoring",
+        "slide-contacts",
+        "slide-rotation",
+        "slide-roles",
+        "slide-libero",
+        "slide-serve-receive",
+        "slide-setting-attack",
+        "slide-back-row-attack",
+        "slide-block-defense",
+        "slide-five-one",
+        "slide-transition",
+        "slide-rule-context",
+        "slide-rally-walkthrough",
+        "slide-quiz-recap",
+        "slide-sources"
+      ]
+    },
+    {
+      "check": "total_time",
+      "passed": true,
+      "detail": 1100
+    },
+    {
+      "check": "map_page_ids",
+      "passed": true,
+      "detail": 18
+    },
+    {
+      "check": "06_rotation_states",
+      "passed": true,
+      "detail": {
+        "before": {
+          "4": "A",
+          "3": "B",
+          "2": "C",
+          "5": "D",
+          "6": "E",
+          "1": "F"
+        },
+        "after": {
+          "4": "D",
+          "3": "A",
+          "2": "B",
+          "5": "E",
+          "6": "F",
+          "1": "C"
+        }
+      }
+    },
+    {
+      "check": "13_rotation_states",
+      "passed": true,
+      "detail": {
+        "before": {
+          "4": "OH1",
+          "3": "MB1",
+          "2": "S",
+          "5": "OPP",
+          "6": "MB2",
+          "1": "OH2"
+        },
+        "after": {
+          "4": "OPP",
+          "3": "OH1",
+          "2": "MB1",
+          "5": "MB2",
+          "6": "OH2",
+          "1": "S"
+        }
+      }
+    },
+    {
+      "check": "quiz_has_questions_and_explanations",
+      "passed": true,
+      "detail": {
+        "options": [
+          [
+            "Q1",
+            "要，每次得分都轉",
+            "不用，由原發球員繼續"
+          ],
+          [
+            "Q2",
+            "仍是後排",
+            "變成前排"
+          ],
+          [
+            "Q3",
+            "是，攔網也算一次",
+            "不是，攔網之外仍有三擊"
+          ]
+        ],
+        "answer_keys": [
+          [
+            "Q1",
+            "B",
+            "B 原本就是發球方，得分後維持發球權，由原發球員繼續；接發方贏回合取得發球權時才輪轉。〔C17.1〕 "
+          ],
+          [
+            "Q2",
+            "A",
+            "移動改變站位，不改變本輪前後排身分；後排攻擊及攔網限制仍適用。〔C17.2〕 "
+          ],
+          [
+            "Q3",
+            "B",
+            "攔網觸球不占三擊，攔網者也能做接下來的第一擊，所以後面的救球、舉球、攻擊是第一至第三擊。〔C17.3〕 "
+          ]
+        ]
+      }
+    },
+    {
+      "check": "HTML_permitted_after_H2",
+      "passed": true,
+      "detail": "Approved content permits the next build phase; browser checks are separate"
+    },
+    {
+      "check": "no_placeholder_copy",
+      "passed": true,
+      "detail": "complete authored text"
+    },
+    {
+      "check": "local_markdown_links",
+      "passed": true,
+      "detail": {
+        "checked": 825,
+        "missing": []
+      }
+    },
+    {
+      "check": "wiki_states",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "main_text_sizes": [
+    {
+      "page": "01",
+      "main_text_characters_approx": 79
+    },
+    {
+      "page": "02",
+      "main_text_characters_approx": 133
+    },
+    {
+      "page": "03",
+      "main_text_characters_approx": 122
+    },
+    {
+      "page": "04",
+      "main_text_characters_approx": 104
+    },
+    {
+      "page": "05",
+      "main_text_characters_approx": 73
+    },
+    {
+      "page": "06",
+      "main_text_characters_approx": 101
+    },
+    {
+      "page": "07",
+      "main_text_characters_approx": 209
+    },
+    {
+      "page": "08",
+      "main_text_characters_approx": 111
+    },
+    {
+      "page": "09",
+      "main_text_characters_approx": 111
+    },
+    {
+      "page": "10",
+      "main_text_characters_approx": 69
+    },
+    {
+      "page": "11",
+      "main_text_characters_approx": 152
+    },
+    {
+      "page": "12",
+      "main_text_characters_approx": 82
+    },
+    {
+      "page": "13",
+      "main_text_characters_approx": 122
+    },
+    {
+      "page": "14",
+      "main_text_characters_approx": 79
+    },
+    {
+      "page": "15",
+      "main_text_characters_approx": 126
+    },
+    {
+      "page": "16",
+      "main_text_characters_approx": 165
+    },
+    {
+      "page": "17",
+      "main_text_characters_approx": 189
+    },
+    {
+      "page": "18",
+      "main_text_characters_approx": 155
+    }
+  ],
+  "input_sha256": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "c843193c2846ae116814bdb33ef04294f8e87b67f70ddfa371a22a32ee224184"
+    },
+    {
+      "path": "README.md",
+      "sha256": "2aa07aeeb05c64a410141a622bf49014515577e16eeb7e765a0fd56a56317327"
+    },
+    {
+      "path": "reports/checks/content-review-2026-11-22.md",
+      "sha256": "e9bc66c3b80a2cdc2567534aab963153b38f9e6c258458f4cfb90d61f8c6cdb0"
+    },
+    {
+      "path": "reports/slides-graph.md",
+      "sha256": "d9d394db3d895741d4e42fb71c0dd7498f6ad4fbd9ba24f889c38b65cbe7635d"
+    },
+    {
+      "path": "reports/workflow.md",
+      "sha256": "9f10bef1e6a6ee21e418745ff3d05026a3c2cd49d030e8d78562680d5e895df3"
+    },
+    {
+      "path": "slides/brief.md",
+      "sha256": "3cba2bc8829af737961c9f989aeddc277bbb856b169fbde00cc78ec7206c4f4f"
+    },
+    {
+      "path": "slides/content.md",
+      "sha256": "87d4994485eda784506726edbd33b87d87ffec1a260a108771786c7722467eb0"
+    },
+    {
+      "path": "slides/evidence.md",
+      "sha256": "6cc423270c80466ceb8dbe7d368c5c4b471934cc1e080652b04d8e264b55923a"
+    },
+    {
+      "path": "slides/outline.md",
+      "sha256": "5fa4d94f85fb9b3ba0ce081852f5591d9a2dc8709fd1c79899e1863fba98e819"
+    },
+    {
+      "path": "slides/source-map.md",
+      "sha256": "d931ceaa508c3cd055055e6874362031d3aafde960020e4e68bbf0634c1e0f2a"
+    },
+    {
+      "path": "wiki/glossary.md",
+      "sha256": "cbcfe7b71947646a6e06e0af0b86d7a0b2a893b5d653b31b1a3231411b916b85"
+    },
+    {
+      "path": "wiki/index.md",
+      "sha256": "012b53dc4d62608b583aebb79ee2cf35cdf149c68b3a4e642d74da6621e44a17"
+    },
+    {
+      "path": "wiki/issues.md",
+      "sha256": "10d81c6e00af1ce4a376d55d1f8242628222cd8314dcc90191a79607718f656a"
+    },
+    {
+      "path": "wiki/log.md",
+      "sha256": "55fcb57423d8b3a5c0f96908eee4995d6d81445970f65dc355b38a3c3cb8bee6"
+    },
+    {
+      "path": "wiki/queries/setter-front-row-status.md",
+      "sha256": "462d6f4e070221eaadc99fb063414fbfd9f6ad017b258557b0c45c0f21d61125"
+    },
+    {
+      "path": "wiki/sources/s01-fivb-rules-2025-2028.md",
+      "sha256": "9c2984e7ded8ee702b7ff53a1095889b6f604e5189e368dce983ec2002eaf72a"
+    },
+    {
+      "path": "wiki/sources/s02-fivb-coaches-level-i.md",
+      "sha256": "7ddfdad13302e6742b4218be4ddf043bccd2891c2efffc30a8339b2735fd26d7"
+    },
+    {
+      "path": "wiki/sources/s03-fivb-coaches-level-ii.md",
+      "sha256": "e23da6bfb8e70a4796427c6e847cd99183593341eee185d836763530f38ce22b"
+    },
+    {
+      "path": "wiki/sources/s04-recipe-for-a-setter.md",
+      "sha256": "b5ba9433e5d4ee515df11f84f1920a78fcf2c61b9a61968ffae7d02827b0e57e"
+    },
+    {
+      "path": "wiki/sources/s05-defense-as-a-team.md",
+      "sha256": "7e35e0fe9880c6c7ae41eadae3b8b971183ef88585422ca944739b4dde345c83"
+    },
+    {
+      "path": "wiki/sources/s06-fivb-2026-rule-tests.md",
+      "sha256": "5665eb64ba03e0946c84a3d6d121f836a287478b71e489e250e080ddb81f2a71"
+    },
+    {
+      "path": "wiki/topics/ball-contacts-and-faults.md",
+      "sha256": "b01c0a00a383eceeae9c8e95cd5572f9cc91ee00d28435506ee8618242117582"
+    },
+    {
+      "path": "wiki/topics/blocking-and-defense.md",
+      "sha256": "42b711b872dd04b5346231f9e1df6001ec3954458b27d8a84a46645aa62e27a3"
+    },
+    {
+      "path": "wiki/topics/court-and-scoring.md",
+      "sha256": "d10b96ee89371952f824c32a77cf5de9038ada9e4fb02cf37b6a8d1c60b089b0"
+    },
+    {
+      "path": "wiki/topics/libero.md",
+      "sha256": "33bf5078337b82518428e79e100f0b919802f15d545644d51913133297adea98"
+    },
+    {
+      "path": "wiki/topics/player-roles.md",
+      "sha256": "1249e0895c876f66270f9a15407eef27b55130e31449a1da344a4319f41e976f"
+    },
+    {
+      "path": "wiki/topics/rotation-and-positions.md",
+      "sha256": "e7cf58b939db8fec003ed7f625a0570d7c57e59b65af2d877b9537e1b4d6675a"
+    },
+    {
+      "path": "wiki/topics/rule-versions-and-tests.md",
+      "sha256": "83f595794cf79587ab5ba206a81d56b5eacb16794cd7dc38a7190086ba4cef8d"
+    },
+    {
+      "path": "wiki/topics/serve-and-reception.md",
+      "sha256": "bb8a9dd7dfd98dd0296ca925bd2c17c8f4ae0edd4cd271731e4fad0aa0df50cf"
+    },
+    {
+      "path": "wiki/topics/setting-and-attack.md",
+      "sha256": "9c2f2c40cf1480e26ff4a171fd3dfd5ee0ca8232aee2c19fa28c9a8e52ed36ad"
+    },
+    {
+      "path": "wiki/topics/systems-and-transition.md",
+      "sha256": "403739cf0031e4fd5f08e544d32ca76f6c522c6b1fb20e77499481847ab73f00"
+    },
+    {
+      "path": "wiki/topics/volleyball-overview.md",
+      "sha256": "858366b247c08cabb339eb99b405c59226eafdb4864c404ea7b88d86282908d0"
+    },
+    {
+      "path": "wiki/topics/watching-a-rally.md",
+      "sha256": "7fec58d547ff438e9769821fe54109557e57141d72b588c6758aca794cf2dfd4"
+    }
+  ],
+  "not_tested": [
+    "final rendered images",
+    "browser interaction and layout",
+    "rehearsal duration",
+    "real beginner comprehension"
+  ]
+}

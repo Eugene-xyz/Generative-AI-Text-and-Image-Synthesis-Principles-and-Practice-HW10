@@ -1,0 +1,62 @@
+{
+  "url": "https://www.fivb.com/volleyball/the-game/official-volleyball-rules/",
+  "checked_at": "2026-11-22T15:25:20.126493+08:00",
+  "http_status": 200,
+  "sha256": "e5c0a7a04a25b2fe2e6e7e1fee63ca5eefe4d0291381160a3c598a881af1f467",
+  "bytes": 346810,
+  "current_rule_links": [
+    {
+      "label": "Official Volleyball Rules",
+      "url": "https://www.fivb.com/wp-content/uploads/2025/01/FIVB-Volleyball_Rules2025_2028-EN-v05.pdf"
+    },
+    {
+      "label": "",
+      "url": "https://www.fivb.com/wp-content/uploads/2025/01/FIVB-Volleyball_Rules2025_2028-EN-v05.pdf"
+    },
+    {
+      "label": "Official Volleyball Rules 2025-2028 Current Edition English",
+      "url": "https://www.fivb.com/wp-content/uploads/2025/01/FIVB-Volleyball_Rules2025_2028-EN-v05.pdf"
+    },
+    {
+      "label": "",
+      "url": "https://www.fivb.com/wp-content/uploads/2025/01/FIVB-Volleyball_Rules2025_2028-EN-v05.pdf"
+    },
+    {
+      "label": "",
+      "url": "https://www.fivb.com/wp-content/uploads/2025/01/FIVB-Volleyball_Rules2025_2028-SP-v02.pdf"
+    },
+    {
+      "label": "Official Volleyball Rules 2025-2028 Current Edition Spanish",
+      "url": "https://www.fivb.com/wp-content/uploads/2025/01/FIVB-Volleyball_Rules2025_2028-SP-v02.pdf"
+    },
+    {
+      "label": "",
+      "url": "https://www.fivb.com/wp-content/uploads/2025/01/FIVB-Volleyball_Rules2025_2028-SP-v02.pdf"
+    },
+    {
+      "label": "",
+      "url": "https://www.fivb.com/wp-content/uploads/2025/06/FIVB-Volleyball_Rules2025_2028-FR-v04.pdf"
+    },
+    {
+      "label": "Official Volleyball Rules 2025-2028 Current Edition French",
+      "url": "https://www.fivb.com/wp-content/uploads/2025/06/FIVB-Volleyball_Rules2025_2028-FR-v04.pdf"
+    },
+    {
+      "label": "",
+      "url": "https://www.fivb.com/wp-content/uploads/2025/06/FIVB-Volleyball_Rules2025_2028-FR-v04.pdf"
+    },
+    {
+      "label": "",
+      "url": "https://www.fivb.com/wp-content/uploads/2025/02/FIVB-Volleyball_Rules2025_2028-AR-v04.pdf"
+    },
+    {
+      "label": "Official Volleyball Rules 2025-2028 Current Edition Arabic",
+      "url": "https://www.fivb.com/wp-content/uploads/2025/02/FIVB-Volleyball_Rules2025_2028-AR-v04.pdf"
+    },
+    {
+      "label": "",
+      "url": "https://www.fivb.com/wp-content/uploads/2025/02/FIVB-Volleyball_Rules2025_2028-AR-v04.pdf"
+    }
+  ],
+  "scope": "官方規則目錄的版本與下載連結核對，不另計 ingest。"
+}

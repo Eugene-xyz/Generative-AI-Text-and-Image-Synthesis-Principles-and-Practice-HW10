@@ -1,0 +1,283 @@
+[
+  {
+    "page": 1,
+    "id": "slide-intro",
+    "caption": "兩隊各六人在球網兩側；本課程從比分、角色分工與球的傳遞理解比賽。",
+    "states": [
+      {
+        "file": "../assets/diagrams/slide-01-1.svg",
+        "label": "看懂排球：觀賽目標",
+        "alt": "兩隊各六人在球網兩側；本課程從比分、角色分工與球的傳遞理解比賽。"
+      }
+    ]
+  },
+  {
+    "page": 2,
+    "id": "slide-rally-overview",
+    "caption": "A 發球後，B 常以接、舉、攻回球；A 若攔防成功，可再組織反擊。流程是常見配合，不是每回合的必經步驟。",
+    "states": [
+      {
+        "file": "../assets/diagrams/slide-02-1.svg",
+        "label": "一個回合在做什麼？",
+        "alt": "A 發球後，B 常以接、舉、攻回球；A 若攔防成功，可再組織反擊。流程是常見配合，不是每回合的必經步驟。"
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "id": "slide-court",
+    "caption": "中線把 18×9 公尺球場分成兩半；攻擊線距中線軸線 3 公尺。球落地有部分碰界線即為界內。",
+    "states": [
+      {
+        "file": "../assets/diagrams/slide-03-1.svg",
+        "label": "球場上要認得的線",
+        "alt": "中線把 18×9 公尺球場分成兩半；攻擊線距中線軸線 3 公尺。球落地有部分碰界線即為界內。"
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "id": "slide-scoring",
+    "caption": "一般局 24 平後，一隊到 25 比 24 尚未勝出；26 比 24 時才同時滿足 25 分與兩分差。",
+    "states": [
+      {
+        "file": "../assets/diagrams/slide-04-1.svg",
+        "label": "24：24",
+        "alt": "一般局 24 平後，一隊到 25 比 24 尚未勝出；26 比 24 時才同時滿足 25 分與兩分差。"
+      },
+      {
+        "file": "../assets/diagrams/slide-04-2.svg",
+        "label": "25：24",
+        "alt": "一般局 24 平後，一隊到 25 比 24 尚未勝出；26 比 24 時才同時滿足 25 分與兩分差。"
+      },
+      {
+        "file": "../assets/diagrams/slide-04-3.svg",
+        "label": "26：24",
+        "alt": "一般局 24 平後，一隊到 25 比 24 尚未勝出；26 比 24 時才同時滿足 25 分與兩分差。"
+      }
+    ]
+  },
+  {
+    "page": 5,
+    "id": "slide-contacts",
+    "caption": "攔網觸球另計，之後最多三擊回球；身體任何部位可碰球，但不能接住或拋擲。",
+    "states": [
+      {
+        "file": "../assets/diagrams/slide-05-1.svg",
+        "label": "三次擊球與合法觸球",
+        "alt": "攔網觸球另計，之後最多三擊回球；身體任何部位可碰球，但不能接住或拋擲。"
+      }
+    ]
+  },
+  {
+    "page": 6,
+    "id": "slide-rotation",
+    "caption": "取得發球權時，原位置 2 的 C 轉到位置 1 並發球；之後移到網前，也仍是本輪後排球員。",
+    "states": [
+      {
+        "file": "../assets/diagrams/slide-06-1.svg",
+        "label": "輪轉一位",
+        "alt": "取得發球權時，原位置 2 的 C 轉到位置 1 並發球；之後移到網前，也仍是本輪後排球員。"
+      },
+      {
+        "file": "../assets/diagrams/slide-06-2.svg",
+        "label": "身分與移動",
+        "alt": "取得發球權時，原位置 2 的 C 轉到位置 1 並發球；之後移到網前，也仍是本輪後排球員。"
+      }
+    ]
+  },
+  {
+    "page": 7,
+    "id": "slide-roles",
+    "caption": "舉球組織、主攻接發與攻擊、攔中快攻與攔網、接應承擔攻擊、自由球員專注後排；這些是常見分工，不是整場固定站位。",
+    "states": [
+      {
+        "file": "../assets/diagrams/slide-07-1.svg",
+        "label": "六個人如何分工？",
+        "alt": "舉球組織、主攻接發與攻擊、攔中快攻與攔網、接應承擔攻擊、自由球員專注後排；這些是常見分工，不是整場固定站位。"
+      }
+    ]
+  },
+  {
+    "page": 8,
+    "id": "slide-libero",
+    "caption": "自由球員替換一名後排隊友，場上仍六人。無論站在哪裡，若觸球時整顆球高於網頂，就不得完成攻擊。",
+    "states": [
+      {
+        "file": "../assets/diagrams/slide-08-1.svg",
+        "label": "自由球員的角色與限制",
+        "alt": "自由球員替換一名後排隊友，場上仍六人。無論站在哪裡，若觸球時整顆球高於網頂，就不得完成攻擊。"
+      }
+    ]
+  },
+  {
+    "page": 9,
+    "id": "slide-serve-receive",
+    "caption": "一傳接近目標時較容易組織；偏離目標時舉球員要移動，選擇可能變少，但下一球方向仍須繼續觀察。",
+    "states": [
+      {
+        "file": "../assets/diagrams/slide-09-1.svg",
+        "label": "發球與接發：第一球的影響",
+        "alt": "一傳接近目標時較容易組織；偏離目標時舉球員要移動，選擇可能變少，但下一球方向仍須繼續觀察。"
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "id": "slide-setting-attack",
+    "caption": "舉球員可在多個攻擊點中選擇；球的高度、方向與到達時間，要和攻擊者的準備配合。",
+    "states": [
+      {
+        "file": "../assets/diagrams/slide-10-1.svg",
+        "label": "可用選項",
+        "alt": "舉球員可在多個攻擊點中選擇；球的高度、方向與到達時間，要和攻擊者的準備配合。"
+      },
+      {
+        "file": "../assets/diagrams/slide-10-2.svg",
+        "label": "一次選擇",
+        "alt": "舉球員可在多個攻擊點中選擇；球的高度、方向與到達時間，要和攻擊者的準備配合。"
+      }
+    ]
+  },
+  {
+    "page": 11,
+    "id": "slide-back-row-attack",
+    "caption": "相同的後排高球完成攻擊，起跳腳完全在攻擊線後的例子不構成後排攻擊犯規；碰線起跳的例子構成犯規。落地進前區不是這項判斷的起跳點。",
+    "states": [
+      {
+        "file": "../assets/diagrams/slide-11-1.svg",
+        "label": "後排球員也能攻擊",
+        "alt": "相同的後排高球完成攻擊，起跳腳完全在攻擊線後的例子不構成後排攻擊犯規；碰線起跳的例子構成犯規。落地進前區不是這項判斷的起跳點。"
+      }
+    ]
+  },
+  {
+    "page": 12,
+    "id": "slide-block-defense",
+    "caption": "後排依攔網覆蓋、縫隙與對方球路調整；這是一種教學配置，並非每隊的固定站法。",
+    "states": [
+      {
+        "file": "../assets/diagrams/slide-12-1.svg",
+        "label": "攔網與後排防守如何合作？",
+        "alt": "後排依攔網覆蓋、縫隙與對方球路調整；這是一種教學配置，並非每隊的固定站法。"
+      }
+    ]
+  },
+  {
+    "page": 13,
+    "id": "slide-five-one",
+    "caption": "S 在前排時，前排另有兩位隊友；S 轉到後排後，三位前排隊友可形成攻擊威脅。同一位 S 繼續組織。",
+    "states": [
+      {
+        "file": "../assets/diagrams/slide-13-1.svg",
+        "label": "用 5–1 看懂攻擊組織",
+        "alt": "S 在前排時，前排另有兩位隊友；S 轉到後排後，三位前排隊友可形成攻擊威脅。同一位 S 繼續組織。"
+      }
+    ]
+  },
+  {
+    "page": 14,
+    "id": "slide-transition",
+    "caption": "球被救起後，隊友接著準備舉球、攻擊與掩護；三個狀態示意同一隊如何從防守重組反擊。",
+    "states": [
+      {
+        "file": "../assets/diagrams/slide-14-1.svg",
+        "label": "防守之後，如何再組織攻擊？",
+        "alt": "球被救起後，隊友接著準備舉球、攻擊與掩護；三個狀態示意同一隊如何從防守重組反擊。"
+      }
+    ]
+  },
+  {
+    "page": 15,
+    "id": "slide-rule-context",
+    "caption": "S01 基準在發球擊球瞬間要求接發方符合相對位置；VNL 2026 測試在鳴笛時要求符合次序，發球動作開始即可離開原相對位置。",
+    "states": [
+      {
+        "file": "../assets/diagrams/slide-15-1.svg",
+        "label": "看比賽，先辨認規則版本",
+        "alt": "S01 基準在發球擊球瞬間要求接發方符合相對位置；VNL 2026 測試在鳴笛時要求符合次序，發球動作開始即可離開原相對位置。"
+      }
+    ]
+  },
+  {
+    "page": 16,
+    "id": "slide-rally-walkthrough",
+    "caption": "B 三擊攻擊後，A 攔網並再用三擊反擊；A 球未碰 B 而出界，B 以 21 比 20 領先，取得發球權並輪轉。",
+    "states": [
+      {
+        "file": "../assets/diagrams/slide-16-1.svg",
+        "label": "A 發球",
+        "alt": "B 三擊攻擊後，A 攔網並再用三擊反擊；A 球未碰 B 而出界，B 以 21 比 20 領先，取得發球權並輪轉。"
+      },
+      {
+        "file": "../assets/diagrams/slide-16-2.svg",
+        "label": "B 接發 ①",
+        "alt": "B 三擊攻擊後，A 攔網並再用三擊反擊；A 球未碰 B 而出界，B 以 21 比 20 領先，取得發球權並輪轉。"
+      },
+      {
+        "file": "../assets/diagrams/slide-16-3.svg",
+        "label": "B 舉球 ②",
+        "alt": "B 三擊攻擊後，A 攔網並再用三擊反擊；A 球未碰 B 而出界，B 以 21 比 20 領先，取得發球權並輪轉。"
+      },
+      {
+        "file": "../assets/diagrams/slide-16-4.svg",
+        "label": "B 攻擊 ③",
+        "alt": "B 三擊攻擊後，A 攔網並再用三擊反擊；A 球未碰 B 而出界，B 以 21 比 20 領先，取得發球權並輪轉。"
+      },
+      {
+        "file": "../assets/diagrams/slide-16-5.svg",
+        "label": "A 攔網 · 另計",
+        "alt": "B 三擊攻擊後，A 攔網並再用三擊反擊；A 球未碰 B 而出界，B 以 21 比 20 領先，取得發球權並輪轉。"
+      },
+      {
+        "file": "../assets/diagrams/slide-16-6.svg",
+        "label": "A 救球 ①",
+        "alt": "B 三擊攻擊後，A 攔網並再用三擊反擊；A 球未碰 B 而出界，B 以 21 比 20 領先，取得發球權並輪轉。"
+      },
+      {
+        "file": "../assets/diagrams/slide-16-7.svg",
+        "label": "A 舉球 ②",
+        "alt": "B 三擊攻擊後，A 攔網並再用三擊反擊；A 球未碰 B 而出界，B 以 21 比 20 領先，取得發球權並輪轉。"
+      },
+      {
+        "file": "../assets/diagrams/slide-16-8.svg",
+        "label": "A 攻擊 ③",
+        "alt": "B 三擊攻擊後，A 攔網並再用三擊反擊；A 球未碰 B 而出界，B 以 21 比 20 領先，取得發球權並輪轉。"
+      },
+      {
+        "file": "../assets/diagrams/slide-16-9.svg",
+        "label": "球落端線外",
+        "alt": "B 三擊攻擊後，A 攔網並再用三擊反擊；A 球未碰 B 而出界，B 以 21 比 20 領先，取得發球權並輪轉。"
+      },
+      {
+        "file": "../assets/diagrams/slide-16-10.svg",
+        "label": "B 輪轉、取得發球權",
+        "alt": "B 三擊攻擊後，A 攔網並再用三擊反擊；A 球未碰 B 而出界，B 以 21 比 20 領先，取得發球權並輪轉。"
+      }
+    ]
+  },
+  {
+    "page": 17,
+    "id": "slide-quiz-recap",
+    "caption": "三題分別檢查發球權與輪轉、移動後身分、攔網後擊球計次；每題都附答案及原因。",
+    "states": [
+      {
+        "file": "../assets/diagrams/slide-17-1.svg",
+        "label": "觀賽小測驗與重點回顧",
+        "alt": "三題分別檢查發球權與輪轉、移動後身分、攔網後擊球計次；每題都附答案及原因。"
+      }
+    ]
+  },
+  {
+    "page": 18,
+    "id": "slide-sources",
+    "caption": "從投影片的說法可以回到 Wiki 主題，再找到原始來源的條號、頁碼或網頁小節。",
+    "states": [
+      {
+        "file": "../assets/diagrams/slide-18-1.svg",
+        "label": "來源與 Wiki 閱讀入口",
+        "alt": "從投影片的說法可以回到 Wiki 主題，再找到原始來源的條號、頁碼或網頁小節。"
+      }
+    ]
+  }
+]

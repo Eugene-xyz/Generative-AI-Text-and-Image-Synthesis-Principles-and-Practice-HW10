@@ -1,0 +1,15 @@
+{
+  "id": "S02",
+  "title": "FIVB Coaches Manual Level I",
+  "requested_url": "https://www.fivb.com/wp-content/uploads/2024/03/FIVB_Coach_Manual_EN.pdf",
+  "attempted_at": "2026-11-22T14:47:23.082277+08:00",
+  "download_engine": "curl",
+  "resolved_url": "https://www.fivb.com/wp-content/uploads/2024/03/FIVB_Coach_Manual_EN.pdf",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "result": "downloaded",
+  "retrieved_at": "2026-11-22T14:47:27.633906+08:00",
+  "bytes": 15868540,
+  "sha256": "9974a13b79d0cd1c9876f0ce4f079bfc0ddcb4765d8164b5ddc7c3d4776e8c78",
+  "local_path": "raw/S02/original.pdf"
+}

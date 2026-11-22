@@ -1,0 +1,162 @@
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="../../../../assets/reader.css"><title>來源取得、閱讀與審閱紀錄｜排球 Wiki</title></head><body><header class="reader-nav"><a href="../../../index.html">排球 Wiki</a><a href="../../../../slides/index.html">返回簡報 ↗</a><a href="../../../slide-sources.html">來源對照</a></header><main class="reader"><p class="reader-label">VOLLEYBALL KNOWLEDGE BASE</p><article><h1 id="heading-0">來源取得、閱讀與審閱紀錄</h1>
+<blockquote>
+<p>這是正式入庫前的歷史紀錄，下文狀態保留當時情況。後續進度見 <a href="../../../wiki/log.html">Wiki 操作紀錄</a> 及 <a href="ingest-2026-11-22.html">正式入庫檢查</a>。</p>
+</blockquote>
+<p>日期：2026-11-22；時區：Asia/Taipei（UTC+08:00）。<br>範圍：S01–S06 正式入庫前的來源審閱。<strong>Wiki 尚未建立，這不是一次從來源到 HTML 簡報的完整執行紀錄。</strong></p>
+<h2 id="heading-1">輸入與授權範圍</h2>
+<p>依 <a href="../../AGENTS.html">AGENTS.md</a> 及使用者本次指示，下載六份已選來源、閱讀相關正文、整理重點與定位，提出頁面配置；討論確認後才寫入 Wiki。本次指示採六份一起審閱，取代原先 S01 單篇先行的批次順序；保留 S01 的完整概念整合示例。</p>
+<h2 id="heading-2">實際時間與取得結果</h2>
+<p>以下時間取自下載工具當時寫入的 <a href="../../../../reports/checks/fetch-attempts.jsonl">原始嘗試紀錄</a>，不是事後推估閱讀時間。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>時間（+08:00）</th>
+<th>節點與觀察</th>
+<th>處理及結果</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>14:44:40</td>
+<td>六份 urllib 取得均回報 DNS <code>getaddrinfo failed</code></td>
+<td>在獲准的網路執行環境重試。此為取得環境錯誤，未產生內容摘要。</td>
+</tr>
+<tr>
+<td>14:45:00–14:45:03</td>
+<td>S01、S04、S05 成功；S02、S03、S06 回報 HTTP 520</td>
+<td>成功項目保存原始檔、HTTP 資訊、時間及 SHA-256；失敗項目保留紀錄。</td>
+</tr>
+<tr>
+<td>14:45:59–14:46:01</td>
+<td>S02、S03、S06 使用同方式重試仍為 HTTP 520</td>
+<td>改用 Windows curl，仍取相同官方網址，不以搜尋摘要替代正文。</td>
+</tr>
+<tr>
+<td>14:47:27–14:47:32</td>
+<td>S02、S03、S06 以 curl 取得成功</td>
+<td>六份均完成保存；可讀取三本 PDF 與三篇網頁正文。</td>
+</tr>
+<tr>
+<td>14:55:35、14:55:44</td>
+<td>取得 V01、V02 兩份後續賽事規程</td>
+<td>只用於 S06 的適用範圍及措辭比對，不改動原先六份來源選擇。</td>
+</tr>
+</tbody></table></div>
+<p>原始嘗試紀錄共有 20 筆：12 筆失敗、8 筆下載成功（含兩份補充證據）。其中 6 次 DNS 失敗、6 次 HTTP 520 失敗；<strong>這是嘗試次數，不是 12 個獨立知識錯誤</strong>，同一問題的重試不重複算成新的根因。</p>
+<h2 id="heading-3">文字、頁碼與圖解檢查</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>項目</th>
+<th>已執行結果</th>
+<th>限制／後續</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>原始檔與衍生檔分離</td>
+<td>PDF／HTML 原始檔以獨立快照保存；文字、頁碼與分欄結果另存</td>
+<td>不修正原始文件本身；內容更新應另存版本。</td>
+</tr>
+<tr>
+<td>PDF 文字抽取</td>
+<td>S01 89 頁、S02 172 頁、S03 123 頁建立逐頁文字</td>
+<td>抽取全頁不代表全部已讀。實際閱讀範圍見 <a href="../../../../reports/reading-register.json">register</a>。</td>
+</tr>
+<tr>
+<td>PDF 抽取警告</td>
+<td>抽取器出現字型／旋轉文字相關警告</td>
+<td>沒有僅憑抽取成功就判定圖解完整；對引用的關鍵圖文另看原頁。</td>
+</tr>
+<tr>
+<td>S02 雙欄順序</td>
+<td>一般 layout 抽取會把左右欄交錯，影響 PDF 133 等頁的戰術敘述</td>
+<td>改用 pdfplumber 按完整詞與欄位分組，依奇偶頁版心調整分界，再與原頁核對。</td>
+</tr>
+<tr>
+<td>分欄複查</td>
+<td>PDF 133、136 的正文讀序經重抽檢查；PDF 133 原圖確認為左右雙欄</td>
+<td>跨全頁標題仍可能分到兩欄，不能把分欄檔當無瑕的全文轉錄。PDF 150 複雜表格未採入重點。</td>
+</tr>
+<tr>
+<td>頁碼定位</td>
+<td>S01 引用頁序＝印刷頁＋2；S02 相關正文＋4；S03 引用範圍相同</td>
+<td>報告同列印刷頁與 PDF 頁序，避免讀者翻錯。</td>
+</tr>
+<tr>
+<td>HTML 正文擷取</td>
+<td>S04 33 段、S05 22 段、S06 27 段；已閱讀正文</td>
+<td>L 編號為本機段落標記；不用導覽、推薦文章或 cookie 文字充當正文。</td>
+</tr>
+</tbody></table></div>
+<p>已查看 14 張原頁影像，均保留在 <a href="../../../../reports/checks/figures/index.html">原頁圖庫</a>：</p>
+<ul>
+<li>S01：PDF 27（站位）、36（後排攻擊）、44–45（自由球員）、66（球場）、68（腳的位置關係）、72（後排攻擊圖）。</li>
+<li>S02：PDF 3（©2011 與目錄）、86（舉球教學）、133（雙欄戰術）、149（舊暫停與自由球員規定）。</li>
+<li>S03：PDF 47（自由球員簡化敘述）、51（4–2／6–2／5–1 陣形）、55（攻擊區及高度代碼）。</li>
+</ul>
+<p>圖解核對是針對本輪引用的關鍵概念，不代表兩本教練手冊的所有動作照片都已檢查。</p>
+<h2 id="heading-4">內容核對：已發現問題與處理</h2>
+<p>以下是來源本身或處理過程中實際觀察到的差異，<strong>不是已寫入 Wiki 後才發現的錯誤</strong>。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>編號</th>
+<th>節點／證據</th>
+<th>觀察與處理</th>
+<th>狀態</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>R01</td>
+<td>版本核對：S02 PDF 3；官方網址含 <code>/2024/03/</code></td>
+<td>內頁為 ©2011。以內頁為年代證據，不把網站路徑當出版年。</td>
+<td>已核對，待入庫時標示</td>
+</tr>
+<tr>
+<td>R02</td>
+<td>跨來源核對：S02 PDF 147、149；S01 11.3.1、15.4.1、第 5 條</td>
+<td>舊觸網條件、固定技術暫停、自由球員不可當隊長等不符合本次基準；保留舊快照，現行頁採 S01。</td>
+<td>已解決本輪取捨</td>
+</tr>
+<tr>
+<td>R03</td>
+<td>條件檢查：S03 PDF 47；S01 19.3.1.2、19.3.1.4</td>
+<td>舊教學簡寫省略自由球員攻擊／前區高手傳球後攻擊的球高條件；正式敘述補回條件。</td>
+<td>已核對</td>
+</tr>
+<tr>
+<td>R04</td>
+<td>適用範圍：S06 開頭；V02 PDF 66</td>
+<td>2026-09-23 CEV 決議擴展採用範圍；2 月公告列出的賽事不是截至查核日的完整清單。</td>
+<td>已補後續證據，仍不推定所有聯盟</td>
+</tr>
+<tr>
+<td>R05</td>
+<td>程序措辭：S06 <code>Reduce breaks</code>；V01 §6.3(g)</td>
+<td>「下一回合開始前」與「下一個完成回合前」不同；VNL 使用自身規程，其他賽事不推定。</td>
+<td>保留範圍差異，不進主線必背規則</td>
+</tr>
+</tbody></table></div>
+<p>另有下列<strong>預防性檢查</strong>，未把它們記成已發生的生成錯誤：</p>
+<ul>
+<li>S01 7.4 對發球方與接發球方的站位要求不同；提案已保留區別。</li>
+<li>S03 第 55 頁的攻擊編碼與六個輪轉位置不是同一座標系；原圖確認後分開講。</li>
+<li>S04 的理想選材條件、S05 的防守安排屬作者建議；不當成正式規則。</li>
+<li>S06 的第二擊連擊是延續解釋，不和八次換人等測試一律標成「新增規則」。</li>
+</ul>
+<h2 id="heading-5">本輪回圈與流程調整</h2>
+<p>實際執行了兩類回圈：</p>
+<ol>
+<li><strong>取得失敗 → 更換可行取得方式 → 檢查原始檔</strong>：解決 DNS／HTTP 520，不跳過不可讀來源。</li>
+<li><strong>發現欄序交錯 → 回看原頁 → 按欄重抽 → 複查正文</strong>：把實際可讀性核對落實在重點整理之前，避免左右欄的句子組合成錯誤概念。</li>
+</ol>
+<p>AGENTS.md 初始設計已把版本／適用範圍檢查放在 ingest 前；本輪只是實際執行，不能說成「完成整套作業後才發明這個改進」。這次補強的是可讀性檢查的操作細節：雙欄來源要分欄並對照原頁，圖中編碼要先辨認用途，再產生教學摘要。補充的 V01、V02 則落實原規範要求的後續公告檢查。</p>
+<p>未修改 AGENTS.md，也尚未宣稱修改後的完整 Wiki→簡報流程已驗證。使用者確認後，可把「雙欄／圖解先核對」的具體方法納入正式 workflow 紀錄。</p>
+<h2 id="heading-6">輸出與檢查狀態</h2>
+<ul>
+<li><a href="../source-review.html">審閱提案</a>：六份資料重點、條號／頁碼／小節、12 個主題頁規劃、S01 跨頁整合示例。</li>
+<li><a href="../../../../reports/reading-register.json">閱讀登錄</a>：六份狀態均為 <code>in_review</code>，完整／部分閱讀範圍明列。</li>
+<li><a href="../../../../reports/source-inventory.json">來源取得清單</a>：取得及抽取階段的快照；當時標示未 ingest，本輪狀態以閱讀登錄為準。</li>
+<li><a href="../../../../reports/checks/review-validation.json">機械檢查結果</a>：原始檔雜湊、檔案格式與頁數、段落數、報告相對連結及未生成 Wiki 的確認；執行時間記在 JSON。此檢查不等於內容事實自動驗證。</li>
+</ul>
+<p>尚未執行：正式來源頁／主題頁建立、索引與 Wiki 連結 lint、簡報查詢與生成、瀏覽器驗證、完整作業反思。不能僅憑這一輪就統計整個作業「最常出錯的節點」；目前可提供的證據是取得失敗嘗試、一次雙欄抽取修正回圈及上述來源差異。</p>
+</article><footer>由 <a href="../../../../reports/checks/source-review-2026-11-22.md">reports/checks/source-review-2026-11-22.md</a> 產生；Markdown 為維護版本。</footer></main></body></html>

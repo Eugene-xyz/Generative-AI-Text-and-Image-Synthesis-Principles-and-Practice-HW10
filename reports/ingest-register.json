@@ -1,0 +1,202 @@
+{
+  "prepared_at": "2026-11-22T15:44:24.163384+08:00",
+  "stage": "ingested",
+  "timezone": "Asia/Taipei",
+  "user_confirmation": "使用者已要求正式寫入 LLM Wiki；沿用前置提案的 12 頁架構。",
+  "effective_ingested_count": 6,
+  "counting_rule": "只計 S01–S06 六份獨立來源；長手冊依明列章節處理，V01/V02 與規則目錄不另計。",
+  "sources": [
+    {
+      "id": "S01",
+      "status": "ingested",
+      "source_page": "wiki/sources/s01-fivb-rules-2025-2028.md",
+      "receipt": "raw/S01/retrieval.json",
+      "processed_scope": "版本、目錄；規則第 1–21 條",
+      "scope_details": "reports/reading-register.json",
+      "integrated_topics": [
+        "wiki/topics/ball-contacts-and-faults.md",
+        "wiki/topics/blocking-and-defense.md",
+        "wiki/topics/court-and-scoring.md",
+        "wiki/topics/libero.md",
+        "wiki/topics/player-roles.md",
+        "wiki/topics/rotation-and-positions.md",
+        "wiki/topics/rule-versions-and-tests.md",
+        "wiki/topics/serve-and-reception.md",
+        "wiki/topics/setting-and-attack.md",
+        "wiki/topics/systems-and-transition.md",
+        "wiki/topics/volleyball-overview.md",
+        "wiki/topics/watching-a-rally.md"
+      ],
+      "content_review": "reports/checks/ingest-2026-11-22.md",
+      "completed_at": "2026-11-22T15:47:05.648417+08:00",
+      "completion_checks": {
+        "readable_snapshot": true,
+        "declared_scope_summary": true,
+        "source_page": true,
+        "integrated_topics": true,
+        "content_review": true,
+        "preflight_lint": true,
+        "log_entry": true,
+        "final_lint": true
+      }
+    },
+    {
+      "id": "S02",
+      "status": "ingested",
+      "source_page": "wiki/sources/s02-fivb-coaches-level-i.md",
+      "receipt": "raw/S02/retrieval.json",
+      "processed_scope": "版本、目錄；第 VI、VIII、IX 章相關文字；第 XI 章部分規則比較。",
+      "scope_details": "reports/reading-register.json",
+      "integrated_topics": [
+        "wiki/topics/blocking-and-defense.md",
+        "wiki/topics/player-roles.md",
+        "wiki/topics/rule-versions-and-tests.md",
+        "wiki/topics/serve-and-reception.md",
+        "wiki/topics/setting-and-attack.md",
+        "wiki/topics/systems-and-transition.md",
+        "wiki/topics/volleyball-overview.md",
+        "wiki/topics/watching-a-rally.md"
+      ],
+      "content_review": "reports/checks/ingest-2026-11-22.md",
+      "completed_at": "2026-11-22T15:47:05.648417+08:00",
+      "completion_checks": {
+        "readable_snapshot": true,
+        "declared_scope_summary": true,
+        "source_page": true,
+        "integrated_topics": true,
+        "content_review": true,
+        "preflight_lint": true,
+        "log_entry": true,
+        "final_lint": true
+      }
+    },
+    {
+      "id": "S03",
+      "status": "ingested",
+      "source_page": "wiki/sources/s03-fivb-coaches-level-ii.md",
+      "receipt": "raw/S03/retrieval.json",
+      "processed_scope": "目錄；第 III 章第 10 節 Technical Skills（36–48 頁）及第 IV 章 Advanced Tactics 相關部分（49–57 頁）。",
+      "scope_details": "reports/reading-register.json",
+      "integrated_topics": [
+        "wiki/topics/blocking-and-defense.md",
+        "wiki/topics/libero.md",
+        "wiki/topics/player-roles.md",
+        "wiki/topics/rotation-and-positions.md",
+        "wiki/topics/rule-versions-and-tests.md",
+        "wiki/topics/serve-and-reception.md",
+        "wiki/topics/setting-and-attack.md",
+        "wiki/topics/systems-and-transition.md"
+      ],
+      "content_review": "reports/checks/ingest-2026-11-22.md",
+      "completed_at": "2026-11-22T15:47:05.648417+08:00",
+      "completion_checks": {
+        "readable_snapshot": true,
+        "declared_scope_summary": true,
+        "source_page": true,
+        "integrated_topics": true,
+        "content_review": true,
+        "preflight_lint": true,
+        "log_entry": true,
+        "final_lint": true
+      }
+    },
+    {
+      "id": "S04",
+      "status": "ingested",
+      "source_page": "wiki/sources/s04-recipe-for-a-setter.md",
+      "receipt": "raw/S04/retrieval.json",
+      "processed_scope": "L001-L033，完整文章正文",
+      "scope_details": "reports/reading-register.json",
+      "integrated_topics": [
+        "wiki/topics/player-roles.md",
+        "wiki/topics/setting-and-attack.md",
+        "wiki/topics/systems-and-transition.md",
+        "wiki/topics/watching-a-rally.md"
+      ],
+      "content_review": "reports/checks/ingest-2026-11-22.md",
+      "completed_at": "2026-11-22T15:47:05.648417+08:00",
+      "completion_checks": {
+        "readable_snapshot": true,
+        "declared_scope_summary": true,
+        "source_page": true,
+        "integrated_topics": true,
+        "content_review": true,
+        "preflight_lint": true,
+        "log_entry": true,
+        "final_lint": true
+      }
+    },
+    {
+      "id": "S05",
+      "status": "ingested",
+      "source_page": "wiki/sources/s05-defense-as-a-team.md",
+      "receipt": "raw/S05/retrieval.json",
+      "processed_scope": "L001-L022，完整文章正文",
+      "scope_details": "reports/reading-register.json",
+      "integrated_topics": [
+        "wiki/topics/blocking-and-defense.md",
+        "wiki/topics/player-roles.md",
+        "wiki/topics/serve-and-reception.md",
+        "wiki/topics/systems-and-transition.md",
+        "wiki/topics/watching-a-rally.md"
+      ],
+      "content_review": "reports/checks/ingest-2026-11-22.md",
+      "completed_at": "2026-11-22T15:47:05.648417+08:00",
+      "completion_checks": {
+        "readable_snapshot": true,
+        "declared_scope_summary": true,
+        "source_page": true,
+        "integrated_topics": true,
+        "content_review": true,
+        "preflight_lint": true,
+        "log_entry": true,
+        "final_lint": true
+      }
+    },
+    {
+      "id": "S06",
+      "status": "ingested",
+      "source_page": "wiki/sources/s06-fivb-2026-rule-tests.md",
+      "receipt": "raw/S06/retrieval.json",
+      "processed_scope": "L001-L027，完整公告正文",
+      "scope_details": "reports/reading-register.json",
+      "integrated_topics": [
+        "wiki/topics/ball-contacts-and-faults.md",
+        "wiki/topics/court-and-scoring.md",
+        "wiki/topics/libero.md",
+        "wiki/topics/rotation-and-positions.md",
+        "wiki/topics/rule-versions-and-tests.md",
+        "wiki/topics/setting-and-attack.md"
+      ],
+      "content_review": "reports/checks/ingest-2026-11-22.md",
+      "completed_at": "2026-11-22T15:47:05.648417+08:00",
+      "completion_checks": {
+        "readable_snapshot": true,
+        "declared_scope_summary": true,
+        "source_page": true,
+        "integrated_topics": true,
+        "content_review": true,
+        "preflight_lint": true,
+        "log_entry": true,
+        "final_lint": true
+      }
+    }
+  ],
+  "topic_count": 12,
+  "query_pages": [
+    "wiki/queries/setter-front-row-status.md"
+  ],
+  "open_items_reference": "wiki/issues.md",
+  "scope_limit": "不包含 HTML 簡報與瀏覽網站。",
+  "completed_at": "2026-11-22T15:47:05.648417+08:00",
+  "validation": "reports/checks/ingest-lint-final.json",
+  "preflight_validation": "reports/checks/ingest-lint-recheck.json",
+  "manual_content_review": "reports/checks/ingest-2026-11-22.md",
+  "final_validation_result": {
+    "checked_at": "2026-11-22T15:47:16.810745+08:00",
+    "passed": true,
+    "relative_links_checked": 484,
+    "wiki_markdown_files": 23,
+    "unreachable_pages": []
+  }
+}

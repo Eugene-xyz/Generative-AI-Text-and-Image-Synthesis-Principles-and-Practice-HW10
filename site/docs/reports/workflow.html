@@ -1,0 +1,124 @@
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="../../../assets/reader.css"><title>排球 LLM Wiki：流程、回圈與完成條件｜排球 Wiki</title></head><body><header class="reader-nav"><a href="../../index.html">排球 Wiki</a><a href="../../../slides/index.html">返回簡報 ↗</a><a href="../../slide-sources.html">來源對照</a></header><main class="reader"><p class="reader-label">VOLLEYBALL KNOWLEDGE BASE</p><article><h1 id="heading-0">排球 LLM Wiki：流程、回圈與完成條件</h1>
+<p>本流程適用於 HW10。2026-11-22 的本輪任務是正式建立 Markdown Wiki；圖中的簡報與瀏覽器節點尚未執行。實際結果見 <a href="../../wiki/log.html">Wiki log</a> 與 <a href="checks/ingest-2026-11-22.html">檢查紀錄</a>。</p>
+<p>**最新進度（2026-11-22）：**下文保留 Wiki 入庫階段的流程脈絡。後續簡報已通過 H1／H2，完成 18 頁 HTML、正式圖解及實際瀏覽器檢查，見 <a href="slides-graph.html">簡報 graph v1.1</a>、<a href="checks/html-review-2026-11-22.html">HTML 實測</a> 與 <a href="reflection.html">反思</a>。本次因 HTML01 將必要內容非空檢查前移至 J0；並將初始頁面與展開狀態分開檢查。原段落中的「後續／未執行」描述入庫當時，不代表目前仍未完成。</p>
+<h2 id="heading-1">三層資料與三種操作</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>層次／操作</th>
+<th>責任</th>
+<th>本輪對應</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>raw/</code></td>
+<td>保存可追溯原始快照，衍生文字另存</td>
+<td>S01–S06；V01／V02 只作補查</td>
+</tr>
+<tr>
+<td><code>wiki/</code></td>
+<td>持久化概念、來源、交叉連結與未知事項</td>
+<td>12 個主題頁、6 個來源頁、索引及維護頁</td>
+</tr>
+<tr>
+<td><code>AGENTS.md</code></td>
+<td>決定範圍、證據規則與工作流程</td>
+<td>已加入雙欄及章節名稱檢查細節</td>
+</tr>
+<tr>
+<td>ingest</td>
+<td>新資料先讀取、定位，再整合既有概念並更新紀錄</td>
+<td>本次六份來源的正式入庫</td>
+</tr>
+<tr>
+<td>query</td>
+<td>先查索引與 Wiki，帶來源回答；可重用問答留存</td>
+<td>本輪另做一個跨頁查詢實例</td>
+</tr>
+<tr>
+<td>lint</td>
+<td>檢查結構、引用、版本、概念與教學表達</td>
+<td>程式檢查加逐項內容核對</td>
+</tr>
+</tbody></table></div>
+<h2 id="heading-2">Graph</h2>
+<pre><code class="language-mermaid">flowchart TD
+    A[已確認目標與六份來源] --&gt; B[取得原始資料與雜湊]
+    B --&gt; C{正文可讀且範圍可定位？}
+    C -- 否 --&gt; D[補取或重抽；原頁與雙欄核對]
+    D --&gt; C
+    C -- 是 --&gt; E[核對版本、賽事、章節、頁碼]
+    E --&gt; F[擷取主張、條件與證據]
+    F --&gt; G[提出重點與頁面提案]
+    G --&gt; H[使用者確認：本輪已取得]
+    H --&gt; I[整合來源頁與主題頁]
+    I --&gt; J[更新索引、術語、issues 與 log]
+    J --&gt; K{結構及內容檢查通過？}
+    K -- 否 --&gt; L[回查來源或修正受影響頁]
+    L --&gt; I
+    K -- 是 --&gt; M[將明列範圍標記 ingested]
+    M --&gt; N[由教學問題查詢 Wiki]
+    N --&gt; O{證據足夠？}
+    O -- 否 --&gt; B
+    O -- 是 --&gt; P[保留可重用問答或整理簡報大綱]
+    P --&gt; Q[後續：內容、引用與教學順序檢查]
+    Q --&gt; R[後續：產生 HTML]
+    R --&gt; S{後續：瀏覽器與版面檢查}
+    S -- 未通過 --&gt; R
+    S -- 通過 --&gt; T[保存完整執行結果與反思]
+</code></pre>
+<p>討論節點已經完成授權，不會每建立一頁就重新要求確認。新來源若改變主題範圍或產生重大未解衝突，再釐清對應問題。</p>
+<h2 id="heading-3">回圈如何判斷與退出？</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>回圈</th>
+<th>觸發條件</th>
+<th>回到哪裡</th>
+<th>可以繼續的條件</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>取得／抽取</td>
+<td>網路錯誤、正文空白、雙欄交錯、圖表無法理解</td>
+<td>原始網址、其他可行讀取方式或原頁</td>
+<td>有可讀正文與可核對定位；仍不行則記 <code>blocked</code> 或排除範圍</td>
+</tr>
+<tr>
+<td>主張／證據</td>
+<td>條號不支持、漏掉例外、版本或賽事混用</td>
+<td>條文、原頁或後續規程</td>
+<td>能保留條件並說明適用範圍；未解者放 issues，不進確定性主線</td>
+</tr>
+<tr>
+<td>Wiki 整合</td>
+<td>死連結、孤立頁、來源未被使用、跨頁矛盾</td>
+<td>來源頁、主題頁、索引</td>
+<td>來源被實質整合，連結及相關內容一致</td>
+</tr>
+<tr>
+<td>query</td>
+<td>Wiki 找不到答案或證據不足</td>
+<td>先查原文，必要時取得新來源再 ingest</td>
+<td>能帶來源回答，或明確說明未知而不臆造</td>
+</tr>
+<tr>
+<td>簡報</td>
+<td>教學順序不清、來源缺口或圖解矛盾</td>
+<td>大綱／Wiki／原文</td>
+<td>每頁可追溯且適合初學者；此回圈尚待後續執行</td>
+</tr>
+</tbody></table></div>
+<p>未知出版年不等於整份來源不可用；但不能猜年份。特定賽事程序有差異時，可以保留差異並限制教學用途，不能把未解部分改成全球通則。</p>
+<h2 id="heading-4">程式能檢查什麼？</h2>
+<p><a href="../../../scripts/lint_wiki.py">lint_wiki.py</a> 檢查檔案與 metadata、相對連結及 PDF 頁數、索引可達性、來源與主題的雙向對應、原始檔雜湊及登錄狀態。它不能判斷扣球規則的文字解釋是否完整，也不能證明某個教練觀點普遍正確。</p>
+<p>因此另做內容核對：S01 的輪轉／前後排／自由球員條件；S02 的舊規則與技術觀點；S03 的章節和攻擊圖編碼；S04／S05 的作者歸屬；S06 的解釋、測試與後續賽事範圍。結果與實際修正寫進 <a href="checks/ingest-2026-11-22.html">本輪檢查</a>。</p>
+<h2 id="heading-5">本次真正調整了什麼？</h2>
+<p>初始規劃本來就把版本與適用範圍檢查前移，不能當成事後才發現的成果。本輪落實兩項操作細節：</p>
+<ol>
+<li>前置執行遇到 S02 雙欄交錯後，在摘要前增加原頁確認、分欄抽取與樣本複查。</li>
+<li>正式整合時發現 S03 前置摘要的章節標記不精確，修正為 III §10 與 IV，並把「目錄＋章首頁＋頁碼核對」列為摘要前檢查。</li>
+</ol>
+<p>這些方法已寫回 <a href="../AGENTS.html">AGENTS.md</a>。本輪有在受影響來源重新核對，尚未驗證完整簡報製作的成效；最後作業反思要等來源到 HTML 的實際流程完成後，再依紀錄統計。</p>
+<p><a href="../../index.html">Wiki 索引</a> · <a href="../README.html">專案入口</a></p>
+</article><footer>由 <a href="../../../reports/workflow.md">reports/workflow.md</a> 產生；Markdown 為維護版本。</footer></main></body></html>

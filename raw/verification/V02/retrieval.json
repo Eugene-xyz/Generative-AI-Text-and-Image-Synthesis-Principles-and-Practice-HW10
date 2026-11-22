@@ -1,0 +1,15 @@
+{
+  "id": "V02",
+  "title": "CEV European Volleyball Cups 2027 Official Communication 1-4 - verification of S06",
+  "requested_url": "https://inside.prod.cev.eu/media/0kjb1dta/cev-european-volleyball-cups-2027-official-communication-1-4-web.pdf",
+  "attempted_at": "2026-11-22T14:55:35.429955+08:00",
+  "download_engine": "curl",
+  "resolved_url": "https://inside.prod.cev.eu/media/0kjb1dta/cev-european-volleyball-cups-2027-official-communication-1-4-web.pdf",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "result": "downloaded",
+  "retrieved_at": "2026-11-22T14:55:44.103309+08:00",
+  "bytes": 14640175,
+  "sha256": "aee62efe8b6adf085584bff0d6b187cae155d1b342115b61889b72cdac376851",
+  "local_path": "raw/verification/V02/original.pdf"
+}

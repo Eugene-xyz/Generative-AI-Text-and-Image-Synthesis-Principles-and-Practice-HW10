@@ -1,0 +1,105 @@
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="../../../../assets/reader.css"><title>簡報大綱 v0.1：實際執行與檢查紀錄｜排球 Wiki</title></head><body><header class="reader-nav"><a href="../../../index.html">排球 Wiki</a><a href="../../../../slides/index.html">返回簡報 ↗</a><a href="../../../slide-sources.html">來源對照</a></header><main class="reader"><p class="reader-label">VOLLEYBALL KNOWLEDGE BASE</p><article><h1 id="heading-0">簡報大綱 v0.1：實際執行與檢查紀錄</h1>
+<p>日期：2026-11-22，Asia/Taipei。範圍：已確認 graph 的 A–D 節點，H1 尚待使用者確認。</p>
+<p>輸入：<a href="../../AGENTS.html">AGENTS.md</a>、<a href="../slides-graph-draft.html">原 graph 草案</a>、使用者的 graph 確認與大綱指示，以及 <a href="../../../index.html">Wiki 索引</a>、12 個主題、6 個來源頁的相關定位、既有 <a href="../../../wiki/queries/setter-front-row-status.html">query</a>、<a href="../../../wiki/issues.html">issues</a>。本輪查詢既有 Wiki，沒有重新宣稱讀完六份原文全文。</p>
+<h2 id="heading-1">實際執行</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>節點</th>
+<th>已做的工作</th>
+<th>輸出／結果</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>A</td>
+<td>把看懂比賽拆成四個可檢查的學習目標，明列主講及自讀範圍</td>
+<td><a href="../../slides/brief.html">brief</a>；18 頁提案，預估 18:20，展開補充另計</td>
+</tr>
+<tr>
+<td>B</td>
+<td>從索引閱讀 12 個主題與跨頁 query，沿來源頁核對定位、版本及未知事項</td>
+<td><a href="../../slides/evidence.html">evidence</a>；17 組證據，無需新增 ingest</td>
+</tr>
+<tr>
+<td>C</td>
+<td>依概念依賴順序分頁，規劃圖解、主頁／補充及時間</td>
+<td><a href="../../slides/outline.html">outline</a>；每頁固定 ID；<a href="../../../slide-sources.html">source-map</a> 初版</td>
+</tr>
+<tr>
+<td>D</td>
+<td>閱讀核對教學順序、必要條件與證據，執行下列結構檢查</td>
+<td>閱讀檢查已完成；程式結果見下節</td>
+</tr>
+<tr>
+<td>流程同步</td>
+<td>保留討論草案，將已核准 graph 另存 v1.0；同步兩個確認節點</td>
+<td><a href="../slides-graph.html">正式 graph</a>、AGENTS.md、README.md、workflow.md</td>
+</tr>
+<tr>
+<td>H1</td>
+<td>將大綱交由使用者確認</td>
+<td>尚未通過；未建立逐頁內容或 HTML</td>
+</tr>
+</tbody></table></div>
+<h2 id="heading-2">已執行：閱讀檢查</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>項目</th>
+<th>觀察與判定</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>教學順序</td>
+<td>先回合、場地與計分，再到輪轉／角色、技術、系統，最後應用與測驗；5–1 前已建立前後排及角色概念</td>
+</tr>
+<tr>
+<td>單頁任務</td>
+<td>輪轉、自由球員、後排攻擊分別佔頁；第 15 頁只用一個站位時點差異，不羅列所有 2026 測試</td>
+</tr>
+<tr>
+<td>目標覆蓋</td>
+<td>L1 對應 04／06／16／17；L2 對應 06–08／13／17；L3 對應 02／09–10／12–14／16；L4 對應 05／08／11／15 及應用／查詢。這是內容覆蓋，尚非讀者學會的證明</td>
+</tr>
+<tr>
+<td>來源與範圍</td>
+<td>主線使用 S01–S06；S04／S05 保留教練觀點；S06 與 V01 限定比較範圍；未知出版年與未解暫停措辭不填成確定事實</td>
+</tr>
+<tr>
+<td>關鍵條件</td>
+<td>06 區分輪轉與戰術移動；08 保留自由球員攻擊球高條件；11 區分身分、起跳、球高與完成攻擊；12 不混淆攔網的身體高度與觸球點</td>
+</tr>
+<tr>
+<td>圖解可行性</td>
+<td>以球場、時間線與流程為主；三個停格仍是一頁；箭頭區分球路、人移動與輪轉，使用一致視角與角色顏色</td>
+</tr>
+<tr>
+<td>主頁／補充</td>
+<td>必要條件留在主頁；4–2／6–2、細部判例及動作延伸放補充。補充尚是主題規劃，須在內容階段細化證據</td>
+</tr>
+<tr>
+<td>遵守本次範圍</td>
+<td>只列測驗題型，沒有撰寫正式題幹／答案；未製作圖片、HTML，也未新增排球知識頁</td>
+</tr>
+</tbody></table></div>
+<h2 id="heading-3">程式檢查</h2>
+<p>狀態：<strong>已執行、通過</strong>。執行時間：2026-11-22 16:13:58 +08:00。方法：使用 Python 讀取 Markdown，核對頁面區塊、固定 ID、時間、欄位、對照及本機連結；實際輸出見 <a href="../../../../reports/checks/outline-review-2026-11-22.json">JSON 紀錄</a>。</p>
+<ul>
+<li>18 頁，編號連續，固定 ID 唯一；每頁都有標題、目的、重點、圖解、Wiki 來源、時間及補充安排。</li>
+<li>逐頁時間合計 1,100 秒（18:20）；五段小計與宣告一致，位於 15–20 分鐘範圍。</li>
+<li>17 組證據 ID 可解析，18 個固定 ID 與 source-map 一致；S01–S06 均對應到來源導覽頁以外的教學頁。</li>
+<li>本次檢查範圍的 268 個相對連結均可找到本機檔案；引用的 Wiki 知識頁狀態為 verified，來源頁為 ingested。</li>
+<li>共 65 個程式斷言通過，沒有失敗項；此數量是結構檢查數，不是 65 個事實已獨立驗證。</li>
+<li>大綱仍為 pending-user-confirmation；沒有 slides/content.md 或 slides/index.html。</li>
+</ul>
+<p>程式不能判定規則解釋、圖解或真實讀者理解是否正確；內容判斷見前節，尚未完成的驗證見後節。</p>
+<h2 id="heading-4">問題、限制與下一個檢查點</h2>
+<ul>
+<li>閱讀檢查未發現需要退回 Wiki 補知識的缺口，未新增本輪內容錯誤 ID。現有 Wiki issues 是前一階段紀錄，沒有重複算成這次錯誤。</li>
+<li>第 06、08、11 頁條件較多，是內容階段需優先檢查的密度風險；這是預防清單，不是已發生的版面錯誤。</li>
+<li>時間為逐頁估計，尚未試講；沒有真實初學者測試；圖解尚未實繪，尚無瀏覽器、互動或不同視窗測試。</li>
+<li>本次沒有改變已核准 graph 的回圈路徑，只將使用者確認的 H1／H2 順序寫回規範。完整反思仍待來源→HTML 的實際流程完成。</li>
+<li>下一步：H1 確認後寫整份逐頁內容；F 節點逐一核對實際文字、圖說、補充與測驗答案，之後交 H2。</li>
+</ul>
+<p><a href="../../slides/outline.html">大綱</a> · <a href="../../../slide-sources.html">來源對照</a> · <a href="../../../wiki/log.html">Wiki log</a></p>
+</article><footer>由 <a href="../../../../reports/checks/outline-review-2026-11-22.md">reports/checks/outline-review-2026-11-22.md</a> 產生；Markdown 為維護版本。</footer></main></body></html>

@@ -1,0 +1,1258 @@
+{
+  "checked_at": "2026-11-22T08:51:13.868Z",
+  "browser": "157.0.8103.80",
+  "mode": "real headless Chromium via installed Chrome; file:// URLs",
+  "phase": "recheck",
+  "checks": [
+    {
+      "name": "exactly_18_slides",
+      "passed": true,
+      "detail": 18
+    },
+    {
+      "name": "next_button",
+      "passed": true,
+      "detail": 2
+    },
+    {
+      "name": "keyboard_after_next_click",
+      "passed": true,
+      "detail": 3
+    },
+    {
+      "name": "score_diagram_26_24",
+      "passed": true,
+      "detail": "26：24 · 3/3"
+    },
+    {
+      "name": "diagram_last_step_disabled",
+      "passed": true,
+      "detail": true
+    },
+    {
+      "name": "menu_opens",
+      "passed": true,
+      "detail": true
+    },
+    {
+      "name": "menu_goes_to_11",
+      "passed": true,
+      "detail": 11
+    },
+    {
+      "name": "zoom_opens",
+      "passed": true,
+      "detail": true
+    },
+    {
+      "name": "escape_closes_zoom",
+      "passed": true,
+      "detail": true
+    },
+    {
+      "name": "end_to_18",
+      "passed": true,
+      "detail": 18
+    },
+    {
+      "name": "home_to_1",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "name": "page_down",
+      "passed": true,
+      "detail": 2
+    },
+    {
+      "name": "page_up",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "name": "keyboard_expands_supplement",
+      "passed": true,
+      "detail": true
+    },
+    {
+      "name": "libero_complete_supplement",
+      "passed": true,
+      "detail": true
+    },
+    {
+      "name": "claim_link_to_reader",
+      "passed": true,
+      "detail": "file:///C:/Users/93040/OneDrive/%E6%A1%8C%E9%9D%A2/HW10/site/slide-sources.html#C08.1"
+    },
+    {
+      "name": "wiki_reader_opens",
+      "passed": true,
+      "detail": "file:///C:/Users/93040/OneDrive/%E6%A1%8C%E9%9D%A2/HW10/site/wiki/topics/libero.html"
+    },
+    {
+      "name": "wiki_to_original_source",
+      "passed": true,
+      "detail": "file:///C:/Users/93040/OneDrive/%E6%A1%8C%E9%9D%A2/HW10/site/wiki/sources/s01-fivb-rules-2025-2028.html"
+    },
+    {
+      "name": "rally_final_step",
+      "passed": true,
+      "detail": "B 輪轉、取得發球權 · 10/10"
+    },
+    {
+      "name": "quiz_wrong_explained",
+      "passed": true,
+      "detail": true
+    },
+    {
+      "name": "quiz_keyboard_and_no_slide_change",
+      "passed": true,
+      "detail": true
+    },
+    {
+      "name": "quiz_reveal_reason",
+      "passed": true,
+      "detail": true
+    },
+    {
+      "name": "file_reading_offline",
+      "passed": true,
+      "detail": true
+    },
+    {
+      "name": "desktop_1_no_horizontal_overflow",
+      "passed": true,
+      "detail": {
+        "page": 1,
+        "docWidth": 1440,
+        "width": 1440,
+        "mainBottom": 662.984375,
+        "navTop": 906
+      }
+    },
+    {
+      "name": "desktop_1_main_clear_of_nav",
+      "passed": true,
+      "detail": {
+        "page": 1,
+        "docWidth": 1440,
+        "width": 1440,
+        "mainBottom": 662.984375,
+        "navTop": 906
+      }
+    },
+    {
+      "name": "1_main_markdown_preserved",
+      "passed": true,
+      "detail": {
+        "same": true,
+        "expected": 79,
+        "actual": 79
+      }
+    },
+    {
+      "name": "1_supplement_markdown_preserved",
+      "passed": true,
+      "detail": {
+        "same": true,
+        "expected": 112,
+        "actual": 112
+      }
+    },
+    {
+      "name": "desktop_2_no_horizontal_overflow",
+      "passed": true,
+      "detail": {
+        "page": 2,
+        "docWidth": 1440,
+        "width": 1440,
+        "mainBottom": 686.375,
+        "navTop": 906
+      }
+    },
+    {
+      "name": "desktop_2_main_clear_of_nav",
+      "passed": true,
+      "detail": {
+        "page": 2,
+        "docWidth": 1440,
+        "width": 1440,
+        "mainBottom": 686.375,
+        "navTop": 906
+      }
+    },
+    {
+      "name": "2_main_markdown_preserved",
+      "passed": true,
+      "detail": {
+        "same": true,
+        "expected": 133,
+        "actual": 133
+      }
+    },
+    {
+      "name": "2_supplement_markdown_preserved",
+      "passed": true,
+      "detail": {
+        "same": true,
+        "expected": 162,
+        "actual": 162
+      }
+    },
+    {
+      "name": "desktop_3_no_horizontal_overflow",
+      "passed": true,
+      "detail": {
+        "page": 3,
+        "docWidth": 1440,
+        "width": 1440,
+        "mainBottom": 662.984375,
+        "navTop": 906
+      }
+    },
+    {
+      "name": "desktop_3_main_clear_of_nav",
+      "passed": true,
+      "detail": {
+        "page": 3,
+        "docWidth": 1440,
+        "width": 1440,
+        "mainBottom": 662.984375,
+        "navTop": 906
+      }
+    },
+    {
+      "name": "3_main_markdown_preserved",
+      "passed": true,
+      "detail": {
+        "same": true,
+        "expected": 122,
+        "actual": 122
+      }
+    },
+    {
+      "name": "3_supplement_markdown_preserved",
+      "passed": true,
+      "detail": {
+        "same": true,
+        "expected": 152,
+        "actual": 152
+      }
+    },
+    {
+      "name": "desktop_4_no_horizontal_overflow",
+      "passed": true,
+      "detail": {
+        "page": 4,
+        "docWidth": 1440,
+        "width": 1440,
+        "mainBottom": 704.984375,
+        "navTop": 906
+      }
+    },
+    {
+      "name": "desktop_4_main_clear_of_nav",
+      "passed": true,
+      "detail": {
+        "page": 4,
+        "docWidth": 1440,
+        "width": 1440,
+        "mainBottom": 704.984375,
+        "navTop": 906
+      }
+    },
+    {
+      "name": "4_main_markdown_preserved",
+      "passed": true,
+      "detail": {
+        "same": true,
+        "expected": 104,
+        "actual": 104
+      }
+    },
+    {
+      "name": "4_supplement_markdown_preserved",
+      "passed": true,
+      "detail": {
+        "same": true,
+        "expected": 252,
+        "actual": 252
+      }
+    },
+    {
+      "name": "desktop_5_no_horizontal_overflow",
+      "passed": true,
+      "detail": {
+        "page": 5,
+        "docWidth": 1440,
+        "width": 1440,
+        "mainBottom": 662.984375,
+        "navTop": 906
+      }
+    },
+    {
+      "name": "desktop_5_main_clear_of_nav",
+      "passed": true,
+      "detail": {
+        "page": 5,
+        "docWidth": 1440,
+        "width": 1440,
+        "mainBottom": 662.984375,
+        "navTop": 906
+      }
+    },
+    {
+      "name": "5_main_markdown_preserved",
+      "passed": true,
+      "detail": {
+        "same": true,
+        "expected": 73,
+        "actual": 73
+      }
+    },
+    {
+      "name": "5_supplement_markdown_preserved",
+      "passed": true,
+      "detail": {
+        "same": true,
+        "expected": 244,
+        "actual": 244
+      }
+    },
+    {
+      "name": "desktop_6_no_horizontal_overflow",
+      "passed": true,
+      "detail": {
+        "page": 6,
+        "docWidth": 1440,
+        "width": 1440,
+        "mainBottom": 704.984375,
+        "navTop": 906
+      }
+    },
+    {
+      "name": "desktop_6_main_clear_of_nav",
+      "passed": true,
+      "detail": {
+        "page": 6,
+        "docWidth": 1440,
+        "width": 1440,
+        "mainBottom": 704.984375,
+        "navTop": 906
+      }
+    },
+    {
+      "name": "6_main_markdown_preserved",
+      "passed": true,
+      "detail": {
+        "same": true,
+        "expected": 101,
+        "actual": 101
+      }
+    },
+    {
+      "name": "6_supplement_markdown_preserved",
+      "passed": true,
+      "detail": {
+        "same": true,
+        "expected": 226,
+        "actual": 226
+      }
+    },
+    {
+      "name": "desktop_7_no_horizontal_overflow",
+      "passed": true,
+      "detail": {
+        "page": 7,
+        "docWidth": 1440,
+        "width": 1440,
+        "mainBottom": 693.390625,
+        "navTop": 906
+      }
+    },
+    {
+      "name": "desktop_7_main_clear_of_nav",
+      "passed": true,
+      "detail": {
+        "page": 7,
+        "docWidth": 1440,
+        "width": 1440,
+        "mainBottom": 693.390625,
+        "navTop": 906
+      }
+    },
+    {
+      "name": "7_main_markdown_preserved",
+      "passed": true,
+      "detail": {
+        "same": true,
+        "expected": 209,
+        "actual": 209
+      }
+    },
+    {
+      "name": "7_supplement_markdown_preserved",
+      "passed": true,
+      "detail": {
+        "same": true,
+        "expected": 260,
+        "actual": 260
+      }
+    },
+    {
+      "name": "desktop_8_no_horizontal_overflow",
+      "passed": true,
+      "detail": {
+        "page": 8,
+        "docWidth": 1440,
+        "width": 1440,
+        "mainBottom": 662.984375,
+        "navTop": 906
+      }
+    },
+    {
+      "name": "desktop_8_main_clear_of_nav",
+      "passed": true,
+      "detail": {
+        "page": 8,
+        "docWidth": 1440,
+        "width": 1440,
+        "mainBottom": 662.984375,
+        "navTop": 906
+      }
+    },
+    {
+      "name": "8_main_markdown_preserved",
+      "passed": true,
+      "detail": {
+        "same": true,
+        "expected": 111,
+        "actual": 111
+      }
+    },
+    {
+      "name": "8_supplement_markdown_preserved",
+      "passed": true,
+      "detail": {
+        "same": true,
+        "expected": 325,
+        "actual": 325
+      }
+    },
+    {
+      "name": "desktop_9_no_horizontal_overflow",
+      "passed": true,
+      "detail": {
+        "page": 9,
+        "docWidth": 1440,
+        "width": 1440,
+        "mainBottom": 662.984375,
+        "navTop": 906
+      }
+    },
+    {
+      "name": "desktop_9_main_clear_of_nav",
+      "passed": true,
+      "detail": {
+        "page": 9,
+        "docWidth": 1440,
+        "width": 1440,
+        "mainBottom": 662.984375,
+        "navTop": 906
+      }
+    },
+    {
+      "name": "9_main_markdown_preserved",
+      "passed": true,
+      "detail": {
+        "same": true,
+        "expected": 111,
+        "actual": 111
+      }
+    },
+    {
+      "name": "9_supplement_markdown_preserved",
+      "passed": true,
+      "detail": {
+        "same": true,
+        "expected": 275,
+        "actual": 275
+      }
+    },
+    {
+      "name": "desktop_10_no_horizontal_overflow",
+      "passed": true,
+      "detail": {
+        "page": 10,
+        "docWidth": 1440,
+        "width": 1440,
+        "mainBottom": 704.984375,
+        "navTop": 906
+      }
+    },
+    {
+      "name": "desktop_10_main_clear_of_nav",
+      "passed": true,
+      "detail": {
+        "page": 10,
+        "docWidth": 1440,
+        "width": 1440,
+        "mainBottom": 704.984375,
+        "navTop": 906
+      }
+    },
+    {
+      "name": "10_main_markdown_preserved",
+      "passed": true,
+      "detail": {
+        "same": true,
+        "expected": 69,
+        "actual": 69
+      }
+    },
+    {
+      "name": "10_supplement_markdown_preserved",
+      "passed": true,
+      "detail": {
+        "same": true,
+        "expected": 247,
+        "actual": 247
+      }
+    },
+    {
+      "name": "desktop_11_no_horizontal_overflow",
+      "passed": true,
+      "detail": {
+        "page": 11,
+        "docWidth": 1440,
+        "width": 1440,
+        "mainBottom": 686.375,
+        "navTop": 906
+      }
+    },
+    {
+      "name": "desktop_11_main_clear_of_nav",
+      "passed": true,
+      "detail": {
+        "page": 11,
+        "docWidth": 1440,
+        "width": 1440,
+        "mainBottom": 686.375,
+        "navTop": 906
+      }
+    },
+    {
+      "name": "11_main_markdown_preserved",
+      "passed": true,
+      "detail": {
+        "same": true,
+        "expected": 152,
+        "actual": 152
+      }
+    },
+    {
+      "name": "11_supplement_markdown_preserved",
+      "passed": true,
+      "detail": {
+        "same": true,
+        "expected": 235,
+        "actual": 235
+      }
+    },
+    {
+      "name": "desktop_12_no_horizontal_overflow",
+      "passed": true,
+      "detail": {
+        "page": 12,
+        "docWidth": 1440,
+        "width": 1440,
+        "mainBottom": 662.984375,
+        "navTop": 906
+      }
+    },
+    {
+      "name": "desktop_12_main_clear_of_nav",
+      "passed": true,
+      "detail": {
+        "page": 12,
+        "docWidth": 1440,
+        "width": 1440,
+        "mainBottom": 662.984375,
+        "navTop": 906
+      }
+    },
+    {
+      "name": "12_main_markdown_preserved",
+      "passed": true,
+      "detail": {
+        "same": true,
+        "expected": 82,
+        "actual": 82
+      }
+    },
+    {
+      "name": "12_supplement_markdown_preserved",
+      "passed": true,
+      "detail": {
+        "same": true,
+        "expected": 277,
+        "actual": 277
+      }
+    },
+    {
+      "name": "desktop_13_no_horizontal_overflow",
+      "passed": true,
+      "detail": {
+        "page": 13,
+        "docWidth": 1440,
+        "width": 1440,
+        "mainBottom": 662.984375,
+        "navTop": 906
+      }
+    },
+    {
+      "name": "desktop_13_main_clear_of_nav",
+      "passed": true,
+      "detail": {
+        "page": 13,
+        "docWidth": 1440,
+        "width": 1440,
+        "mainBottom": 662.984375,
+        "navTop": 906
+      }
+    },
+    {
+      "name": "13_main_markdown_preserved",
+      "passed": true,
+      "detail": {
+        "same": true,
+        "expected": 122,
+        "actual": 122
+      }
+    },
+    {
+      "name": "13_supplement_markdown_preserved",
+      "passed": true,
+      "detail": {
+        "same": true,
+        "expected": 256,
+        "actual": 256
+      }
+    },
+    {
+      "name": "desktop_14_no_horizontal_overflow",
+      "passed": true,
+      "detail": {
+        "page": 14,
+        "docWidth": 1440,
+        "width": 1440,
+        "mainBottom": 662.984375,
+        "navTop": 906
+      }
+    },
+    {
+      "name": "desktop_14_main_clear_of_nav",
+      "passed": true,
+      "detail": {
+        "page": 14,
+        "docWidth": 1440,
+        "width": 1440,
+        "mainBottom": 662.984375,
+        "navTop": 906
+      }
+    },
+    {
+      "name": "14_main_markdown_preserved",
+      "passed": true,
+      "detail": {
+        "same": true,
+        "expected": 79,
+        "actual": 79
+      }
+    },
+    {
+      "name": "14_supplement_markdown_preserved",
+      "passed": true,
+      "detail": {
+        "same": true,
+        "expected": 162,
+        "actual": 162
+      }
+    },
+    {
+      "name": "desktop_15_no_horizontal_overflow",
+      "passed": true,
+      "detail": {
+        "page": 15,
+        "docWidth": 1440,
+        "width": 1440,
+        "mainBottom": 686.375,
+        "navTop": 906
+      }
+    },
+    {
+      "name": "desktop_15_main_clear_of_nav",
+      "passed": true,
+      "detail": {
+        "page": 15,
+        "docWidth": 1440,
+        "width": 1440,
+        "mainBottom": 686.375,
+        "navTop": 906
+      }
+    },
+    {
+      "name": "15_main_markdown_preserved",
+      "passed": true,
+      "detail": {
+        "same": true,
+        "expected": 126,
+        "actual": 126
+      }
+    },
+    {
+      "name": "15_supplement_markdown_preserved",
+      "passed": true,
+      "detail": {
+        "same": true,
+        "expected": 301,
+        "actual": 301
+      }
+    },
+    {
+      "name": "desktop_16_no_horizontal_overflow",
+      "passed": true,
+      "detail": {
+        "page": 16,
+        "docWidth": 1440,
+        "width": 1440,
+        "mainBottom": 704.984375,
+        "navTop": 906
+      }
+    },
+    {
+      "name": "desktop_16_main_clear_of_nav",
+      "passed": true,
+      "detail": {
+        "page": 16,
+        "docWidth": 1440,
+        "width": 1440,
+        "mainBottom": 704.984375,
+        "navTop": 906
+      }
+    },
+    {
+      "name": "16_main_markdown_preserved",
+      "passed": true,
+      "detail": {
+        "same": true,
+        "expected": 159,
+        "actual": 159
+      }
+    },
+    {
+      "name": "16_supplement_markdown_preserved",
+      "passed": true,
+      "detail": {
+        "same": true,
+        "expected": 252,
+        "actual": 252
+      }
+    },
+    {
+      "name": "desktop_17_no_horizontal_overflow",
+      "passed": true,
+      "detail": {
+        "page": 17,
+        "docWidth": 1440,
+        "width": 1440,
+        "mainBottom": 894.734375,
+        "navTop": 906
+      }
+    },
+    {
+      "name": "desktop_17_main_clear_of_nav",
+      "passed": true,
+      "detail": {
+        "page": 17,
+        "docWidth": 1440,
+        "width": 1440,
+        "mainBottom": 894.734375,
+        "navTop": 906
+      }
+    },
+    {
+      "name": "desktop_18_no_horizontal_overflow",
+      "passed": true,
+      "detail": {
+        "page": 18,
+        "docWidth": 1440,
+        "width": 1440,
+        "mainBottom": 662.984375,
+        "navTop": 906
+      }
+    },
+    {
+      "name": "desktop_18_main_clear_of_nav",
+      "passed": true,
+      "detail": {
+        "page": 18,
+        "docWidth": 1440,
+        "width": 1440,
+        "mainBottom": 662.984375,
+        "navTop": 906
+      }
+    },
+    {
+      "name": "18_main_markdown_preserved",
+      "passed": true,
+      "detail": {
+        "same": true,
+        "expected": 155,
+        "actual": 155
+      }
+    },
+    {
+      "name": "18_supplement_markdown_preserved",
+      "passed": true,
+      "detail": {
+        "same": true,
+        "expected": 663,
+        "actual": 663
+      }
+    },
+    {
+      "name": "mobile_1_no_horizontal_overflow",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "doc": 390
+      }
+    },
+    {
+      "name": "mobile_2_no_horizontal_overflow",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "doc": 390
+      }
+    },
+    {
+      "name": "mobile_3_no_horizontal_overflow",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "doc": 390
+      }
+    },
+    {
+      "name": "mobile_4_no_horizontal_overflow",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "doc": 390
+      }
+    },
+    {
+      "name": "mobile_5_no_horizontal_overflow",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "doc": 390
+      }
+    },
+    {
+      "name": "mobile_6_no_horizontal_overflow",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "doc": 390
+      }
+    },
+    {
+      "name": "mobile_7_no_horizontal_overflow",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "doc": 390
+      }
+    },
+    {
+      "name": "mobile_8_no_horizontal_overflow",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "doc": 390
+      }
+    },
+    {
+      "name": "mobile_9_no_horizontal_overflow",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "doc": 390
+      }
+    },
+    {
+      "name": "mobile_10_no_horizontal_overflow",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "doc": 390
+      }
+    },
+    {
+      "name": "mobile_11_no_horizontal_overflow",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "doc": 390
+      }
+    },
+    {
+      "name": "mobile_12_no_horizontal_overflow",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "doc": 390
+      }
+    },
+    {
+      "name": "mobile_13_no_horizontal_overflow",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "doc": 390
+      }
+    },
+    {
+      "name": "mobile_14_no_horizontal_overflow",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "doc": 390
+      }
+    },
+    {
+      "name": "mobile_15_no_horizontal_overflow",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "doc": 390
+      }
+    },
+    {
+      "name": "mobile_16_no_horizontal_overflow",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "doc": 390
+      }
+    },
+    {
+      "name": "mobile_17_no_horizontal_overflow",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "doc": 390
+      }
+    },
+    {
+      "name": "mobile_18_no_horizontal_overflow",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "doc": 390
+      }
+    },
+    {
+      "name": "mobile_zoom_scroll_contained",
+      "passed": true,
+      "detail": {
+        "scroll": 760,
+        "client": 324,
+        "page": 390
+      }
+    },
+    {
+      "name": "mobile_footer_reachable",
+      "passed": true,
+      "detail": true
+    },
+    {
+      "name": "compact_6_main_height",
+      "passed": true,
+      "detail": {
+        "bottom": 588.59375,
+        "navTop": 674
+      }
+    },
+    {
+      "name": "compact_7_main_height",
+      "passed": false,
+      "detail": {
+        "bottom": 686.328125,
+        "navTop": 674
+      }
+    },
+    {
+      "name": "compact_8_main_height",
+      "passed": true,
+      "detail": {
+        "bottom": 587.828125,
+        "navTop": 674
+      }
+    },
+    {
+      "name": "compact_11_main_height",
+      "passed": true,
+      "detail": {
+        "bottom": 631.96875,
+        "navTop": 674
+      }
+    },
+    {
+      "name": "compact_16_main_height",
+      "passed": true,
+      "detail": {
+        "bottom": 588.59375,
+        "navTop": 674
+      }
+    },
+    {
+      "name": "compact_17_main_height",
+      "passed": false,
+      "detail": {
+        "bottom": 906.359375,
+        "navTop": 674
+      }
+    },
+    {
+      "name": "svg_bounds_slide-01-1.svg",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "svg_bounds_slide-02-1.svg",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "svg_bounds_slide-03-1.svg",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "svg_bounds_slide-04-1.svg",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "svg_bounds_slide-04-2.svg",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "svg_bounds_slide-04-3.svg",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "svg_bounds_slide-05-1.svg",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "svg_bounds_slide-06-1.svg",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "svg_bounds_slide-06-2.svg",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "svg_bounds_slide-07-1.svg",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "svg_bounds_slide-08-1.svg",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "svg_bounds_slide-09-1.svg",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "svg_bounds_slide-10-1.svg",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "svg_bounds_slide-10-2.svg",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "svg_bounds_slide-11-1.svg",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "svg_bounds_slide-12-1.svg",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "svg_bounds_slide-13-1.svg",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "svg_bounds_slide-14-1.svg",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "svg_bounds_slide-15-1.svg",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "svg_bounds_slide-16-1.svg",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "svg_bounds_slide-16-2.svg",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "svg_bounds_slide-16-3.svg",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "svg_bounds_slide-16-4.svg",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "svg_bounds_slide-16-5.svg",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "svg_bounds_slide-16-6.svg",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "svg_bounds_slide-16-7.svg",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "svg_bounds_slide-16-8.svg",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "svg_bounds_slide-16-9.svg",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "svg_bounds_slide-16-10.svg",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "svg_bounds_slide-17-1.svg",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "svg_bounds_slide-18-1.svg",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "generated_links_and_resources",
+      "passed": true,
+      "detail": {
+        "pages": 39,
+        "missing": []
+      }
+    },
+    {
+      "name": "no_js_all_18_pages",
+      "passed": true,
+      "detail": 18
+    },
+    {
+      "name": "no_runtime_errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "no_remote_core_requests",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "failures": [
+    {
+      "name": "compact_7_main_height",
+      "passed": false,
+      "detail": {
+        "bottom": 686.328125,
+        "navTop": 674
+      }
+    },
+    {
+      "name": "compact_17_main_height",
+      "passed": false,
+      "detail": {
+        "bottom": 906.359375,
+        "navTop": 674
+      }
+    }
+  ],
+  "errors": [],
+  "screenshot_directory": "reports/checks/html-2026-11-22/recheck",
+  "screenshots": [
+    "01-desktop.png",
+    "02-desktop.png",
+    "03-desktop.png",
+    "03-mobile.png",
+    "04-desktop.png",
+    "05-desktop.png",
+    "06-desktop.png",
+    "07-desktop.png",
+    "07-mobile.png",
+    "08-desktop.png",
+    "08-expanded.png",
+    "08-mobile.png",
+    "09-desktop.png",
+    "10-desktop.png",
+    "11-desktop.png",
+    "11-mobile.png",
+    "12-desktop.png",
+    "13-desktop.png",
+    "14-desktop.png",
+    "15-desktop.png",
+    "16-desktop.png",
+    "16-final-state.png",
+    "16-mobile.png",
+    "17-answers.png",
+    "17-desktop.png",
+    "17-mobile.png",
+    "18-desktop.png"
+  ]
+}

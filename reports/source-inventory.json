@@ -1,0 +1,315 @@
+{
+  "generated_at": "2026-11-22T14:49:45.258519+08:00",
+  "sources": [
+    {
+      "id": "S01",
+      "title": "FIVB Official Volleyball Rules 2025-2028",
+      "requested_url": "https://www.fivb.com/wp-content/uploads/2025/01/FIVB-Volleyball_Rules2025_2028-EN-v05.pdf",
+      "attempted_at": "2026-11-22T14:44:59.062679+08:00",
+      "resolved_url": "https://www.fivb.com/wp-content/uploads/2025/01/FIVB-Volleyball_Rules2025_2028-EN-v05.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "last_modified": "Mon, 13 Jan 2025 18:26:41 GMT",
+      "etag": "\"67855ae1-4f038c\"",
+      "result": "downloaded",
+      "retrieved_at": "2026-11-22T14:45:00.708303+08:00",
+      "bytes": 5178252,
+      "sha256": "04bf8b412770e74820279d489f62881802f145a8591a5cbd47b9e459d4d6e096",
+      "local_path": "raw/S01/original.pdf",
+      "review_status": "fetched_not_yet_ingested",
+      "pdf_pages": 89,
+      "pdf_metadata": {
+        "/CreationDate": "D:20250113142026+01'00'",
+        "/Creator": "Adobe InDesign 20.0 (Macintosh)",
+        "/ModDate": "D:20250113142032+01'00'",
+        "/Producer": "Adobe PDF Library 17.0",
+        "/Title": "FIVB Official Volleyball Rules 2025-2028",
+        "/Trapped": "/False"
+      },
+      "extracted_characters": 210773
+    },
+    {
+      "id": "S02",
+      "title": "FIVB Coaches Manual Level I",
+      "requested_url": "https://www.fivb.com/wp-content/uploads/2024/03/FIVB_Coach_Manual_EN.pdf",
+      "attempted_at": "2026-11-22T14:47:23.082277+08:00",
+      "download_engine": "curl",
+      "resolved_url": "https://www.fivb.com/wp-content/uploads/2024/03/FIVB_Coach_Manual_EN.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "result": "downloaded",
+      "retrieved_at": "2026-11-22T14:47:27.633906+08:00",
+      "bytes": 15868540,
+      "sha256": "9974a13b79d0cd1c9876f0ce4f079bfc0ddcb4765d8164b5ddc7c3d4776e8c78",
+      "local_path": "raw/S02/original.pdf",
+      "review_status": "fetched_not_yet_ingested",
+      "pdf_pages": 172,
+      "pdf_metadata": {
+        "/Subject": "",
+        "/Producer": "PDFKit.NET 3.0.68.0",
+        "/CreationDate": "D:20120203153111",
+        "/Keywords": "",
+        "/Author": "",
+        "/Trapped": "/False",
+        "/ModDate": "D:20120203153942",
+        "/Creator": "Adobe InDesign CS5.5 (7.5.2)",
+        "/Title": ""
+      },
+      "extracted_characters": 376086
+    },
+    {
+      "id": "S03",
+      "title": "FIVB Coaches Manual Level II",
+      "requested_url": "https://www.fivb.com/wp-content/uploads/2024/03/Coaches_Manual_Level_II_EN.pdf",
+      "attempted_at": "2026-11-22T14:47:27.674088+08:00",
+      "download_engine": "curl",
+      "resolved_url": "https://www.fivb.com/wp-content/uploads/2024/03/Coaches_Manual_Level_II_EN.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "result": "downloaded",
+      "retrieved_at": "2026-11-22T14:47:29.080640+08:00",
+      "bytes": 9074294,
+      "sha256": "0c54674cf27bfacfd66f09769251a9c241f6002dfcab5bef62f4263081db930d",
+      "local_path": "raw/S03/original.pdf",
+      "review_status": "fetched_not_yet_ingested",
+      "pdf_pages": 123,
+      "pdf_metadata": {
+        "/Subject": "",
+        "/Producer": "PDFKit.NET 4.0.50.0",
+        "/CreationDate": "D:20160510113136",
+        "/Author": "FIVB",
+        "/Keywords": "",
+        "/ModDate": "D:20170403153236",
+        "/Creator": "Microsoft® Office Word 2007",
+        "/Title": ""
+      },
+      "extracted_characters": 262869
+    },
+    {
+      "id": "S04",
+      "title": "USA Volleyball - Recipe for a Setter",
+      "requested_url": "https://usavolleyball.org/resource/recipe-for-a-setter/",
+      "attempted_at": "2026-11-22T14:45:02.919522+08:00",
+      "resolved_url": "https://usavolleyball.org/resource/recipe-for-a-setter/",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "last_modified": "Sat, 21 Nov 2026 13:51:42 GMT",
+      "etag": null,
+      "result": "downloaded",
+      "retrieved_at": "2026-11-22T14:45:03.205001+08:00",
+      "bytes": 158064,
+      "sha256": "69d4e130234097f5d84434ab32fb2e8e23b1db178084af67c5ac9dffc4b4c3cd",
+      "local_path": "raw/S04/original.html",
+      "review_status": "fetched_not_yet_ingested",
+      "article_lines": 33,
+      "embedded_schema": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://usavolleyball.org/resource/recipe-for-a-setter/",
+              "url": "https://usavolleyball.org/resource/recipe-for-a-setter/",
+              "name": "Recipe for a Setter - USA Volleyball",
+              "isPartOf": {
+                "@id": "https://usavolleyball.org/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://usavolleyball.org/resource/recipe-for-a-setter/#primaryimage"
+              },
+              "image": {
+                "@id": "https://usavolleyball.org/resource/recipe-for-a-setter/#primaryimage"
+              },
+              "thumbnailUrl": "https://usavolleyball.org/wp-content/uploads/2021/01/2016-USAV-Generic-Graphic-800x500-29.jpg",
+              "datePublished": "2017-01-02T03:01:00+00:00",
+              "dateModified": "2021-01-05T17:41:03+00:00",
+              "breadcrumb": {
+                "@id": "https://usavolleyball.org/resource/recipe-for-a-setter/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://usavolleyball.org/resource/recipe-for-a-setter/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://usavolleyball.org/resource/recipe-for-a-setter/#primaryimage",
+              "url": "https://usavolleyball.org/wp-content/uploads/2021/01/2016-USAV-Generic-Graphic-800x500-29.jpg",
+              "contentUrl": "https://usavolleyball.org/wp-content/uploads/2021/01/2016-USAV-Generic-Graphic-800x500-29.jpg",
+              "width": 800,
+              "height": 500
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://usavolleyball.org/resource/recipe-for-a-setter/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://usavolleyball.org/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Recipe for a Setter"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://usavolleyball.org/#website",
+              "url": "https://usavolleyball.org/",
+              "name": "USA Volleyball",
+              "description": "",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://usavolleyball.org/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S05",
+      "title": "USA Volleyball - Defense is More Than Just Another Team System",
+      "requested_url": "https://usavolleyball.org/resource/defense/",
+      "attempted_at": "2026-11-22T14:45:03.222076+08:00",
+      "resolved_url": "https://usavolleyball.org/resource/defense/",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "last_modified": "Sun, 22 Nov 2026 06:32:21 GMT",
+      "etag": null,
+      "result": "downloaded",
+      "retrieved_at": "2026-11-22T14:45:03.476164+08:00",
+      "bytes": 157496,
+      "sha256": "06af850ac979827e2b2b207f1a3a8103f4ff57489ebc7cc8db1c02cce2f3680e",
+      "local_path": "raw/S05/original.html",
+      "review_status": "fetched_not_yet_ingested",
+      "article_lines": 22,
+      "embedded_schema": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://usavolleyball.org/resource/defense-is-more-than-just-another-team-system/",
+              "url": "https://usavolleyball.org/resource/defense-is-more-than-just-another-team-system/",
+              "name": "Defense is More Than Just Another Team System - USA Volleyball",
+              "isPartOf": {
+                "@id": "https://usavolleyball.org/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://usavolleyball.org/resource/defense-is-more-than-just-another-team-system/#primaryimage"
+              },
+              "image": {
+                "@id": "https://usavolleyball.org/resource/defense-is-more-than-just-another-team-system/#primaryimage"
+              },
+              "thumbnailUrl": "https://usavolleyball.org/wp-content/uploads/2021/01/05092019GJNC18s800x500.jpg",
+              "datePublished": "2019-05-06T03:30:00+00:00",
+              "dateModified": "2021-01-05T04:00:59+00:00",
+              "breadcrumb": {
+                "@id": "https://usavolleyball.org/resource/defense-is-more-than-just-another-team-system/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://usavolleyball.org/resource/defense-is-more-than-just-another-team-system/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://usavolleyball.org/resource/defense-is-more-than-just-another-team-system/#primaryimage",
+              "url": "https://usavolleyball.org/wp-content/uploads/2021/01/05092019GJNC18s800x500.jpg",
+              "contentUrl": "https://usavolleyball.org/wp-content/uploads/2021/01/05092019GJNC18s800x500.jpg",
+              "width": 1500,
+              "height": 938
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://usavolleyball.org/resource/defense-is-more-than-just-another-team-system/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://usavolleyball.org/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Defense is More Than Just Another Team System"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://usavolleyball.org/#website",
+              "url": "https://usavolleyball.org/",
+              "name": "USA Volleyball",
+              "description": "",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://usavolleyball.org/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S06",
+      "title": "FIVB Board of Administration approves rule tests for 2026 competitions",
+      "requested_url": "https://www.fivb.com/fivb-board-of-administration-approves-rule-tests-for-2026-competitions/",
+      "attempted_at": "2026-11-22T14:47:29.203740+08:00",
+      "download_engine": "curl",
+      "resolved_url": "https://www.fivb.com/fivb-board-of-administration-approves-rule-tests-for-2026-competitions/",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "result": "downloaded",
+      "retrieved_at": "2026-11-22T14:47:32.162198+08:00",
+      "bytes": 362952,
+      "sha256": "25c951a5dcbd5a53c78894c8c4a34a1f7743515cce66050fedcaa72ef43c6340",
+      "local_path": "raw/S06/original.html",
+      "review_status": "fetched_not_yet_ingested",
+      "article_lines": 27,
+      "embedded_schema": []
+    }
+  ],
+  "snapshot_note": "此檔保留取得與抽取階段狀態；正式入庫進度見 reports/ingest-register.json。",
+  "current_status_reference": "reports/ingest-register.json"
+}

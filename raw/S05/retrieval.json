@@ -1,0 +1,16 @@
+{
+  "id": "S05",
+  "title": "USA Volleyball - Defense is More Than Just Another Team System",
+  "requested_url": "https://usavolleyball.org/resource/defense/",
+  "attempted_at": "2026-11-22T14:45:03.222076+08:00",
+  "resolved_url": "https://usavolleyball.org/resource/defense/",
+  "http_status": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "last_modified": "Sun, 22 Nov 2026 06:32:21 GMT",
+  "etag": null,
+  "result": "downloaded",
+  "retrieved_at": "2026-11-22T14:45:03.476164+08:00",
+  "bytes": 157496,
+  "sha256": "06af850ac979827e2b2b207f1a3a8103f4ff57489ebc7cc8db1c02cce2f3680e",
+  "local_path": "raw/S05/original.html"
+}

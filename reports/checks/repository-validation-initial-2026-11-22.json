@@ -1,0 +1,153 @@
+{
+  "checked_at": "2026-11-22T09:30:29.055Z",
+  "browser": "157.0.8103.80",
+  "mode": "Installed headless browser; case-sensitive local HTTP server with /hw10-check/ prefix",
+  "published": false,
+  "checks": [
+    {
+      "name": "delivered_html_css_js_and_all_SVG_unchanged",
+      "passed": true,
+      "detail": 35
+    },
+    {
+      "name": "six_effective_ingests",
+      "passed": true,
+      "detail": 6
+    },
+    {
+      "name": "raw_receipts_and_hashes",
+      "passed": true,
+      "detail": [
+        {
+          "source": "S01",
+          "match": true
+        },
+        {
+          "source": "S02",
+          "match": true
+        },
+        {
+          "source": "S03",
+          "match": true
+        },
+        {
+          "source": "S04",
+          "match": true
+        },
+        {
+          "source": "S05",
+          "match": true
+        },
+        {
+          "source": "S06",
+          "match": true
+        },
+        {
+          "source": "verification/V01",
+          "match": true
+        },
+        {
+          "source": "verification/V02",
+          "match": true
+        }
+      ]
+    },
+    {
+      "name": "18_slides_54_claims_31_states",
+      "passed": true,
+      "detail": {
+        "slides": 18,
+        "claims": 54,
+        "states": 31
+      }
+    },
+    {
+      "name": "repository_entry_files",
+      "passed": true,
+      "detail": [
+        ".nojekyll",
+        ".gitignore",
+        ".gitattributes",
+        "README.md",
+        "SUBMISSION.md",
+        "GITHUB.md",
+        "AGENTS.md",
+        "package.json",
+        "requirements.txt",
+        "index.html",
+        "slides/index.html",
+        "site/index.html",
+        "site/slide-sources.html",
+        "reports/reflection.md",
+        "reports/slides-graph.md"
+      ]
+    },
+    {
+      "name": "Git_preserves_provenance_bytes",
+      "passed": true,
+      "detail": true
+    },
+    {
+      "name": "all_files_below_browser_upload_size_limit",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "approved_cleanup_applied",
+      "passed": true,
+      "detail": {
+        "removed": 62,
+        "bytes": 6803528
+      }
+    },
+    {
+      "name": "generated_links_and_case_sensitive_paths",
+      "passed": false,
+      "detail": {
+        "pages": 48,
+        "links": 1616,
+        "missing": [
+          {
+            "from": "site/docs/reports/checks/source-review-2026-11-22.html",
+            "target": "../../../../reports/checks/figures"
+          }
+        ],
+        "caseErrors": []
+      }
+    },
+    {
+      "name": "common_token_patterns_absent",
+      "passed": true,
+      "detail": {
+        "matching_files": [],
+        "scope": "Pattern scan only; no guarantee of exhaustive secret discovery"
+      }
+    }
+  ],
+  "failures": [
+    {
+      "name": "generated_links_and_case_sensitive_paths",
+      "passed": false,
+      "detail": {
+        "pages": 48,
+        "links": 1616,
+        "missing": [
+          {
+            "from": "site/docs/reports/checks/source-review-2026-11-22.html",
+            "target": "../../../../reports/checks/figures"
+          }
+        ],
+        "caseErrors": []
+      }
+    }
+  ],
+  "errors": [
+    "page.goto: net::ERR_NETWORK_ACCESS_DENIED at http://127.0.0.1:58953/hw10-check/\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:58953/hw10-check/\", waiting until \"load\"\u001b[22m\n\n    at C:\\Users\\93040\\OneDrive\\桌面\\HW10\\scripts\\check_repository.cjs:32:12"
+  ],
+  "files": {
+    "count": 237,
+    "total_bytes": 59633257,
+    "max_file": "raw/S02/original.pdf"
+  },
+  "screenshot": "reports/checks/repository-2026-11-22/submission-http.png"
+}

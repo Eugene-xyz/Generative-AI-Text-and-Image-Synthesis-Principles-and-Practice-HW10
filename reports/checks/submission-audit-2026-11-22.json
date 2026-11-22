@@ -1,0 +1,26 @@
+{
+  "checked_at": "2026-11-22T17:22:39+08:00",
+  "core_implementation_complete": true,
+  "submission_complete": false,
+  "cleanup_gate_passed": true,
+  "effective_ingests": 6,
+  "wiki_pages": 23,
+  "slide_pages": 18,
+  "claim_groups": 54,
+  "artifact_changes_since_verified_delivery": [],
+  "remaining_submission_items": [
+    "Public reachable HTML URL after deployment",
+    "School, student ID, department/year, and name in submission title"
+  ],
+  "optional_improvements": [
+    "Real beginner read-through",
+    "Timed rehearsal"
+  ],
+  "grading_note": "Evidence aligns with the high-score criteria; actual grade remains the instructor decision.",
+  "evidence": [
+    "reports/checks/pre-cleanup-wiki-2026-11-22.json",
+    "reports/checks/pre-cleanup-content-2026-11-22.json",
+    "reports/checks/html-2026-11-22/final/browser-results.json",
+    "reports/checks/html-2026-11-22/delivery-recheck/browser-results.json"
+  ]
+}

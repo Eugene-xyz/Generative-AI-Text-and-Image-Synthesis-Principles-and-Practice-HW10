@@ -1,0 +1,27 @@
+L001: The tests will be applied in the 2026 Volleyball Nations League, FIVB Volleyball U17 World Championships and 2026 Continental Championships. Any update to the Official Volleyball Rules will be subject to review during the testing phase.
+L002: The proposals form part of a broader regulatory review aimed at enhancing game flow and simplifying volleyball rules while boosting fan understanding and engagement.
+L003: The approved rule tests address playing actions, video challenge procedures, coach–referee interaction and pre-match protocol.
+L004: Double contact interpretation
+L005: Double contact during the setting action (second contact) will continue to be allowed, provided the ball remains on the same side of the court. No rule change is required.
+L006: Out of rotation error – free positioning of the receiving team
+L007: The receiving team must be in correct rotational order at the referee’s whistle but may move once the serving action is initiated. Players may leave their correct rotation position at the moment the server’s motion begins, including a step or movement of the arms or legs in the first motion to serve.
+L008: Substitutions
+L009: The number of substitutions per set will be increased from six to eight.
+L010: Team roster
+L011: In FIVB competitions, teams may register between 12 and 14 players. Each roster must include at least one Libero. Teams may choose to nominate two Liberos from the registered roster. Teams will have up to one hour before the match to do this.
+L012: Ball contacting the ceiling
+L013: If the first or second ball contacts venue infrastructure above the field of play, and remains playable on the same side of the court, the rally will continue. If the ball contacts the ceiling infrastructure and rebounds into the opponent’s court, it will be ruled a fault. Contact with the spider cam or crane cam inside the Field of Play will continue to result in a replay.
+L014: “Push–carry–catch–throw-tip” attack
+L015: Rule 9.2.2 will be applied strictly in relation to attack contacts. The ball must not be caught or thrown. Attack actions involving changes of direction, two-hand attacks, pushes, open-hand block outs and carries will not be permitted. Only the action of “ tipping” the ball, with very short contact will be allowed.
+L016: Mid-rally challenge bookmark
+L017: Teams may mark any action during a rally that could potentially be challenged at its conclusion. At the end of the rally, if the team loses the rally, it may pursue only one of the challenges they have identified. A mid-rally action cannot be challenged without a bookmark. If both teams bookmark actions in the same rally, the sequence will be reviewed and the first fault observed will prevail. The bookmarking system must be linked to the start rally button to allow faster video review.
+L018: Touches in defence and Serve receive
+L019: Touches in defence and serve receive will be included in the Challenge Regulations. A clear and visible contact must be shown on video to overturn the original decision. If no video evidence is available, the original decision will stand.
+L020: Reduce breaks
+L021: After the result of a challenge has been transmitted, the team that requested the challenge may not request a time-out before the start of the next rally. The team that did not challenge maintains the right to call a time out. The restriction applies to both end-of-rally and mid-rally challenges.
+L022: Use of the referee’s whistle
+L023: No whistle will be used for a ball landing clearly in or out, a serve not passing the net, or a clear block touch resulting directly out of the Field of Play.
+L024: Coach to speak to the first referee
+L025: The head coach may approach and speak to the first referee to clarify or confirm the type of challenge requested or to seek clarification regarding a call or decision. Complaints and protests remain prohibited.
+L026: Warm-up protocol
+L027: A 90-second separate serving warm-up period will be introduced to the warm up protocol. Both teams will share the net for the Attack portion of the warm up but for serving, Team A will have the first 90 seconds on the court, followed by Team B for the same amount of time. The rationale for the adjustment is for athlete safety.

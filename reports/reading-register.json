@@ -1,0 +1,153 @@
+{
+  "review_date": "2026-11-22",
+  "timezone": "Asia/Taipei",
+  "stage": "source_review_pending_user_confirmation",
+  "wiki_ingest_completed": false,
+  "scope_note": "全文下載不等於全文閱讀；text_reviewed 只代表列出的正文範圍，圖解另列視覺核對頁。",
+  "sources": [
+    {
+      "id": "S01",
+      "status": "in_review",
+      "version": "FIVB Official Volleyball Rules 2025–2028",
+      "total_pdf_pages": 89,
+      "text_reviewed_pdf_pages": [
+        "3-8",
+        "14-50"
+      ],
+      "text_reviewed_scope": "版本、目錄；規則第 1–21 條",
+      "visual_reviewed_pdf_pages": [
+        27,
+        36,
+        44,
+        45,
+        66,
+        68,
+        72
+      ],
+      "page_mapping": "本次引用印刷頁碼 = PDF 頁序 - 2",
+      "not_reviewed": "裁判職掌及完整手勢、圖解未逐項審閱。",
+      "receipt": "raw/S01/retrieval.json"
+    },
+    {
+      "id": "S02",
+      "status": "in_review",
+      "version": "FIVB Coaches Manual Level I；目錄頁 ©2011",
+      "total_pdf_pages": 172,
+      "text_reviewed_pdf_pages": [
+        "1-6",
+        "73-122",
+        "129-140",
+        "147-152"
+      ],
+      "text_reviewed_scope": "版本、目錄；第 VI、VIII、IX 章相關文字；第 XI 章部分規則比較。",
+      "visual_reviewed_pdf_pages": [
+        3,
+        86,
+        133,
+        149
+      ],
+      "column_reextracted_pdf_pages": [
+        "129-139",
+        "147-151"
+      ],
+      "page_mapping": "本次引用正文印刷頁碼 = PDF 頁序 - 4",
+      "not_reviewed": "未逐一視覺核對技術動作的全部圖片；PDF 150 頁表格抽取不完整，未採用。其他訓練、體能、醫學等章節未完成閱讀。",
+      "receipt": "raw/S02/retrieval.json"
+    },
+    {
+      "id": "S03",
+      "status": "in_review",
+      "version": "FIVB Coaches Manual Level II；正式出版年未確認",
+      "total_pdf_pages": 123,
+      "text_reviewed_pdf_pages": [
+        "1-3",
+        "36-57"
+      ],
+      "text_reviewed_scope": "目錄；第 III 章第 10 節 Technical Skills（36–48 頁）及第 IV 章 Advanced Tactics 相關部分（49–57 頁）。",
+      "visual_reviewed_pdf_pages": [
+        47,
+        51,
+        55
+      ],
+      "page_mapping": "本次引用 PDF 頁序與印刷頁碼相同",
+      "not_reviewed": "其他體能、心理、團隊管理章節及附錄未完整處理；未逐一視覺核對所有技術圖片。48 頁歷史資料未用作現況主張。",
+      "receipt": "raw/S03/retrieval.json"
+    },
+    {
+      "id": "S04",
+      "status": "in_review",
+      "title": "Recipe for a Setter",
+      "author": "Peggy Kane-Hopton",
+      "datePublished_from_schema": "2017-01-02",
+      "dateModified_from_schema": "2021-01-05",
+      "article_body_reviewed": "L001-L033，完整文章正文",
+      "receipt": "raw/S04/retrieval.json"
+    },
+    {
+      "id": "S05",
+      "status": "in_review",
+      "title": "Defense is More Than Just Another Team System",
+      "author": "Giulio Simonelli",
+      "datePublished_from_schema": "2019-05-06",
+      "dateModified_from_schema": "2021-01-05",
+      "article_body_reviewed": "L001-L022，完整文章正文",
+      "receipt": "raw/S05/retrieval.json"
+    },
+    {
+      "id": "S06",
+      "status": "in_review",
+      "title": "FIVB Board of Administration approves rule tests for 2026 competitions",
+      "published_date": "2026-02-27",
+      "article_body_reviewed": "L001-L027，完整公告正文",
+      "followup_verification_ids": [
+        "V01",
+        "V02"
+      ],
+      "receipt": "raw/S06/retrieval.json"
+    }
+  ],
+  "supplemental_verification": [
+    {
+      "id": "V01",
+      "purpose": "只作 S06 賽事適用與後續措辭核對；不另計有效 ingest",
+      "title": "VNL 2026 Competition Regulations",
+      "total_pdf_pages": 32,
+      "text_reviewed_pdf_pages": [
+        12,
+        17,
+        18,
+        19
+      ],
+      "used_locator": "§6.3，印刷 16–18／PDF 17–19",
+      "receipt": "raw/verification/V01/retrieval.json"
+    },
+    {
+      "id": "V02",
+      "purpose": "只作 S06 後續適用範圍核對；不另計有效 ingest",
+      "title": "CEV European Volleyball Cups 2027 Official Communication 1–4",
+      "total_pdf_pages": 68,
+      "text_reviewed_pdf_pages": [
+        65,
+        66
+      ],
+      "used_locator": "No.4 §1，該通信印刷 3／合併 PDF 66",
+      "receipt": "raw/verification/V02/retrieval.json"
+    }
+  ],
+  "pending": [
+    "使用者確認 source-review.md 的重點與 12 頁架構後才正式寫入 Wiki。",
+    "S03 正式出版年未確認，不以網址、PDF metadata 或內容最晚案例冒充出版年。",
+    "S06 與 V01 對挑戰後暫停等待時點有措辭差異，依指定賽事規程使用，不寫成無差別規則。",
+    "具體台灣校隊、系隊、盃賽規程未核對，不推定其完全採用 S01 或 S06。"
+  ],
+  "snapshot_note": "前置審閱階段的歷史狀態，不代表目前尚未授權；目前狀態見 ingest-register.json。",
+  "current_status_reference": "reports/ingest-register.json",
+  "metadata_corrections": [
+    {
+      "at": "2026-11-22T15:44:24.163384+08:00",
+      "source": "S03",
+      "change": "更正跨章範圍及未處理章節名稱；依目錄 PDF 2–3、章首頁 36、49。",
+      "check_report": "reports/checks/ingest-2026-11-22.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "S01",
+  "title": "FIVB Official Volleyball Rules 2025-2028",
+  "requested_url": "https://www.fivb.com/wp-content/uploads/2025/01/FIVB-Volleyball_Rules2025_2028-EN-v05.pdf",
+  "attempted_at": "2026-11-22T14:44:59.062679+08:00",
+  "resolved_url": "https://www.fivb.com/wp-content/uploads/2025/01/FIVB-Volleyball_Rules2025_2028-EN-v05.pdf",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "last_modified": "Mon, 13 Jan 2025 18:26:41 GMT",
+  "etag": "\"67855ae1-4f038c\"",
+  "result": "downloaded",
+  "retrieved_at": "2026-11-22T14:45:00.708303+08:00",
+  "bytes": 5178252,
+  "sha256": "04bf8b412770e74820279d489f62881802f145a8591a5cbd47b9e459d4d6e096",
+  "local_path": "raw/S01/original.pdf"
+}
