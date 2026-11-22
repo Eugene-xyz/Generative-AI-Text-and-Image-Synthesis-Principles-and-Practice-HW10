@@ -1,0 +1,23 @@
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="../../../assets/reader.css"><title>完整 graph 的 PNG 匯出紀錄｜排球 Wiki</title></head><body><header class="reader-nav"><a href="../../index.html">排球 Wiki</a><a href="../../../slides/index.html">返回簡報 ↗</a><a href="../../slide-sources.html">來源對照</a></header><main class="reader"><p class="reader-label">VOLLEYBALL KNOWLEDGE BASE</p><article><h1 id="heading-0">完整 graph 的 PNG 匯出紀錄</h1>
+<p>2026-11-22 依使用者要求，將對話中的完整 graph 匯出為 PNG，放入 HW10，並更新 GitHub。這是圖表輸出與閱讀入口的更新，不是新增知識來源或重新計算 ingest 次數。</p>
+<h2 id="heading-1">成果</h2>
+<ul>
+<li><a href="../../../assets/workflow/hw10-graph.png">PNG 圖片</a>：2692 × 10186 像素，白底長圖，適合插入作業或放大閱讀，約 0.9 MiB。</li>
+<li><a href="../../../assets/workflow/hw10-graph.svg">SVG 向量圖</a>：可供後續縮放。</li>
+<li><a href="../../../assets/workflow/hw10-graph.mmd">Mermaid 原始檔</a>：24 個節點、41 條連線；保留對話原圖的節點文字、方向、條件與回圈，僅調整換行、間距與配色。</li>
+<li>黃色標出 H1／H2 人工確認；橘色標出本次實作後新增的 J0。三階段是 Wiki 建立、教學簡報製作、保存證據與公開發布。</li>
+</ul>
+<p>README 與繳交總覽已加入圖片入口；繳交總覽可展開查看完整圖片。長圖可直接下載，無須登入或啟用 Mermaid 外掛。</p>
+<h2 id="heading-2">匯出與檢查</h2>
+<p>使用 Mermaid 12.3.0、Dagre 排版及已安裝的 Chrome，以 Microsoft JhengHei 字型、2 倍像素密度輸出。依 <a href="https://mermaid.js.org/config/usage.html">Mermaid 官方用法</a> 使用 renderer；來源檔在本機處理，網站讀圖不依賴 Mermaid CDN。</p>
+<p><a href="../../../reports/checks/graph-export-2026-11-22.json">匯出檢查 JSON</a> 記錄尺寸、雜湊、節點／連線數、文字邊界與視覺複查。已逐段查看整張 PNG，確認繁體中文、人工確認點、J0 與回圈標籤可讀。</p>
+<p>首輪檢查器未去除 Mermaid 12 產生的節點前綴，誤判節點缺少，實際已繪出 24 個節點與 41 條連線；另有空白 SVG 標籤被算入邊界檢查。已修正檢查器再匯出；<a href="../../../reports/checks/graph-export-initial-2026-11-22.json">首次檢查紀錄</a> 保留原因。這些是匯出工具檢查問題，不回填成原作業反思中的 HTML01–03。</p>
+<p>為讓 Markdown 內的圖片在產生的閱讀網頁正確顯示，建置器同步處理圖片 src 的相對路徑；原始來源、排球內容與 18 頁簡報不變。</p>
+<h2 id="heading-3">後續重新匯出</h2>
+<p>先修改 Mermaid 原始檔，再執行：</p>
+<pre><code class="language-text">npm install
+npm run export:graph
+npm run build
+</code></pre>
+<p>匯出需要可用的 Chrome／Edge 或 Playwright Chromium。輸出後仍應查看實際圖片，不把節點數或邊界檢查當作全部語意檢查。</p>
+</article><footer>由 <a href="../../../reports/graph-export.md">reports/graph-export.md</a> 產生；Markdown 為維護版本。</footer></main></body></html>

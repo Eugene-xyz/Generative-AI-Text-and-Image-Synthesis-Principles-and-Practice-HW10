@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-11-22T09:47:23.348Z",
+  "built_at": "2026-11-22T10:18:41.085Z",
   "source_content": "slides/content.md",
   "source_sha256": "87d4994485eda784506726edbd33b87d87ffec1a260a108771786c7722467eb0",
   "source_map_sha256": "d931ceaa508c3cd055055e6874362031d3aafde960020e4e68bbf0634c1e0f2a",
@@ -17,6 +17,7 @@
     "site/docs/reports/checks/outline-review-2026-11-22.html",
     "site/docs/reports/checks/source-review-2026-11-22.html",
     "site/docs/reports/deployment.html",
+    "site/docs/reports/graph-export.html",
     "site/docs/reports/reflection.html",
     "site/docs/reports/repository-cleanup.html",
     "site/docs/reports/slides-graph-draft.html",

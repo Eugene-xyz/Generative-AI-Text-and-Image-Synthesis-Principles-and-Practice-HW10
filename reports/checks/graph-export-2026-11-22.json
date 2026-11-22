@@ -1,0 +1,28 @@
+{
+  "checked_at": "2026-11-22T10:15:08.848Z",
+  "source": "assets/workflow/hw10-graph.mmd",
+  "source_sha256": "25c1345eee7cc1c694d3fc10e9f958d17f7d6f31a7ee23a1d09b19baf7f8ad9a",
+  "renderer": "mermaid 12.3.0 / Dagre / installed Chrome",
+  "browser": "157.0.8103.80",
+  "nodes": 24,
+  "edges": 41,
+  "all_source_nodes_and_edges_present": true,
+  "labels_outside_canvas": [],
+  "script_errors": [],
+  "output": "assets/workflow/hw10-graph.png",
+  "width": 2692,
+  "height": 10186,
+  "bytes": 937018,
+  "png_sha256": "eb127fe365b73f6030270fdce18f8fe6c28f57aaecdcad0a36ecbe55bf664077",
+  "visual_review": "passed: reviewed four overlapping crops covering the full PNG; Traditional Chinese, all three phases, H1/H2, J0, arrows and loop labels are readable.",
+  "visual_reviewed_at": "2026-11-22T18:18:40.3720168+08:00",
+  "renderer_archive": {
+    "url": "https://registry.npmjs.org/mermaid/-/mermaid-12.3.0.tgz",
+    "version": "12.3.0",
+    "integrity": "sha512-4113TdXeLAsMruJ79OpFL5O8+LTFXhQqZ260rF3tgUmiNAtRm4Uume04I+65PRN6yZ69J4f8rVYWW8zRk65UYw=="
+  },
+  "validator_adjustments": [
+    "Normalize Mermaid namespace on node IDs.",
+    "Ignore empty SVG placeholder labels during bounds checks."
+  ]
+}

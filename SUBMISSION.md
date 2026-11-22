@@ -24,6 +24,15 @@
 
 ## 4. loop／graph 設計
 
+[下載完整 PNG 流程圖](assets/workflow/hw10-graph.png)（2692 × 10186 像素，含 Wiki、簡報、修正回圈與公開發布）。[匯出及檢查紀錄](reports/graph-export.md)。
+
+<details>
+<summary>展開完整 graph 流程圖</summary>
+
+![排球 LLM Wiki 完整流程：24 個節點、41 條連線，標出 H1、H2 與新增 J0](assets/workflow/hw10-graph.png)
+
+</details>
+
 取得來源 → 可讀性／版本／範圍檢查 → 擷取重點與證據 → 討論確認 → 整合 Wiki → lint → 依教學問題查詢 Wiki → 大綱與檢查 → H1 確認大綱 → 全文與檢查 → H2 確認全文 → 圖解 → J0 解析預檢 → HTML → 瀏覽器檢查 → 紀錄與反思。
 
 - 每份來源重複取得、閱讀、整合及 lint；查詢不足時回補 Wiki，不直接用未查證內容寫簡報。

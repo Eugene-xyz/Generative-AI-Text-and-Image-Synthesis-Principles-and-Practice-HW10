@@ -199,3 +199,11 @@
 - 輸出：正式網址回填 README、SUBMISSION、GITHUB；新增 [發布紀錄](../reports/deployment.md)、[HTTP 結果](../reports/checks/pages-2026-11-22/initial-http.json)、[瀏覽器觀察](../reports/checks/pages-2026-11-22/browser-observations.json) 與代表截圖。重新建置文件閱讀網頁；原始快照、核准教學內容及簡報互動未改。
 - 問題：Git 的預設空白檢查將保留的 CRLF 與原始內容空白列為提示；沒有更動來源原文以消除提示，沿用保留位元組及雜湊比對。
 - 限制：此次公開抽查不重複宣稱全套 182 項或所有手機版面已重新測過。尚需本人填寫繳交標題並於課程平台提交；沒有代填未知身分或代交作業。
+
+## [2026-11-22 18:18 +08:00] query | 完整 graph 匯出 PNG 並更新 GitHub
+
+- 輸入：使用者要求將對話中的完整流程圖轉為可放入作業的 PNG，存入 HW10 並同步 GitHub。
+- 輸出：[PNG 流程圖](../assets/workflow/hw10-graph.png)、SVG、Mermaid 原始檔、匯出工具與 [檢查紀錄](../reports/graph-export.md)；README、SUBMISSION 及既有流程說明加入圖片入口。
+- 已檢查：24 個節點、41 條連線完整；中文字與標籤未越出畫布，並逐段閱讀最終圖片。圖片為 2692 × 10186 像素、白底、約 0.9 MiB，H1/H2 與 J0 有標示。
+- 修正：匯出檢查器曾因 Mermaid 節點前綴及空白 SVG 標籤誤判；已修正後複查。為了閱讀網頁能顯示相同圖片，建置器新增圖片 src 的相對路徑轉換。
+- 範圍：只整理既有流程的圖像呈現與入口，未增加 ingest、變更核准教學內容或修改原始來源。公開檔案仍需在推送後以實際部署結果核對。

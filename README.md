@@ -11,7 +11,7 @@ HW10：用 LLM Wiki 建立知識庫，再製作讓初學者理解室內六人排
 | 18 頁教學簡報 | [公開簡報](https://eugene-xyz.github.io/Generative-AI-Text-and-Image-Synthesis-Principles-and-Practice-HW10/slides/index.html)／[本機版](slides/index.html) |
 | LLM Wiki | [公開 Wiki](https://eugene-xyz.github.io/Generative-AI-Text-and-Image-Synthesis-Principles-and-Practice-HW10/site/index.html)／[本機版](site/index.html)／[Markdown 索引](wiki/index.md) |
 | 簡報 → Wiki → 原始來源 | [網頁來源對照](site/slide-sources.html)／[54 組主張對照](slides/source-map.md) |
-| loop／graph | [Wiki workflow](reports/workflow.md)／[簡報 graph v1.1](reports/slides-graph.md) |
+| loop／graph | [完整 PNG 流程圖](assets/workflow/hw10-graph.png)／[Wiki workflow](reports/workflow.md)／[簡報 graph v1.1](reports/slides-graph.md) |
 | 實際執行與修正 | [Wiki log](wiki/log.md)／[HTML 檢查與截圖](reports/checks/html-review-2026-11-22.md) |
 | 反思 | [節點問題、前移檢查及複查結果](reports/reflection.md) |
 

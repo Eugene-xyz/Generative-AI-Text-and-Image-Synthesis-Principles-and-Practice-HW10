@@ -1,5 +1,7 @@
 # 教學 HTML 簡報 graph：實作版 v1.1
 
+供作業插圖使用的 [完整 PNG 流程圖](../assets/workflow/hw10-graph.png)，另包含前段 Wiki 建立與後段公開發布；本頁仍保留簡報 v1.1 的節點與修改理由。
+
 日期：2026-11-22（Asia/Taipei）  
 狀態：`implemented`。使用者已確認原 graph、大綱 H1 及整份內容 H2，並授權完成正式圖解、HTML 與實測。v1.1 保留原順序，只依 HTML01 將 J 的解析預檢明列為 J0。保留 [討論草案](slides-graph-draft.md) 與 [v1.0 快照](slides-graph-v1.0.md)；這是授權範圍內的例行流程補強，沒有新增人工確認點。
 

@@ -1,5 +1,7 @@
 # 排球 LLM Wiki：流程、回圈與完成條件
 
+[完整流程 PNG 圖片](../assets/workflow/hw10-graph.png) 已整合 Wiki、簡報與公開發布三階段，保留所有退回修正的連線；[匯出紀錄](graph-export.md)。下文保留各階段的實作脈絡。
+
 本流程適用於 HW10。2026-11-22 的本輪任務是正式建立 Markdown Wiki；圖中的簡報與瀏覽器節點尚未執行。實際結果見 [Wiki log](../wiki/log.md) 與 [檢查紀錄](checks/ingest-2026-11-22.md)。
 
 **最新進度（2026-11-22）：**下文保留 Wiki 入庫階段的流程脈絡。後續簡報已通過 H1／H2，完成 18 頁 HTML、正式圖解及實際瀏覽器檢查，見 [簡報 graph v1.1](slides-graph.md)、[HTML 實測](checks/html-review-2026-11-22.md) 與 [反思](reflection.md)。本次因 HTML01 將必要內容非空檢查前移至 J0；並將初始頁面與展開狀態分開檢查。原段落中的「後續／未執行」描述入庫當時，不代表目前仍未完成。

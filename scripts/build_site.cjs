@@ -18,11 +18,11 @@ if(pages.length!==18)throw Error('Expected exactly 18 pages');
 for(const p of pages)for(const field of ['main','supp','notes','spec','footer'])if(!p[field])throw Error(`Empty ${field} on slide ${p.n}; stop before emitting HTML`);
 const diagrams=makeDiagrams(root,pages);
 function destination(p){p=p.replaceAll('\\','/');if(p==='wiki/index.md')return 'site/index.html';if(p.startsWith('wiki/'))return 'site/'+p.replace(/\.md$/,'.html');if(p==='slides/source-map.md')return 'site/slide-sources.html';return 'site/docs/'+p.replace(/\.md$/,'.html');}
-function md(text,origin,out){let html=marked.parse(text,{gfm:true,breaks:false});return html.replace(/href="([^"]+)"/g,(all,url)=>{
- if(/^(?:https?:|mailto:|#)/.test(url))return all;
+function md(text,origin,out){let html=marked.parse(text,{gfm:true,breaks:false});return html.replace(/(href|src)="([^"]+)"/g,(all,attribute,url)=>{
+ if(/^(?:https?:|mailto:|data:|#)/.test(url))return all;
  const [p,hash]=url.split('#');let target=path.resolve(root,path.dirname(origin),decodeURIComponent(p));let r=path.relative(root,target).replaceAll('\\','/');
  if(r.endsWith('.md'))target=path.join(root,destination(r));
- return `href="${esc(rel(path.join(root,out),target)+(hash?'#'+hash:''))}"`;
+ return `${attribute}="${esc(rel(path.join(root,out),target)+(hash?'#'+hash:''))}"`;
  }).replace(/<table>/g,'<div class="table-wrap"><table>').replace(/<\/table>/g,'</table></div>');}
 const sourceFiles=fs.readdirSync(path.join(root,'wiki/sources')).filter(n=>n.endsWith('.md'));
 const claims={};for(let line of read('slides/source-map.md').split('\n')){if(!/^\| C\d{2}\.\d+ \|/.test(line))continue;let c=line.split('|').slice(1,-1).map(v=>v.trim());claims[c[0]]={id:c[0],scope:c[1],wiki:c[2],evidence:c[3]};}

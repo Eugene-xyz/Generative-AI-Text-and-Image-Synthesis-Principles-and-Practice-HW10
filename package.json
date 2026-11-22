@@ -6,12 +6,15 @@
   "engines": { "node": ">=24" },
   "scripts": {
     "build": "node scripts/build_site.cjs",
+    "export:graph": "node scripts/export_workflow.cjs",
     "check:browser": "node scripts/check_browser.cjs",
     "check:wiki": "python scripts/lint_wiki.py --phase final",
     "check:content": "python scripts/check_slide_content.py"
   },
   "devDependencies": {
     "marked": "17.0.5",
-    "playwright": "1.62.1"
+    "playwright": "1.62.1",
+    "mermaid": "12.3.0",
+    "sharp": "0.35.5"
   }
 }
